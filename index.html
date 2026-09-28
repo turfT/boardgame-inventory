@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#261a14" />
+    <meta name="description" content="北关据点桌游库存筛选与开桌候选工具" />
+    <title>北关据点库存查询</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-mark" aria-hidden="true">北</div>
+      <div>
+        <p class="eyebrow">BEIGUAN BOARD GAME OUTPOST</p>
+        <h1>北关据点库存查询</h1>
+      </div>
+      <button id="openSelection" class="selection-button" type="button" aria-haspopup="dialog">
+        候选清单 <span id="selectionCount">0</span>/5
+      </button>
+    </header>
+
+    <main>
+      <section class="control-panel" aria-label="库存筛选">
+        <label class="search-field">
+          <span>搜索桌游</span>
+          <input id="searchInput" type="search" placeholder="输入中文名或英文名" autocomplete="off" />
+        </label>
+
+        <div class="filter-grid">
+          <label>
+            <span>支持人数</span>
+            <select id="playerFilter"><option value="">不限</option></select>
+          </label>
+          <label>
+            <span>最佳人数</span>
+            <select id="bestPlayerFilter"><option value="">不限</option></select>
+          </label>
+          <label>
+            <span>游玩状态</span>
+            <select id="statusFilter"><option value="">不限</option></select>
+          </label>
+          <label>
+            <span>时长</span>
+            <select id="timeFilter">
+              <option value="">不限</option>
+              <option value="0-45">45 分钟内</option>
+              <option value="46-90">46～90 分钟</option>
+              <option value="91-150">91～150 分钟</option>
+              <option value="151-9999">150 分钟以上</option>
+            </select>
+          </label>
+          <label>
+            <span>重度</span>
+            <select id="weightFilter">
+              <option value="">不限</option>
+              <option value="0-2">轻松 · 2 以下</option>
+              <option value="2-3">适中 · 2～3</option>
+              <option value="3-4">烧脑 · 3～4</option>
+              <option value="4-5.1">硬核 · 4 以上</option>
+            </select>
+          </label>
+          <label>
+            <span>BGG 评分</span>
+            <select id="ratingFilter">
+              <option value="">不限</option>
+              <option value="7">7.0 以上</option>
+              <option value="7.5">7.5 以上</option>
+              <option value="8">8.0 以上</option>
+            </select>
+          </label>
+          <label>
+            <span>类型</span>
+            <select id="typeFilter"><option value="">不限</option></select>
+          </label>
+          <label>
+            <span>机制</span>
+            <select id="mechanicFilter"><option value="">不限</option></select>
+          </label>
+          <label>
+            <span>排序</span>
+            <select id="sortSelect">
+              <option value="name">名称</option>
+              <option value="rating-desc">BGG 评分从高到低</option>
+              <option value="rank-asc">BGG 排名从高到低</option>
+              <option value="weight-asc">重度从低到高</option>
+              <option value="time-asc">时长从短到长</option>
+            </select>
+          </label>
+        </div>
+
+        <div class="control-footer">
+          <p id="resultSummary" aria-live="polite">正在整理库存…</p>
+          <button id="resetFilters" class="text-button" type="button">清空筛选</button>
+        </div>
+      </section>
+
+      <section id="gameGrid" class="game-grid" aria-label="桌游库存"></section>
+      <div id="emptyState" class="empty-state" hidden>
+        <span aria-hidden="true">☕</span>
+        <h2>没有找到合适的桌游</h2>
+        <p>换一组条件试试，或者清空筛选。</p>
+      </div>
+    </main>
+
+    <div id="selectionBackdrop" class="backdrop" hidden></div>
+    <aside id="selectionPanel" class="selection-panel" role="dialog" aria-modal="true" aria-labelledby="selectionTitle" hidden>
+      <div class="panel-header">
+        <div>
+          <p class="eyebrow">今晚玩什么</p>
+          <h2 id="selectionTitle">候选清单</h2>
+        </div>
+        <button id="closeSelection" class="icon-button" type="button" aria-label="关闭候选清单">×</button>
+      </div>
+
+      <label class="poster-title-field">
+        <span>分享图片标题</span>
+        <input id="posterTitle" type="text" value="让我们开桌游" maxlength="30" />
+      </label>
+
+      <p class="reorder-hint">拖动卡片调整顺序；手机也可以使用上下按钮。</p>
+      <ol id="selectedList" class="selected-list"></ol>
+      <div id="selectionEmpty" class="selection-empty">从库存里选择 1～5 款桌游。</div>
+
+      <div class="panel-actions">
+        <button id="clearSelection" class="secondary-button" type="button">清空</button>
+        <button id="exportPoster" class="primary-button" type="button" disabled>导出竖向长图</button>
+      </div>
+      <p id="exportStatus" class="export-status" aria-live="polite"></p>
+    </aside>
+
+    <div id="toast" class="toast" role="status" aria-live="polite" hidden></div>
+    <canvas id="posterCanvas" hidden></canvas>
+    <script src="app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,5610 @@
+{
+  "meta": {
+    "title": "北关据点库存查询",
+    "generatedAt": "2026-09-28T11:18:12+08:00",
+    "count": 217
+  },
+  "games": [
+    {
+      "id": "027bcf7ebfef",
+      "name": "热血大冒险",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "5b7774e433c1",
+      "name": "9卡合集",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "0bf82029dfd2",
+      "name": "Orapa Space",
+      "originalName": "Orapa Space",
+      "cover": "public/covers/0bf82029dfd2.webp",
+      "players": "2-5",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 25,
+      "weight": 1.9091,
+      "types": [
+        "Deduction",
+        "Puzzle"
+      ],
+      "mechanics": [
+        "Deduction"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.9222,
+      "rank": 3857
+    },
+    {
+      "id": "a5fdc8eab5e0",
+      "name": "Psychic Pizza Deliverers Go to the Ghost Town",
+      "originalName": "Psychic Pizza Deliverers Go to the Ghost Town",
+      "cover": "public/covers/a5fdc8eab5e0.webp",
+      "players": "3-5",
+      "supportedPlayers": [
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 60,
+      "weight": 2.1538,
+      "types": [
+        "Deduction",
+        "Exploration",
+        "Maze",
+        "Puzzle"
+      ],
+      "mechanics": [
+        "Hidden Movement",
+        "Modular Board",
+        "Paper-and-Pencil",
+        "Pick-up and Deliver",
+        "Race"
+      ],
+      "playStatus": "开过几次",
+      "rating": 6.7099,
+      "rank": 5354
+    },
+    {
+      "id": "0ec7bb5a5e79",
+      "name": "SETI",
+      "originalName": "SETI: Search for Extraterrestrial Intelligence",
+      "cover": "public/covers/0ec7bb5a5e79.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 160,
+      "weight": 3.8339,
+      "types": [
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "End Game Bonuses",
+        "Income",
+        "Multi-Use Cards",
+        "Resource to Move",
+        "Solo / Solitaire Game",
+        "Turn Order: Progressive",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过几次",
+      "rating": 8.4128,
+      "rank": 14
+    },
+    {
+      "id": "99f5083cdb7c",
+      "name": "TMB",
+      "originalName": "Too Many Bones",
+      "cover": "public/covers/99f5083cdb7c.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 120,
+      "weight": 3.8675,
+      "types": [
+        "Adventure",
+        "Dice",
+        "Fantasy",
+        "Fighting"
+      ],
+      "mechanics": [
+        "Cooperative Game",
+        "Dice Rolling",
+        "Die Icon Resolution",
+        "Grid Movement",
+        "Narrative Choice / Paragraph",
+        "Resource to Move",
+        "Role Playing",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Square Grid",
+        "Stat Check Resolution",
+        "Tech Trees / Tech Tracks",
+        "Turn Order: Role Order",
+        "Variable Player Powers"
+      ],
+      "playStatus": "未记录",
+      "rating": 8.2816,
+      "rank": 37
+    },
+    {
+      "id": "b00a11308c3c",
+      "name": "ahlcg",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "a5a5d1c5940e",
+      "name": "bear raid",
+      "originalName": "Bear Raid",
+      "cover": "public/covers/a5a5d1c5940e.webp",
+      "players": "3-6",
+      "supportedPlayers": [
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 60,
+      "weight": 2.931,
+      "types": [
+        "Economic"
+      ],
+      "mechanics": [
+        "Commodity Speculation",
+        "Dice Rolling",
+        "Stock Holding",
+        "Victory Points as a Resource"
+      ],
+      "playStatus": "未记录",
+      "rating": 6.9242,
+      "rank": 3916
+    },
+    {
+      "id": "858005d4328f",
+      "name": "blokus 3d",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e4f251270055",
+      "name": "blokus",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "206e3ce5fc4c",
+      "name": "bower",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "20e50e70fae2",
+      "name": "clank 墓穴",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "d960f08563f7",
+      "name": "clank",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "cab3c536a26f",
+      "name": "diy 自制N合1",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e4f459611263",
+      "name": "factory funner",
+      "originalName": "Factory Funner",
+      "cover": "public/covers/e4f459611263.webp",
+      "players": "1-6",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 40,
+      "weight": 2.4146,
+      "types": [
+        "Industry / Manufacturing",
+        "Puzzle",
+        "Real-time"
+      ],
+      "mechanics": [
+        "Hexagon Grid",
+        "Network and Route Building",
+        "Real-Time",
+        "Solo / Solitaire Game",
+        "Tile Placement"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.1353,
+      "rank": 2008
+    },
+    {
+      "id": "a14f6aa1d6b1",
+      "name": "farwary",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "6beae8051b6f",
+      "name": "first in flight",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "888d3e7dd2d4",
+      "name": "mindspace",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "b1c1a27aebd4",
+      "name": "obsession",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "7c5cb450adac",
+      "name": "rebrith",
+      "originalName": "Rebirth",
+      "cover": "public/covers/7c5cb450adac.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 60,
+      "weight": 1.9832,
+      "types": [
+        "Environmental",
+        "Fantasy",
+        "Farming",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Contracts",
+        "End Game Bonuses",
+        "Hexagon Grid",
+        "Tile Placement"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.7623,
+      "rank": 345
+    },
+    {
+      "id": "9f4b5271fc0c",
+      "name": "spot",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "b7e0db1b534b",
+      "name": "上流社会",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "01ba9f9714db",
+      "name": "丘吉尔",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "16e184c6b322",
+      "name": "中文基础+生命之火扩展英文",
+      "originalName": "Bonfire",
+      "cover": "public/covers/16e184c6b322.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 100,
+      "weight": 3.6354,
+      "types": [
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Market",
+        "Pattern Building",
+        "Point to Point Movement",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Tile Placement"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.5953,
+      "rank": 421
+    },
+    {
+      "id": "15d9f7056f28",
+      "name": "临龙 沙丘 二扩",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "b418225054c7",
+      "name": "乌托邦代币",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e2da7ee6c9df",
+      "name": "乌托邦赏金猎人",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "51ce3a57bbff",
+      "name": "乌邦果3d",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "9d56ab7e63ba",
+      "name": "云霄年代",
+      "originalName": "CloudAge",
+      "cover": "public/covers/9d56ab7e63ba.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 100,
+      "weight": 2.8346,
+      "types": [
+        "Adventure",
+        "Aviation / Flight",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "Grid Movement",
+        "Hand Management",
+        "Push Your Luck",
+        "Scenario / Mission / Campaign Game"
+      ],
+      "playStatus": "未记录",
+      "rating": 7.1662,
+      "rank": 1601
+    },
+    {
+      "id": "d76de107b56e",
+      "name": "五月花号",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "348b91cbaf23",
+      "name": "优势物种",
+      "originalName": "Dominant Species",
+      "cover": "public/covers/348b91cbaf23.webp",
+      "players": "2-6",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 240,
+      "weight": 4.0432,
+      "types": [
+        "Animals",
+        "Environmental",
+        "Prehistoric"
+      ],
+      "mechanics": [
+        "Action Drafting",
+        "Action Queue",
+        "Area Majority / Influence",
+        "End Game Bonuses",
+        "Grid Movement",
+        "Hexagon Grid",
+        "Map Addition",
+        "Take That",
+        "Tile Placement",
+        "Turn Order: Claim Action",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.8002,
+      "rank": 115
+    },
+    {
+      "id": "6524e4458514",
+      "name": "优势物种：海洋",
+      "originalName": "Dominant Species: Marine",
+      "cover": "public/covers/6524e4458514.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 150,
+      "weight": 3.6981,
+      "types": [
+        "Animals",
+        "Environmental",
+        "Prehistoric"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Grid Movement",
+        "Hexagon Grid",
+        "Map Addition",
+        "Open Drafting",
+        "Tile Placement",
+        "Variable Phase Order",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "playStatus": "未记录",
+      "rating": 7.8486,
+      "rank": 776
+    },
+    {
+      "id": "2cd2ba41dbb9",
+      "name": "伯明翰",
+      "originalName": "Brass: Birmingham",
+      "cover": "public/covers/2cd2ba41dbb9.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.8593,
+      "types": [
+        "Age of Reason",
+        "Economic",
+        "Industry / Manufacturing",
+        "Post-Napoleonic",
+        "Trains",
+        "Transportation"
+      ],
+      "mechanics": [
+        "Chaining",
+        "End Game Bonuses",
+        "Hand Management",
+        "Income",
+        "Loans",
+        "Market",
+        "Multi-Use Cards",
+        "Network and Route Building",
+        "Ownership",
+        "Tags",
+        "Tech Trees / Tech Tracks",
+        "Tile Placement",
+        "Turn Order: Stat-Based",
+        "Variable Set-up"
+      ],
+      "playStatus": "经常开",
+      "rating": 8.5607,
+      "rank": 1
+    },
+    {
+      "id": "0208990450a4",
+      "name": "促织 金属币",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "783f1d8664b4",
+      "name": "光荣之路",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "61161b83fa20",
+      "name": "兰开夏",
+      "originalName": "Brass: Lancashire",
+      "cover": "public/covers/61161b83fa20.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.8434,
+      "types": [
+        "Age of Reason",
+        "Economic",
+        "Educational",
+        "Industry / Manufacturing",
+        "Post-Napoleonic",
+        "Transportation"
+      ],
+      "mechanics": [
+        "Chaining",
+        "End Game Bonuses",
+        "Hand Management",
+        "Income",
+        "Loans",
+        "Market",
+        "Multi-Use Cards",
+        "Network and Route Building",
+        "Ownership",
+        "Tags",
+        "Tech Trees / Tech Tracks",
+        "Tile Placement",
+        "Turn Order: Stat-Based",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过几次",
+      "rating": 8.1981,
+      "rank": 22
+    },
+    {
+      "id": "82b5f987f922",
+      "name": "农场主",
+      "originalName": "Agricola (Revised Edition)",
+      "cover": "public/covers/82b5f987f922.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.4483,
+      "types": [
+        "Animals",
+        "Economic",
+        "Farming"
+      ],
+      "mechanics": [
+        "Enclosure",
+        "Hand Management",
+        "Worker Placement",
+        "Advantage Token",
+        "Automatic Resource Growth",
+        "Closed Drafting",
+        "Increase Value of Unchosen Resources",
+        "Solo / Solitaire Game",
+        "Team-Based Game",
+        "Turn Order: Claim Action",
+        "Variable Player Powers"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.9528,
+      "rank": 86
+    },
+    {
+      "id": "d385890e37f0",
+      "name": "冲向黄金城+扩展",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "5b3172d73f7a",
+      "name": "冷战热斗",
+      "originalName": "Twilight Struggle",
+      "cover": "public/covers/5b3172d73f7a.webp",
+      "players": "2",
+      "supportedPlayers": [
+        "2"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 180,
+      "weight": 3.6148,
+      "types": [
+        "Modern Warfare",
+        "Political",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Action / Event",
+        "Advantage Token",
+        "Area Majority / Influence",
+        "Campaign / Battle Card Driven",
+        "Dice Rolling",
+        "Events",
+        "Hand Management",
+        "Simulation",
+        "Simultaneous Action Selection",
+        "Stat Check Resolution",
+        "Sudden Death Ending",
+        "Tug of War",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过几次",
+      "rating": 8.2266,
+      "rank": 16
+    },
+    {
+      "id": "e77ad44eb24c",
+      "name": "凤凰太空站",
+      "originalName": "Space Station Phoenix",
+      "cover": "public/covers/e77ad44eb24c.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 3.0462,
+      "types": [
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Action Retrieval",
+        "End Game Bonuses",
+        "Income",
+        "Ownership",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Victory Points as a Resource",
+        "Worker Placement"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.364,
+      "rank": 1830
+    },
+    {
+      "id": "1235e40a9026",
+      "name": "创世纪元",
+      "originalName": "Age of Innovation",
+      "cover": "public/covers/1235e40a9026.webp",
+      "players": "1-5",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 200,
+      "weight": 4.2614,
+      "types": [
+        "Civilization",
+        "Economic",
+        "Fantasy",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Contracts",
+        "End Game Bonuses",
+        "Hexagon Grid",
+        "Income",
+        "Modular Board",
+        "Network and Route Building",
+        "Tech Trees / Tech Tracks",
+        "Turn Order: Pass Order",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Victory Points as a Resource"
+      ],
+      "playStatus": "开过几次",
+      "rating": 8.4303,
+      "rank": 56
+    },
+    {
+      "id": "a064253f0371",
+      "name": "动物派对（面具人）",
+      "originalName": "Maskmen",
+      "cover": "public/covers/a064253f0371.webp",
+      "players": "2-6",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 20,
+      "weight": 1.7778,
+      "types": [
+        "Card Game",
+        "Sports"
+      ],
+      "mechanics": [
+        "Ladder Climbing",
+        "Score-and-Reset Game"
+      ],
+      "playStatus": "经常开",
+      "rating": 6.947,
+      "rank": 2134
+    },
+    {
+      "id": "ceef1a100112",
+      "name": "勃艮第",
+      "originalName": "The Castles of Burgundy",
+      "cover": "public/covers/ceef1a100112.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 90,
+      "weight": 2.9704,
+      "types": [
+        "Animals",
+        "Medieval",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Delayed Purchase",
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Grid Coverage",
+        "Hexagon Grid",
+        "Open Drafting",
+        "Pattern Building",
+        "Tile Placement",
+        "Track Movement",
+        "Turn Order: Stat-Based",
+        "Variable Set-up",
+        "Worker Placement with Dice Workers"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.1627,
+      "rank": 17
+    },
+    {
+      "id": "98348de776c3",
+      "name": "匹兹堡",
+      "originalName": "Brass: Pittsburgh",
+      "cover": "public/covers/98348de776c3.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.775,
+      "types": [
+        "Economic",
+        "Industry / Manufacturing"
+      ],
+      "mechanics": [
+        "Chaining",
+        "Hand Management",
+        "Income",
+        "Loans",
+        "Market",
+        "Multi-Use Cards",
+        "Network and Route Building",
+        "Ownership",
+        "Tech Trees / Tech Tracks",
+        "Tile Placement",
+        "Turn Order: Stat-Based",
+        "Variable Set-up"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.3995,
+      "rank": 5350
+    },
+    {
+      "id": "9435cff3e80f",
+      "name": "卓尔金历+扩展",
+      "originalName": "Tzolk'in: The Mayan Calendar",
+      "cover": "public/covers/9435cff3e80f.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 90,
+      "weight": 3.6629,
+      "types": [
+        "Ancient",
+        "Civilization",
+        "Economic",
+        "Farming",
+        "Mythology"
+      ],
+      "mechanics": [
+        "Bias",
+        "End Game Bonuses",
+        "Once-Per-Game Abilities",
+        "Track Movement",
+        "Turn Order: Claim Action",
+        "Worker Placement"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.8427,
+      "rank": 77
+    },
+    {
+      "id": "cb65ef071c8a",
+      "name": "南河学者",
+      "originalName": "Scholars of the South Tigris",
+      "cover": "public/covers/cb65ef071c8a.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 90,
+      "weight": 4.1289,
+      "types": [
+        "Arabian",
+        "Medieval"
+      ],
+      "mechanics": [
+        "Action Retrieval",
+        "Area Majority / Influence",
+        "Deck, Bag, and Pool Building",
+        "Dice Rolling",
+        "Hand Management",
+        "Income",
+        "Tech Trees / Tech Tracks",
+        "Worker Placement with Dice Workers"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.0146,
+      "rank": 486
+    },
+    {
+      "id": "9cd9f2a21144",
+      "name": "卡卡立方",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "b54804645e8c",
+      "name": "卡卡颂大盒",
+      "originalName": "Carcassonne",
+      "cover": "public/covers/b54804645e8c.webp",
+      "players": "2-5",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 45,
+      "weight": 1.884,
+      "types": [
+        "Medieval",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Enclosure",
+        "Kill Steal",
+        "Map Addition",
+        "Pattern Building",
+        "Square Grid",
+        "Tile Placement"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.4167,
+      "rank": 240
+    },
+    {
+      "id": "3c40f9b746ee",
+      "name": "卡斯卡迪亚",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "9546c8307eae",
+      "name": "卡斯卡迪亚合集",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "4ee02d604417",
+      "name": "古腾堡",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "学会规则",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e8f3550982dd",
+      "name": "哈德良长城",
+      "originalName": "Hadrian's Wall",
+      "cover": "public/covers/e8f3550982dd.webp",
+      "players": "1-6",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "1"
+      ],
+      "playingTime": 60,
+      "weight": 3.1746,
+      "types": [
+        "Ancient",
+        "City Building"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Paper-and-Pencil",
+        "Solo / Solitaire Game",
+        "Tech Trees / Tech Tracks"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.8648,
+      "rank": 173
+    },
+    {
+      "id": "1c8ea203ed84",
+      "name": "四方之地",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e781cc324d6b",
+      "name": "图灵反转",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "2098f0f94108",
+      "name": "图灵反转2",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "f27e97aa65f9",
+      "name": "圣女贞德",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "b0613c85456d",
+      "name": "圣托里尼",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "轻度",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "092b360ec8a1",
+      "name": "地铁终点站",
+      "originalName": "Terminus",
+      "cover": "public/covers/092b360ec8a1.webp",
+      "players": "1-5",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 180,
+      "weight": 3.7059,
+      "types": [
+        "City Building",
+        "Economic",
+        "Industry / Manufacturing",
+        "Trains",
+        "Transportation"
+      ],
+      "mechanics": [
+        "Action Drafting",
+        "Connections",
+        "End Game Bonuses",
+        "Grid Coverage",
+        "Grid Movement",
+        "Income",
+        "Market",
+        "Network and Route Building",
+        "Open Drafting",
+        "Point to Point Movement",
+        "Resource to Move",
+        "Rondel",
+        "Tile Placement",
+        "Turn Order: Pass Order",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.1041,
+      "rank": 3979
+    },
+    {
+      "id": "343f7de41782",
+      "name": "坠空之下",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "0ab790d1d7cb",
+      "name": "埃及人流沙",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "51b4bfc0c983",
+      "name": "大航海+地城骰笔",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "没开过",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "d59556b0cb3d",
+      "name": "大西铁路 第一版+北方扩",
+      "originalName": "Great Western Trail",
+      "cover": "public/covers/d59556b0cb3d.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 150,
+      "weight": 3.6962,
+      "types": [
+        "American West",
+        "Animals"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Income",
+        "Ownership",
+        "Set Collection",
+        "Track Movement",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过几次",
+      "rating": 8.1436,
+      "rank": 21
+    },
+    {
+      "id": "9089dcd10c93",
+      "name": "大运河",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "f23bdbb91351",
+      "name": "大魔术师",
+      "originalName": "Trickerion: Legends of Illusion",
+      "cover": "public/covers/f23bdbb91351.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 180,
+      "weight": 4.2668,
+      "types": [
+        "Post-Napoleonic"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Action Queue",
+        "Catch the Leader",
+        "Dice Rolling",
+        "Simultaneous Action Selection",
+        "Tile Placement",
+        "Turn Order: Stat-Based",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.9656,
+      "rank": 123
+    },
+    {
+      "id": "03fc9cfd4d7c",
+      "name": "天下统一",
+      "originalName": "Tenkatoitsu",
+      "cover": "public/covers/03fc9cfd4d7c.webp",
+      "players": "1-2",
+      "supportedPlayers": [
+        "1",
+        "2"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 420,
+      "weight": 3.4138,
+      "types": [
+        "Pike and Shot",
+        "Renaissance",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Chit-Pull System",
+        "Dice Rolling",
+        "Grid Movement",
+        "Hexagon Grid",
+        "Movement Points",
+        "Simulation",
+        "Variable Set-up",
+        "Zone of Control"
+      ],
+      "playStatus": "开过几次",
+      "rating": 8.2636,
+      "rank": 5583
+    },
+    {
+      "id": "5898a9b697f8",
+      "name": "天堂与美酒",
+      "originalName": "Heaven & Ale",
+      "cover": "public/covers/5898a9b697f8.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 90,
+      "weight": 3.1616,
+      "types": [
+        "Economic",
+        "Farming",
+        "Industry / Manufacturing"
+      ],
+      "mechanics": [
+        "Grid Coverage",
+        "Highest-Lowest Scoring",
+        "Once-Per-Game Abilities",
+        "Rondel",
+        "Tile Placement",
+        "Track Movement",
+        "Turn Order: Claim Action",
+        "Turn Order: Pass Order"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.5246,
+      "rank": 398
+    },
+    {
+      "id": "4ca723d99807",
+      "name": "天恩湖+扩展",
+      "originalName": "Boonlake",
+      "cover": "public/covers/4ca723d99807.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 160,
+      "weight": 3.802,
+      "types": [
+        "American West",
+        "Civilization",
+        "Economic",
+        "Exploration",
+        "Farming",
+        "Industry / Manufacturing",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "End Game Bonuses",
+        "Follow",
+        "Hexagon Grid",
+        "Income",
+        "Map Addition",
+        "Multi-Use Cards",
+        "Point to Point Movement",
+        "Solo / Solitaire Game",
+        "Tile Placement",
+        "Track Movement",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.5988,
+      "rank": 497
+    },
+    {
+      "id": "e4ece223a2df",
+      "name": "天际矿脉",
+      "originalName": "Skymines",
+      "cover": "public/covers/e4ece223a2df.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 150,
+      "weight": 3.8947,
+      "types": [
+        "Economic",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Action Queue",
+        "Area Majority / Influence",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Investment",
+        "Open Drafting",
+        "Resource to Move",
+        "Roles with Asymmetric Information",
+        "Scenario / Mission / Campaign Game",
+        "Simultaneous Action Selection",
+        "Solo / Solitaire Game",
+        "Stock Holding",
+        "Turn Order: Claim Action",
+        "Variable Player Powers",
+        "Victory Points as a Resource",
+        "Worker Placement"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.9031,
+      "rank": 564
+    },
+    {
+      "id": "25adf5fce8f8",
+      "name": "太公望",
+      "originalName": "Dice Fishing: Roll and Catch",
+      "cover": "public/covers/25adf5fce8f8.webp",
+      "players": "2-5",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 20,
+      "weight": 1.2,
+      "types": [
+        "Animals",
+        "Dice"
+      ],
+      "mechanics": [
+        "Auction / Bidding",
+        "Dice Rolling"
+      ],
+      "playStatus": "开过几次",
+      "rating": 6.448,
+      "rank": 6832
+    },
+    {
+      "id": "44b0f2a22447",
+      "name": "太空议会",
+      "originalName": "Federation",
+      "cover": "public/covers/44b0f2a22447.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.7561,
+      "types": [
+        "Political",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "End Game Bonuses",
+        "Variable Set-up",
+        "Voting",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.8166,
+      "rank": 709
+    },
+    {
+      "id": "b9027c51f37c",
+      "name": "太阳之上",
+      "originalName": "Beyond the Sun",
+      "cover": "public/covers/b9027c51f37c.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 3.1538,
+      "types": [
+        "Civilization",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Contracts",
+        "End Game Bonuses",
+        "Events",
+        "Income",
+        "Point to Point Movement",
+        "Tech Trees / Tech Tracks",
+        "Worker Placement"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.8597,
+      "rank": 114
+    },
+    {
+      "id": "b0b427a4a468",
+      "name": "奥丁",
+      "originalName": "A Feast for Odin",
+      "cover": "public/covers/b0b427a4a468.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 3.8673,
+      "types": [
+        "Animals",
+        "Farming",
+        "Industry / Manufacturing",
+        "Medieval",
+        "Puzzle"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Automatic Resource Growth",
+        "Dice Rolling",
+        "Enclosure",
+        "Grid Coverage",
+        "Hand Management",
+        "Income",
+        "Layering",
+        "Pattern Recognition",
+        "Push Your Luck",
+        "Solo / Solitaire Game",
+        "Square Grid",
+        "Tile Placement",
+        "Turn Order: Pass Order",
+        "Worker Placement"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.1595,
+      "rank": 27
+    },
+    {
+      "id": "a88ed282d5c4",
+      "name": "奥地利大饭店",
+      "originalName": "Grand Austria Hotel",
+      "cover": "public/covers/a88ed282d5c4.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 120,
+      "weight": 3.1934,
+      "types": [
+        "Economic"
+      ],
+      "mechanics": [
+        "Action Drafting",
+        "Contracts",
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Hand Management",
+        "Set Collection",
+        "Turn Order: Progressive",
+        "Variable Set-up"
+      ],
+      "playStatus": "未记录",
+      "rating": 7.9618,
+      "rank": 69
+    },
+    {
+      "id": "6edcd93a4a75",
+      "name": "奥尔良+扩",
+      "originalName": "Orléans",
+      "cover": "public/covers/6edcd93a4a75.webp",
+      "players": "2-5",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 90,
+      "weight": 3.0115,
+      "types": [
+        "Medieval",
+        "Religious",
+        "Travel"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Deck, Bag, and Pool Building",
+        "End Game Bonuses",
+        "Events",
+        "Kill Steal",
+        "Point to Point Movement",
+        "Simultaneous Action Selection",
+        "Tech Trees / Tech Tracks",
+        "Turn Order: Progressive",
+        "Variable Set-up",
+        "Worker Placement, Different Worker Types"
+      ],
+      "playStatus": "未记录",
+      "rating": 8.0461,
+      "rank": 35
+    },
+    {
+      "id": "51d602e0192f",
+      "name": "姬路城",
+      "originalName": "The White Castle",
+      "cover": "public/covers/51d602e0192f.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 80,
+      "weight": 3.0652,
+      "types": [
+        "Dice",
+        "Economic",
+        "Medieval"
+      ],
+      "mechanics": [
+        "Action Drafting",
+        "Area Movement",
+        "Dice Rolling",
+        "End Game Bonuses",
+        "Income",
+        "Melding and Splaying",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Race",
+        "Resource Queue",
+        "Solo / Solitaire Game",
+        "Variable Set-up",
+        "Worker Placement",
+        "Worker Placement with Dice Workers"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.9771,
+      "rank": 72
+    },
+    {
+      "id": "43ac7c4d927e",
+      "name": "孤胆谢尔曼",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "f1d13ddcbafe",
+      "name": "安卡生命之符",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "218a399e2ced",
+      "name": "安纳克遗迹大合集",
+      "originalName": "Lost Ruins of Arnak",
+      "cover": "public/covers/218a399e2ced.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 2.933,
+      "types": [
+        "Adventure",
+        "Card Game",
+        "Exploration",
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Area Movement",
+        "Contracts",
+        "Deck, Bag, and Pool Building",
+        "Delayed Purchase",
+        "End Game Bonuses",
+        "Hand Management",
+        "Multi-Use Cards",
+        "Once-Per-Game Abilities",
+        "Open Drafting",
+        "Resource to Move",
+        "Solo / Solitaire Game",
+        "Track Movement",
+        "Turn Order: Progressive",
+        "Worker Placement"
+      ],
+      "playStatus": "经常开",
+      "rating": 8.0833,
+      "rank": 30
+    },
+    {
+      "id": "a09846c18ecf",
+      "name": "宿命旅团",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "5269b34bc570",
+      "name": "寂静迷航",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "adfe1a1997d1",
+      "name": "富饶之城",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "56e23e68824d",
+      "name": "小小工厂",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "44a68f28c459",
+      "name": "小搜查三合一",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "bd8ea81aed13",
+      "name": "尼维达尔",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "8c2155ac42d1",
+      "name": "巨肩之城",
+      "originalName": "Chicago 1875: City of the Big Shoulders",
+      "cover": "public/covers/8c2155ac42d1.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 180,
+      "weight": 4.0054,
+      "types": [
+        "Economic",
+        "Educational",
+        "Industry / Manufacturing"
+      ],
+      "mechanics": [
+        "Commodity Speculation",
+        "Contracts",
+        "End Game Bonuses",
+        "Income",
+        "Investment",
+        "Ownership",
+        "Stock Holding",
+        "Tile Placement",
+        "Turn Order: Claim Action",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "playStatus": "未记录",
+      "rating": 7.7603,
+      "rank": 808
+    },
+    {
+      "id": "0e577bb1f919",
+      "name": "巴西帝国",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "4d45f90234e0",
+      "name": "巴黎",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "82c67c910d93",
+      "name": "帝国传奇经典",
+      "originalName": "Imperium: Classics",
+      "cover": "public/covers/82c67c910d93.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "1"
+      ],
+      "playingTime": 160,
+      "weight": 3.6239,
+      "types": [
+        "Ancient",
+        "Card Game",
+        "Civilization"
+      ],
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "End Game Bonuses",
+        "Hand Management",
+        "Move Through Deck",
+        "Open Drafting",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Take That",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.6776,
+      "rank": 338
+    },
+    {
+      "id": "19652bfca455",
+      "name": "幕府黄昏",
+      "originalName": "Twilight of Shogun",
+      "cover": "public/covers/19652bfca455.webp",
+      "players": "2",
+      "supportedPlayers": [
+        "2"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 180,
+      "weight": null,
+      "types": [
+        "Civil War",
+        "Political",
+        "Post-Napoleonic",
+        "Wargame"
+      ],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "63a4880e3ac6",
+      "name": "平遥",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "ccf26c1a339a",
+      "name": "年年有鱼",
+      "originalName": "Conservas",
+      "cover": "public/covers/ccf26c1a339a.webp",
+      "players": "1",
+      "supportedPlayers": [
+        "1"
+      ],
+      "bestPlayers": [
+        "1"
+      ],
+      "playingTime": 40,
+      "weight": 2.1625,
+      "types": [
+        "Environmental",
+        "Nautical"
+      ],
+      "mechanics": [
+        "Deck, Bag, and Pool Building",
+        "Solo / Solitaire Game"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.4308,
+      "rank": 1804
+    },
+    {
+      "id": "c2fc1dde1a39",
+      "name": "幽港迷城",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "78b462b3a0c4",
+      "name": "库珀岛",
+      "originalName": "Cooper Island",
+      "cover": "public/covers/78b462b3a0c4.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 4.1652,
+      "types": [
+        "Exploration",
+        "Nautical"
+      ],
+      "mechanics": [
+        "Income",
+        "Layering",
+        "Tile Placement",
+        "Turn Order: Claim Action",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.5457,
+      "rank": 735
+    },
+    {
+      "id": "def00e958230",
+      "name": "康考迪亚2",
+      "originalName": "Concordia",
+      "cover": "public/covers/def00e958230.webp",
+      "players": "2-5",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 100,
+      "weight": null,
+      "types": [
+        "Ancient",
+        "Economic",
+        "Nautical"
+      ],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "bbaad2ffbc55",
+      "name": "庸医",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "f0a350be560b",
+      "name": "弑君者",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "84bce85cc04a",
+      "name": "得分沙律",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "45a188b7e1c0",
+      "name": "復仇女神號",
+      "originalName": "Nemesis",
+      "cover": "public/covers/45a188b7e1c0.webp",
+      "players": "1-5",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 180,
+      "weight": 3.4905,
+      "types": [
+        "Adventure",
+        "Horror",
+        "Miniatures",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Campaign / Battle Card Driven",
+        "Cooperative Game",
+        "Dice Rolling",
+        "Hand Management",
+        "Hidden Roles",
+        "Interrupts",
+        "Modular Board",
+        "Player Elimination",
+        "Scenario / Mission / Campaign Game",
+        "Semi-Cooperative Game",
+        "Solo / Solitaire Game",
+        "Team-Based Game",
+        "Traitor Game",
+        "Variable Player Powers"
+      ],
+      "playStatus": "未记录",
+      "rating": 8.2449,
+      "rank": 25
+    },
+    {
+      "id": "8202582316db",
+      "name": "徽州",
+      "originalName": "Huizhou: Confucian Merchants",
+      "cover": "public/covers/8202582316db.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [],
+      "playingTime": 90,
+      "weight": 3.5,
+      "types": [
+        "Economic"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Area Majority / Influence",
+        "Area Movement",
+        "Contracts",
+        "Open Drafting",
+        "Pick-up and Deliver"
+      ],
+      "playStatus": "开过一次",
+      "rating": 6.1385,
+      "rank": null
+    },
+    {
+      "id": "57fb21461743",
+      "name": "心灵特工",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "5b5068758e93",
+      "name": "我的好货",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "986e464a3c0e",
+      "name": "战争宝盒",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "ce5896c03a64",
+      "name": "战国",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "c5b618dd8d99",
+      "name": "房地产达人",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "760966d6a2ec",
+      "name": "扣扣棋",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "182019d24b34",
+      "name": "抵抗运动",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "02b105a5b81c",
+      "name": "拉密",
+      "originalName": "Rummikub",
+      "cover": "public/covers/02b105a5b81c.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 60,
+      "weight": 1.7074,
+      "types": [
+        "Abstract Strategy",
+        "Card Game",
+        "Number"
+      ],
+      "mechanics": [
+        "Set Collection",
+        "Tile Placement"
+      ],
+      "playStatus": "经常开",
+      "rating": 6.5273,
+      "rank": 1765
+    },
+    {
+      "id": "c7942bc0943d",
+      "name": "拉斯维加斯",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "47dcd89aeefc",
+      "name": "拉马迪之战",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "4d41f947e845",
+      "name": "拼布",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "2b7d91e345f2",
+      "name": "拼贴历史",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "3c124ecd2e69",
+      "name": "挑战者",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e9a46baa3832",
+      "name": "推理事件薄",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "2256e45571e1",
+      "name": "搬家公司",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "cea4556a08a3",
+      "name": "撤离计划",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "377cb9bde962",
+      "name": "教改风云",
+      "originalName": "Here I Stand",
+      "cover": "public/covers/377cb9bde962.webp",
+      "players": "2-6",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "6"
+      ],
+      "playingTime": 360,
+      "weight": 4.1985,
+      "types": [
+        "Negotiation",
+        "Pike and Shot",
+        "Political",
+        "Religious",
+        "Renaissance",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Campaign / Battle Card Driven",
+        "Dice Rolling",
+        "Events",
+        "Hand Management",
+        "Movement Points",
+        "Point to Point Movement",
+        "Scenario / Mission / Campaign Game",
+        "Simulation",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.8793,
+      "rank": 554
+    },
+    {
+      "id": "3094e362117d",
+      "name": "散樱乱舞",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e51d09ce7468",
+      "name": "敦煌",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "2e5ffe89ebee",
+      "name": "文明演化",
+      "originalName": "Civolution",
+      "cover": "public/covers/2e5ffe89ebee.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 180,
+      "weight": 4.26,
+      "types": [
+        "Civilization",
+        "Dice",
+        "Economic",
+        "Exploration",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Area Movement",
+        "Dice Rolling",
+        "Events",
+        "Income",
+        "Modular Board",
+        "Open Drafting",
+        "Pattern Building",
+        "Solo / Solitaire Game",
+        "Tech Trees / Tech Tracks",
+        "Track Movement",
+        "Variable Set-up"
+      ],
+      "playStatus": "未记录",
+      "rating": 8.1816,
+      "rank": 160
+    },
+    {
+      "id": "43554985cad9",
+      "name": "文艺复兴 和平",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "94a0a49e35b4",
+      "name": "斋浦尔",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "40e4500a250c",
+      "name": "斯凯岛大盒",
+      "originalName": "Isle of Skye: Big Box",
+      "cover": "public/covers/40e4500a250c.webp",
+      "players": "2-5",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 60,
+      "weight": 2.125,
+      "types": [
+        "Economic",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Auction / Bidding",
+        "Catch the Leader",
+        "I Cut, You Choose",
+        "Set Collection",
+        "Tile Placement",
+        "Turn Order: Progressive"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.9157,
+      "rank": null
+    },
+    {
+      "id": "7ec0ce6bdf35",
+      "name": "新物集 筹码",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "545c750b3aef",
+      "name": "方块向前冲",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "a12f04d871e9",
+      "name": "方尖碑+扩展diy",
+      "originalName": "Tekhenu: Obelisk of the Sun",
+      "cover": "public/covers/a12f04d871e9.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 4.0724,
+      "types": [
+        "Ancient",
+        "Dice",
+        "Mythology"
+      ],
+      "mechanics": [
+        "Action Drafting",
+        "Income",
+        "Open Drafting",
+        "Pattern Building",
+        "Turn Order: Stat-Based",
+        "Variable Set-up"
+      ],
+      "playStatus": "未记录",
+      "rating": 7.6572,
+      "rank": 435
+    },
+    {
+      "id": "09942aaa4203",
+      "name": "方鸟",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "46b276ae7389",
+      "name": "旅行记忆",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "cbec5d55833f",
+      "name": "时空乱序",
+      "originalName": "Anachrony",
+      "cover": "public/covers/cbec5d55833f.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 3.9941,
+      "types": [
+        "Economic",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Dice Rolling",
+        "Die Icon Resolution",
+        "End Game Bonuses",
+        "Events",
+        "Map Reduction",
+        "Open Drafting",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Turn Order: Claim Action",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "playStatus": "未记录",
+      "rating": 8.0359,
+      "rank": 61
+    },
+    {
+      "id": "671693151cc2",
+      "name": "明治维新 财阀",
+      "originalName": "Nippon: Zaibatsu",
+      "cover": "public/covers/671693151cc2.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.6033,
+      "types": [
+        "Economic",
+        "Industry / Manufacturing"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Contracts",
+        "End Game Bonuses",
+        "Income",
+        "Open Drafting",
+        "Solo / Solitaire Game",
+        "Variable Set-up",
+        "Worker Placement",
+        "Worker Placement, Different Worker Types"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.5076,
+      "rank": 415
+    },
+    {
+      "id": "593bcfb8de55",
+      "name": "星系节律",
+      "originalName": "Circadians: First Light",
+      "cover": "public/covers/593bcfb8de55.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 90,
+      "weight": 3.3684,
+      "types": [
+        "Dice",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Dice Rolling",
+        "Events",
+        "Secret Unit Deployment",
+        "Set Collection",
+        "Variable Player Powers",
+        "Worker Placement",
+        "Worker Placement with Dice Workers"
+      ],
+      "playStatus": "未记录",
+      "rating": 7.5097,
+      "rank": 926
+    },
+    {
+      "id": "15c11bf5ef7a",
+      "name": "星蚀",
+      "originalName": "Eclipse: Second Dawn for the Galaxy",
+      "cover": "public/covers/15c11bf5ef7a.webp",
+      "players": "2-6",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 200,
+      "weight": 3.6682,
+      "types": [
+        "Civilization",
+        "Exploration",
+        "Science Fiction",
+        "Space Exploration",
+        "Territory Building",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Alliances",
+        "Area Majority / Influence",
+        "Area-Impulse",
+        "Dice Rolling",
+        "Grid Movement",
+        "Hexagon Grid",
+        "Hidden Victory Points",
+        "Hot Potato",
+        "Income",
+        "Modular Board",
+        "Tech Trees / Tech Tracks",
+        "Turn Order: Pass Order",
+        "Variable Player Powers"
+      ],
+      "playStatus": "未记录",
+      "rating": 8.3832,
+      "rank": 23
+    },
+    {
+      "id": "3a320d1b8d28",
+      "name": "昼夜星",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "学会规则",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "3d37d1642a8a",
+      "name": "月海矿场",
+      "originalName": "Luna Maris",
+      "cover": "public/covers/3d37d1642a8a.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.4848,
+      "types": [
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Hand Management",
+        "Point to Point Movement",
+        "Set Collection",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "playStatus": "未记",
+      "rating": 7.677,
+      "rank": 3739
+    },
+    {
+      "id": "6df7850c2835",
+      "name": "月球南极基地",
+      "originalName": "Shackleton Base: A Journey to the Moon",
+      "cover": "public/covers/6df7850c2835.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 3.9265,
+      "types": [
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Variable Set-up",
+        "Worker Placement, Different Worker Types"
+      ],
+      "playStatus": "开过几次",
+      "rating": 8.0121,
+      "rank": 378
+    },
+    {
+      "id": "b6da0476951b",
+      "name": "木材",
+      "originalName": "Lignum",
+      "cover": "public/covers/b6da0476951b.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.814,
+      "types": [
+        "Economic"
+      ],
+      "mechanics": [
+        "Action Queue",
+        "Worker Placement"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.2268,
+      "rank": 4002
+    },
+    {
+      "id": "7b3cc6120f37",
+      "name": "末日决战",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "2331802ed486",
+      "name": "欢迎来到大盒",
+      "originalName": "Welcome To...",
+      "cover": "public/covers/2331802ed486.webp",
+      "players": "1-100",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7",
+        "8",
+        "9",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20",
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30",
+        "31",
+        "32",
+        "33",
+        "34",
+        "35",
+        "36",
+        "37",
+        "38",
+        "39",
+        "40",
+        "41",
+        "42",
+        "43",
+        "44",
+        "45",
+        "46",
+        "47",
+        "48",
+        "49",
+        "50",
+        "51",
+        "52",
+        "53",
+        "54",
+        "55",
+        "56",
+        "57",
+        "58",
+        "59",
+        "60",
+        "61",
+        "62",
+        "63",
+        "64",
+        "65",
+        "66",
+        "67",
+        "68",
+        "69",
+        "70",
+        "71",
+        "72",
+        "73",
+        "74",
+        "75",
+        "76",
+        "77",
+        "78",
+        "79",
+        "80",
+        "81",
+        "82",
+        "83",
+        "84",
+        "85",
+        "86",
+        "87",
+        "88",
+        "89",
+        "90",
+        "91",
+        "92",
+        "93",
+        "94",
+        "95",
+        "96",
+        "97",
+        "98",
+        "99",
+        "100"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 25,
+      "weight": 1.8416,
+      "types": [
+        "City Building"
+      ],
+      "mechanics": [
+        "Bingo",
+        "Contracts",
+        "End Game Bonuses",
+        "Multi-Use Cards",
+        "Paper-and-Pencil",
+        "Pattern Building",
+        "Simultaneous Action Selection",
+        "Solo / Solitaire Game"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.5043,
+      "rank": 217
+    },
+    {
+      "id": "d7cd977f2b5f",
+      "name": "欢迎来到月球",
+      "originalName": "Welcome to the Moon",
+      "cover": "public/covers/d7cd977f2b5f.webp",
+      "players": "1-6",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 30,
+      "weight": 2.4459,
+      "types": [
+        "City Building",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Bingo",
+        "Narrative Choice / Paragraph",
+        "Paper-and-Pencil",
+        "Pattern Building",
+        "Race",
+        "Scenario / Mission / Campaign Game",
+        "Simultaneous Action Selection",
+        "Solo / Solitaire Game"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.844,
+      "rank": 212
+    },
+    {
+      "id": "79e454710db5",
+      "name": "水球",
+      "originalName": "AquaSphere",
+      "cover": "public/covers/79e454710db5.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 100,
+      "weight": 3.6786,
+      "types": [
+        "Nautical",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Area Movement",
+        "End Game Bonuses",
+        "Income",
+        "Modular Board",
+        "Once-Per-Game Abilities",
+        "Open Drafting",
+        "Tech Trees / Tech Tracks",
+        "Tile Placement",
+        "Turn Order: Pass Order",
+        "Variable Set-up"
+      ],
+      "playStatus": "未记录",
+      "rating": 7.2457,
+      "rank": 742
+    },
+    {
+      "id": "798ca7838233",
+      "name": "永恆牌",
+      "originalName": "Eternal Decks",
+      "cover": "public/covers/798ca7838233.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 40,
+      "weight": 2.8095,
+      "types": [
+        "Card Game",
+        "Mythology",
+        "Puzzle"
+      ],
+      "mechanics": [
+        "Communication Limits",
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Once-Per-Game Abilities",
+        "Ordering",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.1995,
+      "rank": 571
+    },
+    {
+      "id": "ed96cf0f10cc",
+      "name": "汤圆拍套众筹+收纳",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e8e12e91881b",
+      "name": "沙丘：帝国 - 起义",
+      "originalName": "Dune: Imperium – Uprising",
+      "cover": "public/covers/e8e12e91881b.webp",
+      "players": "1-6",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.5244,
+      "types": [
+        "Movies / TV / Radio theme",
+        "Novel-based",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "Automatic Resource Growth",
+        "Card Play Conflict Resolution",
+        "Contracts",
+        "Deck, Bag, and Pool Building",
+        "Delayed Purchase",
+        "Force Commitment",
+        "Increase Value of Unchosen Resources",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Solo / Solitaire Game",
+        "Team-Based Game",
+        "Turn Order: Progressive",
+        "Variable Player Powers",
+        "Worker Placement"
+      ],
+      "playStatus": "经常开",
+      "rating": 8.6996,
+      "rank": 5
+    },
+    {
+      "id": "17338dafef32",
+      "name": "法夫纳",
+      "originalName": "Fafnir",
+      "cover": "public/covers/17338dafef32.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 20,
+      "weight": 1.6364,
+      "types": [],
+      "mechanics": [
+        "Auction / Bidding"
+      ],
+      "playStatus": "开过一次",
+      "rating": 6.2782,
+      "rank": 8282
+    },
+    {
+      "id": "6f17a641cbaf",
+      "name": "洞穴农夫 中文+2 英文扩+收纳",
+      "originalName": "Caverna: The Cave Farmers",
+      "cover": "public/covers/6f17a641cbaf.webp",
+      "players": "1-7",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6",
+        "7"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 210,
+      "weight": 3.7773,
+      "types": [
+        "Animals",
+        "Economic",
+        "Fantasy",
+        "Farming"
+      ],
+      "mechanics": [
+        "Automatic Resource Growth",
+        "Increase Value of Unchosen Resources",
+        "Solo / Solitaire Game",
+        "Tile Placement",
+        "Turn Order: Claim Action",
+        "Worker Placement"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.9186,
+      "rank": 62
+    },
+    {
+      "id": "bf950a32b1e6",
+      "name": "洞穴农夫对决大盒英文",
+      "originalName": "Caverna: Cave vs Cave",
+      "cover": "public/covers/bf950a32b1e6.webp",
+      "players": "1-2",
+      "supportedPlayers": [
+        "1",
+        "2"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 40,
+      "weight": 2.5567,
+      "types": [
+        "Economic",
+        "Fantasy",
+        "Farming"
+      ],
+      "mechanics": [
+        "Tile Placement",
+        "Worker Placement"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.0731,
+      "rank": 955
+    },
+    {
+      "id": "7d1bfa7d4985",
+      "name": "海盐折纸",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "0742eff2f027",
+      "name": "深谷酒馆",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "1be6b80c5182",
+      "name": "滴酒成酿",
+      "originalName": "Distilled",
+      "cover": "public/covers/1be6b80c5182.webp",
+      "players": "1-5",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 150,
+      "weight": 3.0337,
+      "types": [
+        "Card Game",
+        "Economic",
+        "Industry / Manufacturing",
+        "Print & Play"
+      ],
+      "mechanics": [
+        "Hand Management",
+        "Income",
+        "Market",
+        "Set Collection",
+        "Turn Order: Progressive"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.7449,
+      "rank": 277
+    },
+    {
+      "id": "81eaea8dc317",
+      "name": "漂浮奇境",
+      "originalName": "Confusing Lands",
+      "cover": "public/covers/81eaea8dc317.webp",
+      "players": "1-2",
+      "supportedPlayers": [
+        "1",
+        "2"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 10,
+      "weight": 1.5263,
+      "types": [
+        "Card Game"
+      ],
+      "mechanics": [
+        "Layering",
+        "Pattern Building"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.2287,
+      "rank": 4524
+    },
+    {
+      "id": "7b30df786408",
+      "name": "漫威手套情书",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "81ad3dd6281a",
+      "name": "漫威群英传",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e60ec995d53a",
+      "name": "潜航员",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "6c7067d8ba79",
+      "name": "火星之上",
+      "originalName": "On Mars",
+      "cover": "public/covers/6c7067d8ba79.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 150,
+      "weight": 4.6233,
+      "types": [
+        "City Building",
+        "Economic",
+        "Exploration",
+        "Science Fiction",
+        "Space Exploration",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Delayed Purchase",
+        "End Game Bonuses",
+        "Hexagon Grid",
+        "Income",
+        "Movement Points",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Tech Trees / Tech Tracks",
+        "Tile Placement",
+        "Variable Phase Order",
+        "Worker Placement"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.1581,
+      "rank": 58
+    },
+    {
+      "id": "337f38163f3f",
+      "name": "火爆狂飙：全速前进",
+      "originalName": "Heat: Pedal to the Metal",
+      "cover": "public/covers/337f38163f3f.webp",
+      "players": "1-6",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "6"
+      ],
+      "playingTime": 60,
+      "weight": 2.2015,
+      "types": [
+        "Racing",
+        "Sports"
+      ],
+      "mechanics": [
+        "Catch the Leader",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Programmed Movement",
+        "Push Your Luck",
+        "Race",
+        "Simulation",
+        "Simultaneous Action Selection",
+        "Solo / Solitaire Game",
+        "Track Movement",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.9926,
+      "rank": 47
+    },
+    {
+      "id": "2fa5d44ee3ed",
+      "name": "火花",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "fa6352a460a8",
+      "name": "灵迹岛",
+      "originalName": "Spirit Island",
+      "cover": "public/covers/fa6352a460a8.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 120,
+      "weight": 4.0744,
+      "types": [
+        "Environmental",
+        "Fantasy",
+        "Mythology",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Action Retrieval",
+        "Area Majority / Influence",
+        "Automatic Resource Growth",
+        "Campaign / Battle Card Driven",
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Hand Management",
+        "Modular Board",
+        "Simultaneous Action Selection",
+        "Solo / Solitaire Game",
+        "Tags",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "playStatus": "未记录",
+      "rating": 8.3397,
+      "rank": 11
+    },
+    {
+      "id": "a43d1b8213ed",
+      "name": "灵迹岛",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "f7d32231b991",
+      "name": "熊熊公园+收纳",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "d702058a8bef",
+      "name": "牌套",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "52928e92cd16",
+      "name": "牛头王",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "26fa6290d7a6",
+      "name": "特奥蒂瓦坎：众神之城 豪华大师版",
+      "originalName": "Teotihuacan: City of Gods – Deluxe Master Set",
+      "cover": "public/covers/26fa6290d7a6.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 3.9118,
+      "types": [
+        "Ancient"
+      ],
+      "mechanics": [
+        "Area Movement",
+        "Rondel",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Tile Placement",
+        "Track Movement",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Worker Placement with Dice Workers"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.4115,
+      "rank": null
+    },
+    {
+      "id": "02d2b87ac96d",
+      "name": "特鲁瓦",
+      "originalName": "Troyes",
+      "cover": "public/covers/02d2b87ac96d.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 90,
+      "weight": null,
+      "types": [
+        "Dice",
+        "Economic",
+        "Medieval"
+      ],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "9a7bd9fda1da",
+      "name": "狼群",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "学会规则",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "3f3931638d33",
+      "name": "现代艺术",
+      "originalName": "Modern Art",
+      "cover": "public/covers/3f3931638d33.webp",
+      "players": "3-5",
+      "supportedPlayers": [
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "5"
+      ],
+      "playingTime": 45,
+      "weight": 2.2765,
+      "types": [
+        "Card Game",
+        "Economic"
+      ],
+      "mechanics": [
+        "Auction / Bidding",
+        "Auction: English",
+        "Auction: Once Around",
+        "Auction: Sealed Bid",
+        "Auction: Turn Order Until Pass",
+        "Commodity Speculation",
+        "Hand Management",
+        "Victory Points as a Resource"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.5239,
+      "rank": 222
+    },
+    {
+      "id": "596f0cc3ccb4",
+      "name": "电力公司",
+      "originalName": "Power Grid",
+      "cover": "public/covers/596f0cc3ccb4.webp",
+      "players": "2-6",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.2451,
+      "types": [
+        "Economic",
+        "Industry / Manufacturing"
+      ],
+      "mechanics": [
+        "Auction / Bidding",
+        "Auction: Turn Order Until Pass",
+        "Catch the Leader",
+        "Income",
+        "Market",
+        "Network and Route Building",
+        "Turn Order: Stat-Based",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.7973,
+      "rank": 76
+    },
+    {
+      "id": "4153526950fe",
+      "name": "尤克里",
+      "originalName": "Rurik: Dawn of Kiev – Kickstarter Edition",
+      "cover": "public/covers/4153526950fe.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 2.8,
+      "types": [
+        "Civilization",
+        "Medieval",
+        "Miniatures",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Area Movement",
+        "Auction / Bidding",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "playStatus": "学会规则",
+      "rating": 7.9044,
+      "rank": null
+    },
+    {
+      "id": "d106ed7dab73",
+      "name": "疯狂建筑工",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "35e545f38a37",
+      "name": "白鼠特工队",
+      "originalName": "Rats of Wistar",
+      "cover": "public/covers/35e545f38a37.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 90,
+      "weight": 3.4184,
+      "types": [
+        "Animals"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Events",
+        "Hand Management",
+        "Turn Order: Claim Action",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.4521,
+      "rank": 921
+    },
+    {
+      "id": "8c8a2ef29655",
+      "name": "百家",
+      "originalName": "百家 (Schools of Thought)",
+      "cover": "public/covers/8c8a2ef29655.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [],
+      "playingTime": 60,
+      "weight": 2,
+      "types": [
+        "Ancient"
+      ],
+      "mechanics": [
+        "Contracts"
+      ],
+      "playStatus": "未记录",
+      "rating": 6.45,
+      "rank": null
+    },
+    {
+      "id": "2330c39754c4",
+      "name": "百年对峙 古巴危机",
+      "originalName": "Cuba Libre",
+      "cover": "public/covers/2330c39754c4.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 180,
+      "weight": 3.6123,
+      "types": [
+        "Economic",
+        "Modern Warfare",
+        "Political",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Area Movement",
+        "Dice Rolling",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.6455,
+      "rank": 747
+    },
+    {
+      "id": "f1db74c48ec2",
+      "name": "皇家港",
+      "originalName": "Port Royal: Big Box",
+      "cover": "public/covers/f1db74c48ec2.webp",
+      "players": "1-5",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "3、4"
+      ],
+      "playingTime": 50,
+      "weight": 1.7553,
+      "types": [
+        "Card Game",
+        "Economic",
+        "Nautical",
+        "Pirates"
+      ],
+      "mechanics": [
+        "Contracts",
+        "Cooperative Game",
+        "Move Through Deck",
+        "Open Drafting",
+        "Push Your Luck",
+        "Set Collection",
+        "Solo / Solitaire Game"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.5238,
+      "rank": null
+    },
+    {
+      "id": "a03aa4d59399",
+      "name": "盖亚计划",
+      "originalName": "Gaia Project",
+      "cover": "public/covers/a03aa4d59399.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 150,
+      "weight": 4.4033,
+      "types": [
+        "Civilization",
+        "Economic",
+        "Science Fiction",
+        "Space Exploration",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "End Game Bonuses",
+        "Hexagon Grid",
+        "Income",
+        "Modular Board",
+        "Network and Route Building",
+        "Solo / Solitaire Game",
+        "Tags",
+        "Tech Trees / Tech Tracks",
+        "Turn Order: Pass Order",
+        "Variable Player Powers",
+        "Variable Set-up",
+        "Victory Points as a Resource"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.3477,
+      "rank": 13
+    },
+    {
+      "id": "ec64d66f51db",
+      "name": "石器时代",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "f55fe2fc2d3d",
+      "name": "碧蓝岛",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "67ce019d4554",
+      "name": "神域寻踪",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "2e9c9bbb4c96",
+      "name": "筑地鱼市",
+      "originalName": "Tsukiji",
+      "cover": "public/covers/2e9c9bbb4c96.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 30,
+      "weight": 1.9375,
+      "types": [
+        "Card Game",
+        "Economic"
+      ],
+      "mechanics": [
+        "Auction / Bidding",
+        "Commodity Speculation",
+        "Market",
+        "Open Drafting",
+        "Set Collection",
+        "Simultaneous Action Selection"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.1582,
+      "rank": 3948
+    },
+    {
+      "id": "eb521374f96a",
+      "name": "精灵岛100游",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "23754969da79",
+      "name": "紫袍加身",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "bb97e4c2f583",
+      "name": "纸上谈兵 03 天国王朝",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "d74be270516b",
+      "name": "终极铁路",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "05152919385a",
+      "name": "绝顶聪明合集",
+      "originalName": "Clever 4Ever",
+      "cover": "public/covers/05152919385a.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 30,
+      "weight": 2.3659,
+      "types": [
+        "Dice",
+        "Number"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Paper-and-Pencil",
+        "Re-rolling and Locking",
+        "Solo / Solitaire Game"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.6092,
+      "rank": 1289
+    },
+    {
+      "id": "41e136a14d13",
+      "name": "统治与反抗",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "d07ab601898c",
+      "name": "船厂第二版",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "15d438bde9c7",
+      "name": "良渚西湖",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "18b0add0db4b",
+      "name": "花砖",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "经常开",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "3a12847b9661",
+      "name": "花砖巧克力",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "f24bf66513f7",
+      "name": "花花便利店",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "4909d02a4f7e",
+      "name": "苏格兰之锤",
+      "originalName": "Hammer of the Scots",
+      "cover": "public/covers/4909d02a4f7e.webp",
+      "players": "2",
+      "supportedPlayers": [
+        "2"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 180,
+      "weight": 2.95,
+      "types": [
+        "Medieval",
+        "Wargame"
+      ],
+      "mechanics": [
+        "Area Movement",
+        "Campaign / Battle Card Driven",
+        "Dice Rolling",
+        "Hand Management",
+        "Secret Unit Deployment",
+        "Simulation",
+        "Simultaneous Action Selection"
+      ],
+      "playStatus": "未记录",
+      "rating": 7.5198,
+      "rank": 811
+    },
+    {
+      "id": "412d1aa227b7",
+      "name": "苹果杰克",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "4f2a3135b94b",
+      "name": "蒸汽帝国",
+      "originalName": "Imperial Steam",
+      "cover": "public/covers/4f2a3135b94b.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 4.215,
+      "types": [
+        "Economic",
+        "Industry / Manufacturing",
+        "Post-Napoleonic",
+        "Trains"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Contracts",
+        "Delayed Purchase",
+        "End Game Bonuses",
+        "Income",
+        "Market",
+        "Network and Route Building",
+        "Open Drafting",
+        "Ownership",
+        "Pick-up and Deliver",
+        "Point to Point Movement",
+        "Sudden Death Ending",
+        "Tile Placement",
+        "Turn Order: Auction",
+        "Turn Order: Stat-Based",
+        "Variable Set-up",
+        "Victory Points as a Resource"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.7217,
+      "rank": 947
+    },
+    {
+      "id": "4abdb23203b5",
+      "name": "蓝色战役",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "61085be895e2",
+      "name": "虎啸亚洲",
+      "originalName": "Asian Tigers: A Story of Prosperity",
+      "cover": "public/covers/61085be895e2.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.7419,
+      "types": [
+        "Economic",
+        "Industry / Manufacturing"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Variable Phase Order",
+        "Worker Placement"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.1461,
+      "rank": 4686
+    },
+    {
+      "id": "70f1c1d1f867",
+      "name": "虚空降临",
+      "originalName": "Voidfall",
+      "cover": "public/covers/70f1c1d1f867.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "1"
+      ],
+      "playingTime": 240,
+      "weight": 4.6229,
+      "types": [
+        "Civilization",
+        "Economic",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Command Cards",
+        "Cooperative Game",
+        "Events",
+        "Grid Movement",
+        "Hand Management",
+        "Hexagon Grid",
+        "Modular Board",
+        "Solo / Solitaire Game",
+        "Variable Player Powers"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.496,
+      "rank": 81
+    },
+    {
+      "id": "70fecf438a4b",
+      "name": "蜜语工坊",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "63679e00af61",
+      "name": "血碗",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e19463bb33a5",
+      "name": "赛马骰",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "d8769ac7dda0",
+      "name": "路易斯与克拉克 dice",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e8e74c47c06f",
+      "name": "路易斯与克拉克",
+      "originalName": "Lewis & Clark: The Expedition",
+      "cover": "public/covers/e8e74c47c06f.webp",
+      "players": "1-5",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 3.3183,
+      "types": [
+        "Age of Reason",
+        "American West",
+        "Exploration",
+        "Travel"
+      ],
+      "mechanics": [
+        "Action Retrieval",
+        "Deck, Bag, and Pool Building",
+        "Delayed Purchase",
+        "Hand Management",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Race",
+        "Resource to Move",
+        "Solo / Solitaire Game",
+        "Track Movement",
+        "Worker Placement"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.4285,
+      "rank": 335
+    },
+    {
+      "id": "1ad0133f0367",
+      "name": "达尔文之选",
+      "originalName": "Darwin's Choice",
+      "cover": "public/covers/1ad0133f0367.webp",
+      "players": "2-6",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5",
+        "6"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 2.7568,
+      "types": [
+        "Animals",
+        "Card Game",
+        "Educational",
+        "Environmental"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Hand Management",
+        "Modular Board",
+        "Take That"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.2844,
+      "rank": 4982
+    },
+    {
+      "id": "80aa85e69964",
+      "name": "运河时代",
+      "originalName": "Kanal",
+      "cover": "public/covers/80aa85e69964.webp",
+      "players": "1-2",
+      "supportedPlayers": [
+        "1",
+        "2"
+      ],
+      "bestPlayers": [
+        "1、2"
+      ],
+      "playingTime": 45,
+      "weight": 2.7273,
+      "types": [
+        "City Building",
+        "Economic",
+        "Industry / Manufacturing",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Increase Value of Unchosen Resources",
+        "Market",
+        "Variable Set-up",
+        "Worker Placement"
+      ],
+      "playStatus": "开过几次",
+      "rating": 8.0718,
+      "rank": 5327
+    },
+    {
+      "id": "950135de68ee",
+      "name": "迷你高尔夫设计师众筹",
+      "originalName": "Minigolf Designer",
+      "cover": "public/covers/950135de68ee.webp",
+      "players": "1-5",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 90,
+      "weight": 2.2941,
+      "types": [
+        "Puzzle"
+      ],
+      "mechanics": [
+        "Modular Board",
+        "Tile Placement"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.7655,
+      "rank": 3629
+    },
+    {
+      "id": "c5722fccc88d",
+      "name": "速战速决 战术小队",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "193cbebb7af3",
+      "name": "铁路环游",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过几次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "a97d98955650",
+      "name": "银河竞逐",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "未记录",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "be51af1491ea",
+      "name": "阿克莱特 卡牌版",
+      "originalName": "Arkwright: The Card Game",
+      "cover": "public/covers/be51af1491ea.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3、4"
+      ],
+      "playingTime": 100,
+      "weight": 3.9538,
+      "types": [
+        "Card Game",
+        "Industry / Manufacturing"
+      ],
+      "mechanics": [
+        "End Game Bonuses",
+        "Hand Management",
+        "Income",
+        "Loans",
+        "Market",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Player Elimination",
+        "Simulation",
+        "Stock Holding",
+        "Tech Trees / Tech Tracks",
+        "Turn Order: Stat-Based",
+        "Variable Set-up",
+        "Victory Points as a Resource"
+      ],
+      "playStatus": "未记录",
+      "rating": 6.8078,
+      "rank": 4202
+    },
+    {
+      "id": "776e56857171",
+      "name": "阿克莱特",
+      "originalName": "Arkwright",
+      "cover": "public/covers/776e56857171.webp",
+      "players": "2-4",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 240,
+      "weight": 4.5899,
+      "types": [
+        "Economic",
+        "Industry / Manufacturing"
+      ],
+      "mechanics": [
+        "Commodity Speculation",
+        "Contracts",
+        "End Game Bonuses",
+        "Events",
+        "Income",
+        "Investment",
+        "Loans",
+        "Market",
+        "Simulation",
+        "Stock Holding",
+        "Tech Trees / Tech Tracks",
+        "Tile Placement",
+        "Turn Order: Stat-Based",
+        "Variable Phase Order",
+        "Variable Set-up",
+        "Victory Points as a Resource",
+        "Worker Placement"
+      ],
+      "playStatus": "未记录",
+      "rating": 7.7741,
+      "rank": 881
+    },
+    {
+      "id": "2d1ca5fc96c0",
+      "name": "雅典卫城",
+      "originalName": "Akropolis",
+      "cover": "public/covers/2d1ca5fc96c0.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 30,
+      "weight": 1.8116,
+      "types": [
+        "Abstract Strategy",
+        "Ancient",
+        "City Building",
+        "Territory Building"
+      ],
+      "mechanics": [
+        "Auction: Dutch",
+        "End Game Bonuses",
+        "Layering",
+        "Open Drafting",
+        "Pattern Building",
+        "Solo / Solitaire Game",
+        "Tile Placement",
+        "Turn Order: Progressive"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.4431,
+      "rank": 449
+    },
+    {
+      "id": "c36782a11972",
+      "name": "香港大停电",
+      "originalName": "Blackout: Hong Kong",
+      "cover": "public/covers/c36782a11972.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 150,
+      "weight": 3.4603,
+      "types": [
+        "Economic",
+        "Exploration"
+      ],
+      "mechanics": [
+        "Area Majority / Influence",
+        "Deck, Bag, and Pool Building",
+        "Dice Rolling",
+        "Hand Management",
+        "Network and Route Building",
+        "Open Drafting",
+        "Solo / Solitaire Game",
+        "Victory Points as a Resource"
+      ],
+      "playStatus": "开过几次",
+      "rating": 7.3865,
+      "rank": 671
+    },
+    {
+      "id": "02a6e73fcd2e",
+      "name": "马拉开波 基础众筹+起义零售",
+      "originalName": "Maracaibo",
+      "cover": "public/covers/02a6e73fcd2e.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 120,
+      "weight": 3.9169,
+      "types": [
+        "Economic",
+        "Exploration",
+        "Nautical",
+        "Pirates"
+      ],
+      "mechanics": [
+        "Contracts",
+        "End Game Bonuses",
+        "Events",
+        "Hand Management",
+        "Income",
+        "Movement Points",
+        "Multi-Use Cards",
+        "Narrative Choice / Paragraph",
+        "Point to Point Movement",
+        "Scenario / Mission / Campaign Game",
+        "Set Collection",
+        "Solo / Solitaire Game",
+        "Stock Holding",
+        "Tech Trees / Tech Tracks",
+        "Track Movement",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过一次",
+      "rating": 7.9345,
+      "rank": 94
+    },
+    {
+      "id": "67254bf50273",
+      "name": "马拉开波海盗",
+      "originalName": "Pirates of Maracaibo",
+      "cover": "public/covers/67254bf50273.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "3"
+      ],
+      "playingTime": 100,
+      "weight": 2.8792,
+      "types": [
+        "Adventure",
+        "Exploration",
+        "Nautical",
+        "Pirates"
+      ],
+      "mechanics": [
+        "Dice Rolling",
+        "Increase Value of Unchosen Resources",
+        "Multi-Use Cards",
+        "Pieces as Map",
+        "Race",
+        "Stock Holding",
+        "Variable Set-up"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.926,
+      "rank": 394
+    },
+    {
+      "id": "a100431b5738",
+      "name": "骇浪求生",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "2e38ca4da765",
+      "name": "骰子",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "无法定义",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "e35c93efe5e3",
+      "name": "骰迷奇境 12扩",
+      "originalName": "Roll Player Adventures",
+      "cover": "public/covers/e35c93efe5e3.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 150,
+      "weight": 2.3421,
+      "types": [
+        "Adventure",
+        "Dice",
+        "Exploration",
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Campaign / Battle Card Driven",
+        "Cooperative Game",
+        "Dice Rolling",
+        "Narrative Choice / Paragraph",
+        "Paper-and-Pencil",
+        "Scenario / Mission / Campaign Game",
+        "Storytelling"
+      ],
+      "playStatus": "开过一次",
+      "rating": 8.0887,
+      "rank": 839
+    },
+    {
+      "id": "6127fbc1a399",
+      "name": "骷髅王",
+      "originalName": "",
+      "cover": "",
+      "players": "",
+      "supportedPlayers": [],
+      "bestPlayers": [],
+      "playingTime": null,
+      "weight": null,
+      "types": [],
+      "mechanics": [],
+      "playStatus": "开过一次",
+      "rating": null,
+      "rank": null
+    },
+    {
+      "id": "a01616445906",
+      "name": "魂行纪元",
+      "originalName": "Tamashii: Chronicle of Ascend",
+      "cover": "public/covers/a01616445906.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "1"
+      ],
+      "playingTime": 180,
+      "weight": 2.9718,
+      "types": [
+        "Adventure",
+        "Exploration",
+        "Fighting",
+        "Miniatures",
+        "Science Fiction",
+        "Space Exploration"
+      ],
+      "mechanics": [
+        "Action Points",
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Dice Rolling",
+        "Grid Movement",
+        "Hexagon Grid",
+        "Narrative Choice / Paragraph",
+        "Pattern Building",
+        "Scenario / Mission / Campaign Game",
+        "Semi-Cooperative Game",
+        "Slide / Push",
+        "Solo / Solitaire Game",
+        "Square Grid",
+        "Variable Player Powers",
+        "Variable Set-up"
+      ],
+      "playStatus": "开过几次",
+      "rating": 8.0456,
+      "rank": 1581
+    },
+    {
+      "id": "a9a2f2880084",
+      "name": "魔女快递",
+      "originalName": "Broom Service",
+      "cover": "public/covers/a9a2f2880084.webp",
+      "players": "2-5",
+      "supportedPlayers": [
+        "2",
+        "3",
+        "4",
+        "5"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 75,
+      "weight": 2.3853,
+      "types": [
+        "Fantasy"
+      ],
+      "mechanics": [
+        "Area Movement",
+        "Follow",
+        "Hand Management",
+        "Pick-up and Deliver",
+        "Set Collection",
+        "Simultaneous Action Selection",
+        "Variable Phase Order"
+      ],
+      "playStatus": "经常开",
+      "rating": 7.1754,
+      "rank": 667
+    },
+    {
+      "id": "9759839c8a48",
+      "name": "魔法骑士",
+      "originalName": "Mage Knight Board Game",
+      "cover": "public/covers/9759839c8a48.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "1"
+      ],
+      "playingTime": 240,
+      "weight": 4.3786,
+      "types": [
+        "Adventure",
+        "Exploration",
+        "Fantasy",
+        "Fighting"
+      ],
+      "mechanics": [
+        "Card Play Conflict Resolution",
+        "Cooperative Game",
+        "Deck, Bag, and Pool Building",
+        "Dice Rolling",
+        "Grid Movement",
+        "Hand Management",
+        "Hexagon Grid",
+        "Map Addition",
+        "Modular Board",
+        "Multi-Use Cards",
+        "Open Drafting",
+        "Role Playing",
+        "Scenario / Mission / Campaign Game",
+        "Solo / Solitaire Game",
+        "Tags",
+        "Turn Order: Claim Action",
+        "Variable Player Powers"
+      ],
+      "playStatus": "未记录",
+      "rating": 8.0813,
+      "rank": 39
+    }
+  ]
+}

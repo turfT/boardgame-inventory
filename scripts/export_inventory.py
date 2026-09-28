@@ -1,0 +1,227 @@
+#!/usr/bin/env python3
+from __future__ import annotations
+
+import argparse
+import hashlib
+import json
+import os
+import re
+import shutil
+import tempfile
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+from PIL import Image, ImageOps
+
+VAULT = Path(os.environ.get("BOARDGAME_VAULT", "/Users/hou/Documents/hou"))
+NOTES_DIR = VAULT / "桌游"
+PROJECT = Path(__file__).resolve().parents[1]
+PUBLIC_DIR = PROJECT / "public"
+DATA_PATH = PUBLIC_DIR / "data" / "games.json"
+COVER_DIR = PUBLIC_DIR / "covers"
+
+PUBLIC_FIELDS = (
+    "title", "aliases", "封面", "人数", "支持人数", "最佳人数", "时长", "重度",
+    "类型", "机制", "游玩状态", "BGG名称", "BGG评分", "BGG排名", "持有状态",
+)
+
+
+def scalar(value: str) -> Any:
+    value = value.strip()
+    if not value:
+        return ""
+    if value.startswith("[") and value.endswith("]"):
+        try:
+            parsed = json.loads(value)
+            return parsed if isinstance(parsed, list) else value
+        except json.JSONDecodeError:
+            return [part.strip().strip("\"'") for part in value[1:-1].split(",") if part.strip()]
+    if (value.startswith('"') and value.endswith('"')) or (value.startswith("'") and value.endswith("'")):
+        try:
+            return json.loads(value) if value.startswith('"') else value[1:-1].replace("''", "'")
+        except json.JSONDecodeError:
+            return value[1:-1]
+    if re.fullmatch(r"-?\d+(?:\.\d+)?", value):
+        return float(value) if "." in value else int(value)
+    return value
+
+
+def parse_frontmatter(text: str) -> dict[str, Any]:
+    if not text.startswith("---"):
+        return {}
+    end = text.find("\n---", 3)
+    if end < 0:
+        return {}
+    lines = text[3:end].strip("\n").splitlines()
+    result: dict[str, Any] = {}
+    index = 0
+    while index < len(lines):
+        line = lines[index]
+        match = re.match(r"^([^\s][^:]*):(?:\s*(.*))?$", line)
+        if not match:
+            index += 1
+            continue
+        key, raw = match.group(1).strip(), (match.group(2) or "").strip()
+        if raw:
+            result[key] = scalar(raw)
+            index += 1
+            continue
+        items = []
+        lookahead = index + 1
+        while lookahead < len(lines):
+            item = re.match(r"^\s+-\s+(.*)$", lines[lookahead])
+            if not item:
+                break
+            items.append(scalar(item.group(1)))
+            lookahead += 1
+        result[key] = items if items else ""
+        index = lookahead
+    return result
+
+
+def as_list(value: Any) -> list[str]:
+    if isinstance(value, list):
+        return [str(item).strip() for item in value if str(item).strip()]
+    if value in (None, ""):
+        return []
+    return [str(value).strip()]
+
+
+def as_number(value: Any) -> float | int | None:
+    try:
+        number = float(value)
+        return int(number) if number.is_integer() else round(number, 4)
+    except (TypeError, ValueError):
+        return None
+
+
+def cover_source(value: Any) -> Path | None:
+    match = re.fullmatch(r"\[\[(.+?)\]\]", str(value or "").strip())
+    if not match:
+        return None
+    path = VAULT / match.group(1)
+    return path if path.is_file() else None
+
+
+def stable_id(path: Path) -> str:
+    return hashlib.sha1(path.stem.encode("utf-8")).hexdigest()[:12]
+
+
+def make_cover(source: Path, destination: Path) -> None:
+    destination.parent.mkdir(parents=True, exist_ok=True)
+    with Image.open(source) as opened:
+        image = ImageOps.exif_transpose(opened)
+        if image.mode not in ("RGB", "RGBA"):
+            image = image.convert("RGB")
+        image.thumbnail((900, 900), Image.Resampling.LANCZOS)
+        image.save(destination, "WEBP", quality=78, method=6)
+
+
+def collect(output_root: Path) -> dict[str, Any]:
+    games = []
+    output_covers = output_root / "covers"
+    output_covers.mkdir(parents=True, exist_ok=True)
+    for note in sorted(NOTES_DIR.glob("*.md"), key=lambda item: item.name):
+        frontmatter = parse_frontmatter(note.read_text(encoding="utf-8"))
+        if str(frontmatter.get("持有状态", "")).strip() != "拥有":
+            continue
+        game_id = stable_id(note)
+        source = cover_source(frontmatter.get("封面"))
+        cover = ""
+        if source:
+            destination = output_covers / f"{game_id}.webp"
+            make_cover(source, destination)
+            cover = f"public/covers/{destination.name}"
+        aliases = as_list(frontmatter.get("aliases"))
+        original_name = str(frontmatter.get("BGG名称") or "").strip()
+        if not original_name:
+            original_name = next((name for name in aliases if not re.search(r"[\u3400-\u9fff]", name)), "")
+        games.append({
+            "id": game_id,
+            "name": str(frontmatter.get("title") or note.stem).strip(),
+            "originalName": original_name,
+            "cover": cover,
+            "players": str(frontmatter.get("人数") or "").strip(),
+            "supportedPlayers": as_list(frontmatter.get("支持人数")),
+            "bestPlayers": as_list(frontmatter.get("最佳人数")),
+            "playingTime": as_number(frontmatter.get("时长")),
+            "weight": as_number(frontmatter.get("重度")),
+            "types": as_list(frontmatter.get("类型")),
+            "mechanics": as_list(frontmatter.get("机制")),
+            "playStatus": str(frontmatter.get("游玩状态") or "未记录").strip(),
+            "rating": as_number(frontmatter.get("BGG评分")),
+            "rank": as_number(frontmatter.get("BGG排名")),
+        })
+    return {
+        "meta": {
+            "title": "北关据点库存查询",
+            "generatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
+            "count": len(games),
+        },
+        "games": games,
+    }
+
+
+def content_map(payload: dict[str, Any]) -> dict[str, dict[str, Any]]:
+    return {game["id"]: game for game in payload.get("games", [])}
+
+
+def compare(previous: dict[str, Any], current: dict[str, Any]) -> dict[str, Any]:
+    old, new = content_map(previous), content_map(current)
+    added = sorted((new[key]["name"] for key in new.keys() - old.keys()))
+    removed = sorted((old[key]["name"] for key in old.keys() - new.keys()))
+    changed = []
+    for key in old.keys() & new.keys():
+        if old[key] != new[key]:
+            changed.append(new[key]["name"])
+    missing = [game["name"] for game in current["games"] if not game["cover"] or not game["supportedPlayers"]]
+    return {
+        "added": sorted(added),
+        "changed": sorted(changed),
+        "removed": sorted(removed),
+        "missing": sorted(missing),
+        "total": len(current["games"]),
+        "hasChanges": bool(added or changed or removed) or not DATA_PATH.exists(),
+    }
+
+
+def load_previous() -> dict[str, Any]:
+    if not DATA_PATH.exists():
+        return {"games": []}
+    try:
+        return json.loads(DATA_PATH.read_text(encoding="utf-8"))
+    except (json.JSONDecodeError, OSError):
+        return {"games": []}
+
+
+def write_payload(payload: dict[str, Any], source_root: Path) -> None:
+    DATA_PATH.parent.mkdir(parents=True, exist_ok=True)
+    COVER_DIR.mkdir(parents=True, exist_ok=True)
+    desired = {Path(game["cover"]).name for game in payload["games"] if game["cover"]}
+    for old_cover in COVER_DIR.glob("*.webp"):
+        if old_cover.name not in desired:
+            old_cover.unlink()
+    for source in (source_root / "covers").glob("*.webp"):
+        destination = COVER_DIR / source.name
+        if not destination.exists() or hashlib.sha256(destination.read_bytes()).digest() != hashlib.sha256(source.read_bytes()).digest():
+            shutil.copy2(source, destination)
+    DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+
+
+def main() -> None:
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mode", choices=("plan", "write"), default="plan")
+    args = parser.parse_args()
+    previous = load_previous()
+    with tempfile.TemporaryDirectory(prefix="boardgame-inventory-") as temporary:
+        temporary_root = Path(temporary)
+        current = collect(temporary_root)
+        report = compare(previous, current)
+        if args.mode == "write":
+            write_payload(current, temporary_root)
+        print(json.dumps(report, ensure_ascii=False))
+
+
+if __name__ == "__main__":
+    main()
