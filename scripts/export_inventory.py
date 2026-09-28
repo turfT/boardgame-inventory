@@ -131,7 +131,11 @@ def collect(output_root: Path) -> dict[str, Any]:
         cover = ""
         if source:
             destination = output_covers / f"{game_id}.webp"
-            make_cover(source, destination)
+            cached = COVER_DIR / destination.name
+            if cached.is_file() and cached.stat().st_mtime_ns >= source.stat().st_mtime_ns:
+                shutil.copy2(cached, destination)
+            else:
+                make_cover(source, destination)
             cover = f"public/covers/{destination.name}"
         aliases = as_list(frontmatter.get("aliases"))
         original_name = str(frontmatter.get("BGG名称") or "").strip()
