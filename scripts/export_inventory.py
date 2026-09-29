@@ -25,7 +25,7 @@ COVER_DIR = PUBLIC_DIR / "covers"
 
 PUBLIC_FIELDS = (
     "title", "aliases", "封面", "人数", "支持人数", "最佳人数", "时长", "重度",
-    "类型", "机制", "游玩状态", "BGG ID", "BGG名称", "BGG评分", "BGG排名", "持有状态",
+    "类型", "机制", "BGG ID", "BGG名称", "BGG评分", "BGG排名", "持有状态",
 )
 
 
@@ -159,7 +159,6 @@ def collect(output_root: Path) -> dict[str, Any]:
             "weight": as_number(frontmatter.get("重度")),
             "types": as_list(frontmatter.get("类型")),
             "mechanics": as_list(frontmatter.get("机制")),
-            "playStatus": str(frontmatter.get("游玩状态") or "未记录").strip(),
             "rating": as_number(frontmatter.get("BGG评分")),
             "rank": as_number(frontmatter.get("BGG排名")),
         })

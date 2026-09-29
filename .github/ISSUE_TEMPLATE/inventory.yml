@@ -20,10 +20,10 @@ body:
     id: bgg_games
     attributes:
       label: BGG ID 清单
-      description: 每行一款。可以只写 ID，也可以写“ID | 游玩状态”。再次提交时请填写完整库存。
+      description: 每行填写一个 BGG ID。再次提交时请填写完整库存。
       placeholder: |
-        316858 | 开过几次
-        811 | 经常开
+        316858
+        811
         266192
     validations:
       required: true

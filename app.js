@@ -8,7 +8,7 @@ const state = {
 const $ = (id) => document.getElementById(id);
 const controls = {
   search: $("searchInput"), players: $("playerFilter"), bestPlayers: $("bestPlayerFilter"),
-  status: $("statusFilter"), time: $("timeFilter"), weight: $("weightFilter"),
+  time: $("timeFilter"), weight: $("weightFilter"),
   rating: $("ratingFilter"), type: $("typeFilter"), mechanic: $("mechanicFilter"),
   owner: $("ownerFilter"), sort: $("sortSelect"),
 };
@@ -40,7 +40,6 @@ function uniqueFlat(key) {
 function populateFilters() {
   addOptions(controls.players, ["1","2","3","4","5","6","7","8","9","10","11+"]);
   addOptions(controls.bestPlayers, uniqueFlat("bestPlayers"));
-  addOptions(controls.status, uniqueFlat("playStatus"));
   addOptions(controls.type, uniqueFlat("types"));
   addOptions(controls.mechanic, uniqueFlat("mechanics"));
   state.inventories.forEach((inventory) => {
@@ -68,7 +67,6 @@ function applyFilters() {
         ? game.supportedPlayers.some((value) => Number(value) >= 11)
         : game.supportedPlayers.includes(controls.players.value)))
       && (!controls.bestPlayers.value || game.bestPlayers.includes(controls.bestPlayers.value))
-      && (!controls.status.value || game.playStatus === controls.status.value)
       && inRange(game.playingTime, controls.time.value)
       && inRange(game.weight, controls.weight.value)
       && (!ratingMinimum || game.rating >= ratingMinimum)

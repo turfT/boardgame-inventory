@@ -2,7 +2,7 @@
   "meta": {
     "id": "hou",
     "name": "hou",
-    "generatedAt": "2026-09-29T12:14:58+08:00",
+    "generatedAt": "2026-09-29T14:02:39+08:00",
     "count": 102
   },
   "games": [
@@ -31,7 +31,6 @@
       "mechanics": [
         "Deduction"
       ],
-      "playStatus": "开过几次",
       "rating": 7.9222,
       "rank": 3857
     },
@@ -65,7 +64,6 @@
         "Pick-up and Deliver",
         "Race"
       ],
-      "playStatus": "开过几次",
       "rating": 6.7099,
       "rank": 5354
     },
@@ -101,7 +99,6 @@
         "Turn Order: Progressive",
         "Variable Set-up"
       ],
-      "playStatus": "开过几次",
       "rating": 8.4128,
       "rank": 14
     },
@@ -145,7 +142,6 @@
         "Turn Order: Role Order",
         "Variable Player Powers"
       ],
-      "playStatus": "未记录",
       "rating": 8.2816,
       "rank": 37
     },
@@ -176,7 +172,6 @@
         "Stock Holding",
         "Victory Points as a Resource"
       ],
-      "playStatus": "未记录",
       "rating": 6.9242,
       "rank": 3916
     },
@@ -212,7 +207,6 @@
         "Solo / Solitaire Game",
         "Tile Placement"
       ],
-      "playStatus": "经常开",
       "rating": 7.1353,
       "rank": 2008
     },
@@ -246,7 +240,6 @@
         "Hexagon Grid",
         "Tile Placement"
       ],
-      "playStatus": "经常开",
       "rating": 7.7623,
       "rank": 345
     },
@@ -280,7 +273,6 @@
         "Solo / Solitaire Game",
         "Tile Placement"
       ],
-      "playStatus": "开过一次",
       "rating": 7.5953,
       "rank": 421
     },
@@ -314,7 +306,6 @@
         "Push Your Luck",
         "Scenario / Mission / Campaign Game"
       ],
-      "playStatus": "未记录",
       "rating": 7.1662,
       "rank": 1601
     },
@@ -356,7 +347,6 @@
         "Variable Player Powers",
         "Worker Placement"
       ],
-      "playStatus": "开过一次",
       "rating": 7.8002,
       "rank": 115
     },
@@ -393,7 +383,6 @@
         "Variable Player Powers",
         "Worker Placement"
       ],
-      "playStatus": "未记录",
       "rating": 7.8486,
       "rank": 776
     },
@@ -438,7 +427,6 @@
         "Turn Order: Stat-Based",
         "Variable Set-up"
       ],
-      "playStatus": "经常开",
       "rating": 8.5607,
       "rank": 1
     },
@@ -483,7 +471,6 @@
         "Turn Order: Stat-Based",
         "Variable Set-up"
       ],
-      "playStatus": "开过几次",
       "rating": 8.1981,
       "rank": 22
     },
@@ -523,7 +510,6 @@
         "Turn Order: Claim Action",
         "Variable Player Powers"
       ],
-      "playStatus": "开过几次",
       "rating": 7.9528,
       "rank": 86
     },
@@ -563,7 +549,6 @@
         "Variable Player Powers",
         "Variable Set-up"
       ],
-      "playStatus": "开过几次",
       "rating": 8.2266,
       "rank": 16
     },
@@ -598,7 +583,6 @@
         "Victory Points as a Resource",
         "Worker Placement"
       ],
-      "playStatus": "开过几次",
       "rating": 7.364,
       "rank": 1830
     },
@@ -640,7 +624,6 @@
         "Variable Set-up",
         "Victory Points as a Resource"
       ],
-      "playStatus": "开过几次",
       "rating": 8.4303,
       "rank": 56
     },
@@ -671,7 +654,6 @@
         "Ladder Climbing",
         "Score-and-Reset Game"
       ],
-      "playStatus": "经常开",
       "rating": 6.947,
       "rank": 2134
     },
@@ -711,7 +693,6 @@
         "Variable Set-up",
         "Worker Placement with Dice Workers"
       ],
-      "playStatus": "开过一次",
       "rating": 8.1627,
       "rank": 17
     },
@@ -751,7 +732,6 @@
         "Turn Order: Stat-Based",
         "Variable Set-up"
       ],
-      "playStatus": "经常开",
       "rating": 7.3995,
       "rank": 5350
     },
@@ -787,7 +767,6 @@
         "Turn Order: Claim Action",
         "Worker Placement"
       ],
-      "playStatus": "开过一次",
       "rating": 7.8427,
       "rank": 77
     },
@@ -823,7 +802,6 @@
         "Tech Trees / Tech Tracks",
         "Worker Placement with Dice Workers"
       ],
-      "playStatus": "开过一次",
       "rating": 8.0146,
       "rank": 486
     },
@@ -858,7 +836,6 @@
         "Square Grid",
         "Tile Placement"
       ],
-      "playStatus": "经常开",
       "rating": 7.4167,
       "rank": 240
     },
@@ -892,7 +869,6 @@
         "Solo / Solitaire Game",
         "Tech Trees / Tech Tracks"
       ],
-      "playStatus": "经常开",
       "rating": 7.8648,
       "rank": 173
     },
@@ -940,7 +916,6 @@
         "Variable Set-up",
         "Worker Placement"
       ],
-      "playStatus": "开过一次",
       "rating": 7.1041,
       "rank": 3979
     },
@@ -975,7 +950,6 @@
         "Track Movement",
         "Variable Set-up"
       ],
-      "playStatus": "开过几次",
       "rating": 8.1436,
       "rank": 21
     },
@@ -1010,7 +984,6 @@
         "Worker Placement",
         "Worker Placement, Different Worker Types"
       ],
-      "playStatus": "开过一次",
       "rating": 7.9656,
       "rank": 123
     },
@@ -1045,7 +1018,6 @@
         "Variable Set-up",
         "Zone of Control"
       ],
-      "playStatus": "开过几次",
       "rating": 8.2636,
       "rank": 5583
     },
@@ -1081,7 +1053,6 @@
         "Turn Order: Claim Action",
         "Turn Order: Pass Order"
       ],
-      "playStatus": "开过几次",
       "rating": 7.5246,
       "rank": 398
     },
@@ -1125,7 +1096,6 @@
         "Track Movement",
         "Variable Set-up"
       ],
-      "playStatus": "开过几次",
       "rating": 7.5988,
       "rank": 497
     },
@@ -1169,7 +1139,6 @@
         "Victory Points as a Resource",
         "Worker Placement"
       ],
-      "playStatus": "开过几次",
       "rating": 7.9031,
       "rank": 564
     },
@@ -1199,7 +1168,6 @@
         "Auction / Bidding",
         "Dice Rolling"
       ],
-      "playStatus": "开过几次",
       "rating": 6.448,
       "rank": 6832
     },
@@ -1232,7 +1200,6 @@
         "Worker Placement",
         "Worker Placement, Different Worker Types"
       ],
-      "playStatus": "开过几次",
       "rating": 7.8166,
       "rank": 709
     },
@@ -1268,7 +1235,6 @@
         "Tech Trees / Tech Tracks",
         "Worker Placement"
       ],
-      "playStatus": "开过几次",
       "rating": 7.8597,
       "rank": 114
     },
@@ -1314,7 +1280,6 @@
         "Turn Order: Pass Order",
         "Worker Placement"
       ],
-      "playStatus": "开过一次",
       "rating": 8.1595,
       "rank": 27
     },
@@ -1348,7 +1313,6 @@
         "Turn Order: Progressive",
         "Variable Set-up"
       ],
-      "playStatus": "未记录",
       "rating": 7.9618,
       "rank": 69
     },
@@ -1388,7 +1352,6 @@
         "Variable Set-up",
         "Worker Placement, Different Worker Types"
       ],
-      "playStatus": "未记录",
       "rating": 8.0461,
       "rank": 35
     },
@@ -1431,7 +1394,6 @@
         "Worker Placement",
         "Worker Placement with Dice Workers"
       ],
-      "playStatus": "开过一次",
       "rating": 7.9771,
       "rank": 72
     },
@@ -1475,7 +1437,6 @@
         "Turn Order: Progressive",
         "Worker Placement"
       ],
-      "playStatus": "经常开",
       "rating": 8.0833,
       "rank": 30
     },
@@ -1516,7 +1477,6 @@
         "Variable Set-up",
         "Worker Placement"
       ],
-      "playStatus": "未记录",
       "rating": 7.7603,
       "rank": 808
     },
@@ -1555,7 +1515,6 @@
         "Variable Player Powers",
         "Variable Set-up"
       ],
-      "playStatus": "开过几次",
       "rating": 7.6776,
       "rank": 338
     },
@@ -1581,7 +1540,6 @@
         "Wargame"
       ],
       "mechanics": [],
-      "playStatus": "开过几次",
       "rating": null,
       "rank": null
     },
@@ -1608,7 +1566,6 @@
         "Deck, Bag, and Pool Building",
         "Solo / Solitaire Game"
       ],
-      "playStatus": "开过几次",
       "rating": 7.4308,
       "rank": 1804
     },
@@ -1642,7 +1599,6 @@
         "Worker Placement",
         "Worker Placement, Different Worker Types"
       ],
-      "playStatus": "开过一次",
       "rating": 7.5457,
       "rank": 735
     },
@@ -1670,7 +1626,6 @@
         "Nautical"
       ],
       "mechanics": [],
-      "playStatus": "开过几次",
       "rating": null,
       "rank": null
     },
@@ -1716,7 +1671,6 @@
         "Traitor Game",
         "Variable Player Powers"
       ],
-      "playStatus": "未记录",
       "rating": 8.2449,
       "rank": 25
     },
@@ -1747,7 +1701,6 @@
         "Open Drafting",
         "Pick-up and Deliver"
       ],
-      "playStatus": "开过一次",
       "rating": 6.1385,
       "rank": null
     },
@@ -1777,7 +1730,6 @@
         "Set Collection",
         "Tile Placement"
       ],
-      "playStatus": "经常开",
       "rating": 6.5273,
       "rank": 1765
     },
@@ -1820,7 +1772,6 @@
         "Variable Player Powers",
         "Variable Set-up"
       ],
-      "playStatus": "开过一次",
       "rating": 7.8793,
       "rank": 554
     },
@@ -1862,7 +1813,6 @@
         "Track Movement",
         "Variable Set-up"
       ],
-      "playStatus": "未记录",
       "rating": 8.1816,
       "rank": 160
     },
@@ -1896,7 +1846,6 @@
         "Tile Placement",
         "Turn Order: Progressive"
       ],
-      "playStatus": "开过一次",
       "rating": 7.9157,
       "rank": null
     },
@@ -1931,7 +1880,6 @@
         "Turn Order: Stat-Based",
         "Variable Set-up"
       ],
-      "playStatus": "未记录",
       "rating": 7.6572,
       "rank": 435
     },
@@ -1973,7 +1921,6 @@
         "Worker Placement",
         "Worker Placement, Different Worker Types"
       ],
-      "playStatus": "未记录",
       "rating": 8.0359,
       "rank": 61
     },
@@ -2010,7 +1957,6 @@
         "Worker Placement",
         "Worker Placement, Different Worker Types"
       ],
-      "playStatus": "开过一次",
       "rating": 8.5076,
       "rank": 415
     },
@@ -2047,7 +1993,6 @@
         "Worker Placement",
         "Worker Placement with Dice Workers"
       ],
-      "playStatus": "未记录",
       "rating": 7.5097,
       "rank": 926
     },
@@ -2093,7 +2038,6 @@
         "Turn Order: Pass Order",
         "Variable Player Powers"
       ],
-      "playStatus": "未记录",
       "rating": 8.3832,
       "rank": 23
     },
@@ -2127,7 +2071,6 @@
         "Variable Player Powers",
         "Worker Placement"
       ],
-      "playStatus": "未记",
       "rating": 7.677,
       "rank": 3739
     },
@@ -2157,7 +2100,6 @@
         "Variable Set-up",
         "Worker Placement, Different Worker Types"
       ],
-      "playStatus": "开过几次",
       "rating": 8.0121,
       "rank": 378
     },
@@ -2185,7 +2127,6 @@
         "Action Queue",
         "Worker Placement"
       ],
-      "playStatus": "开过几次",
       "rating": 7.2268,
       "rank": 4002
     },
@@ -2316,7 +2257,6 @@
         "Simultaneous Action Selection",
         "Solo / Solitaire Game"
       ],
-      "playStatus": "经常开",
       "rating": 7.5043,
       "rank": 217
     },
@@ -2356,7 +2296,6 @@
         "Simultaneous Action Selection",
         "Solo / Solitaire Game"
       ],
-      "playStatus": "开过几次",
       "rating": 7.844,
       "rank": 212
     },
@@ -2394,7 +2333,6 @@
         "Turn Order: Pass Order",
         "Variable Set-up"
       ],
-      "playStatus": "未记录",
       "rating": 7.2457,
       "rank": 742
     },
@@ -2431,7 +2369,6 @@
         "Variable Player Powers",
         "Variable Set-up"
       ],
-      "playStatus": "开过一次",
       "rating": 8.1995,
       "rank": 571
     },
@@ -2476,7 +2413,6 @@
         "Variable Player Powers",
         "Worker Placement"
       ],
-      "playStatus": "经常开",
       "rating": 8.6996,
       "rank": 5
     },
@@ -2501,7 +2437,6 @@
       "mechanics": [
         "Auction / Bidding"
       ],
-      "playStatus": "开过一次",
       "rating": 6.2782,
       "rank": 8282
     },
@@ -2540,7 +2475,6 @@
         "Turn Order: Claim Action",
         "Worker Placement"
       ],
-      "playStatus": "开过一次",
       "rating": 7.9186,
       "rank": 62
     },
@@ -2569,7 +2503,6 @@
         "Tile Placement",
         "Worker Placement"
       ],
-      "playStatus": "经常开",
       "rating": 7.0731,
       "rank": 955
     },
@@ -2605,7 +2538,6 @@
         "Set Collection",
         "Turn Order: Progressive"
       ],
-      "playStatus": "开过几次",
       "rating": 7.7449,
       "rank": 277
     },
@@ -2632,7 +2564,6 @@
         "Layering",
         "Pattern Building"
       ],
-      "playStatus": "开过几次",
       "rating": 7.2287,
       "rank": 4524
     },
@@ -2676,7 +2607,6 @@
         "Variable Phase Order",
         "Worker Placement"
       ],
-      "playStatus": "开过一次",
       "rating": 8.1581,
       "rank": 58
     },
@@ -2717,7 +2647,6 @@
         "Track Movement",
         "Variable Set-up"
       ],
-      "playStatus": "开过一次",
       "rating": 7.9926,
       "rank": 47
     },
@@ -2760,7 +2689,6 @@
         "Variable Player Powers",
         "Variable Set-up"
       ],
-      "playStatus": "未记录",
       "rating": 8.3397,
       "rank": 11
     },
@@ -2796,7 +2724,6 @@
         "Variable Set-up",
         "Worker Placement with Dice Workers"
       ],
-      "playStatus": "开过一次",
       "rating": 8.4115,
       "rank": null
     },
@@ -2824,7 +2751,6 @@
         "Medieval"
       ],
       "mechanics": [],
-      "playStatus": "开过几次",
       "rating": null,
       "rank": null
     },
@@ -2859,7 +2785,6 @@
         "Hand Management",
         "Victory Points as a Resource"
       ],
-      "playStatus": "开过几次",
       "rating": 7.5239,
       "rank": 222
     },
@@ -2896,7 +2821,6 @@
         "Turn Order: Stat-Based",
         "Variable Set-up"
       ],
-      "playStatus": "开过几次",
       "rating": 7.7973,
       "rank": 76
     },
@@ -2931,7 +2855,6 @@
         "Solo / Solitaire Game",
         "Variable Player Powers"
       ],
-      "playStatus": "学会规则",
       "rating": 7.9044,
       "rank": null
     },
@@ -2964,7 +2887,6 @@
         "Variable Set-up",
         "Worker Placement"
       ],
-      "playStatus": "开过一次",
       "rating": 7.4521,
       "rank": 921
     },
@@ -2989,7 +2911,6 @@
       "mechanics": [
         "Contracts"
       ],
-      "playStatus": "未记录",
       "rating": 6.45,
       "rank": null
     },
@@ -3024,7 +2945,6 @@
         "Solo / Solitaire Game",
         "Variable Player Powers"
       ],
-      "playStatus": "开过几次",
       "rating": 7.6455,
       "rank": 747
     },
@@ -3062,7 +2982,6 @@
         "Set Collection",
         "Solo / Solitaire Game"
       ],
-      "playStatus": "开过一次",
       "rating": 7.5238,
       "rank": null
     },
@@ -3105,7 +3024,6 @@
         "Variable Set-up",
         "Victory Points as a Resource"
       ],
-      "playStatus": "开过一次",
       "rating": 8.3477,
       "rank": 13
     },
@@ -3138,7 +3056,6 @@
         "Set Collection",
         "Simultaneous Action Selection"
       ],
-      "playStatus": "经常开",
       "rating": 7.1582,
       "rank": 3948
     },
@@ -3170,7 +3087,6 @@
         "Re-rolling and Locking",
         "Solo / Solitaire Game"
       ],
-      "playStatus": "经常开",
       "rating": 7.6092,
       "rank": 1289
     },
@@ -3202,7 +3118,6 @@
         "Simulation",
         "Simultaneous Action Selection"
       ],
-      "playStatus": "未记录",
       "rating": 7.5198,
       "rank": 811
     },
@@ -3248,7 +3163,6 @@
         "Variable Set-up",
         "Victory Points as a Resource"
       ],
-      "playStatus": "开过几次",
       "rating": 7.7217,
       "rank": 947
     },
@@ -3279,7 +3193,6 @@
         "Variable Phase Order",
         "Worker Placement"
       ],
-      "playStatus": "开过一次",
       "rating": 7.1461,
       "rank": 4686
     },
@@ -3318,7 +3231,6 @@
         "Solo / Solitaire Game",
         "Variable Player Powers"
       ],
-      "playStatus": "开过一次",
       "rating": 8.496,
       "rank": 81
     },
@@ -3360,7 +3272,6 @@
         "Track Movement",
         "Worker Placement"
       ],
-      "playStatus": "开过几次",
       "rating": 7.4285,
       "rank": 335
     },
@@ -3395,7 +3306,6 @@
         "Modular Board",
         "Take That"
       ],
-      "playStatus": "开过一次",
       "rating": 7.2844,
       "rank": 4982
     },
@@ -3427,7 +3337,6 @@
         "Variable Set-up",
         "Worker Placement"
       ],
-      "playStatus": "开过几次",
       "rating": 8.0718,
       "rank": 5327
     },
@@ -3457,7 +3366,6 @@
         "Modular Board",
         "Tile Placement"
       ],
-      "playStatus": "经常开",
       "rating": 7.7655,
       "rank": 3629
     },
@@ -3499,7 +3407,6 @@
         "Variable Set-up",
         "Victory Points as a Resource"
       ],
-      "playStatus": "未记录",
       "rating": 6.8078,
       "rank": 4202
     },
@@ -3543,7 +3450,6 @@
         "Victory Points as a Resource",
         "Worker Placement"
       ],
-      "playStatus": "未记录",
       "rating": 7.7741,
       "rank": 881
     },
@@ -3581,7 +3487,6 @@
         "Tile Placement",
         "Turn Order: Progressive"
       ],
-      "playStatus": "开过几次",
       "rating": 7.4431,
       "rank": 449
     },
@@ -3617,7 +3522,6 @@
         "Solo / Solitaire Game",
         "Victory Points as a Resource"
       ],
-      "playStatus": "开过几次",
       "rating": 7.3865,
       "rank": 671
     },
@@ -3663,7 +3567,6 @@
         "Track Movement",
         "Variable Set-up"
       ],
-      "playStatus": "开过一次",
       "rating": 7.9345,
       "rank": 94
     },
@@ -3700,7 +3603,6 @@
         "Stock Holding",
         "Variable Set-up"
       ],
-      "playStatus": "经常开",
       "rating": 7.926,
       "rank": 394
     },
@@ -3737,7 +3639,6 @@
         "Scenario / Mission / Campaign Game",
         "Storytelling"
       ],
-      "playStatus": "开过一次",
       "rating": 8.0887,
       "rank": 839
     },
@@ -3784,7 +3685,6 @@
         "Variable Player Powers",
         "Variable Set-up"
       ],
-      "playStatus": "开过几次",
       "rating": 8.0456,
       "rank": 1581
     },
@@ -3818,7 +3718,6 @@
         "Simultaneous Action Selection",
         "Variable Phase Order"
       ],
-      "playStatus": "经常开",
       "rating": 7.1754,
       "rank": 667
     },
@@ -3865,7 +3764,6 @@
         "Turn Order: Claim Action",
         "Variable Player Powers"
       ],
-      "playStatus": "未记录",
       "rating": 8.0813,
       "rank": 39
     }

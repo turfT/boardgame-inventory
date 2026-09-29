@@ -31,21 +31,21 @@ def issue_sections(body: str) -> dict[str, str]:
     return sections
 
 
-def parse_games(raw: str) -> list[tuple[str, str]]:
-    games: dict[str, str] = {}
+def parse_games(raw: str) -> list[str]:
+    games: dict[str, None] = {}
     for line in raw.splitlines():
         line = line.strip()
         if not line:
             continue
-        match = re.fullmatch(r"(\d{1,9})(?:\s*[|｜,，]\s*(.{1,30}))?", line)
+        match = re.fullmatch(r"\d{1,9}", line)
         if not match:
             raise ValueError(f"无法识别这一行：{line}")
-        games[match.group(1)] = (match.group(2) or "未记录").strip()
+        games[line] = None
     if not games:
         raise ValueError("BGG ID 清单不能为空")
     if len(games) > 500:
         raise ValueError("一次最多提交 500 款桌游")
-    return list(games.items())
+    return list(games)
 
 
 def request_bytes(url: str, token: str = "", attempts: int = 5) -> bytes:
@@ -100,7 +100,7 @@ def best_players(item: ET.Element) -> list[str]:
     return [players for players, votes in ranked if votes == highest and players]
 
 
-def parse_item(item: ET.Element, play_status: str) -> tuple[dict, str]:
+def parse_item(item: ET.Element) -> tuple[dict, str]:
     names = item.findall("name")
     original = next((node.get("value", "") for node in names if node.get("type") == "primary"), "")
     local = next((node.get("value", "") for node in names if node.get("type") == "alternate" and is_chinese(node.get("value", ""))), original)
@@ -122,24 +122,22 @@ def parse_item(item: ET.Element, play_status: str) -> tuple[dict, str]:
         "weight": number(value(item, "./statistics/ratings/averageweight")),
         "types": [node.get("value", "") for node in item.findall("link") if node.get("type") == "boardgamecategory"],
         "mechanics": [node.get("value", "") for node in item.findall("link") if node.get("type") == "boardgamemechanic"],
-        "playStatus": play_status or "未记录",
         "rating": number(value(item, "./statistics/ratings/average")),
         "rank": number(rank_node.get("value", "")) if rank_node is not None else None,
     }
     return game, image
 
 
-def fetch_games(requested: list[tuple[str, str]], token: str) -> list[tuple[dict, str]]:
-    statuses = dict(requested)
+def fetch_games(requested: list[str], token: str) -> list[tuple[dict, str]]:
     found: dict[str, tuple[dict, str]] = {}
-    ids = list(statuses)
+    ids = list(requested)
     for start in range(0, len(ids), 20):
         batch = ids[start:start + 20]
         query = f"{API_URL}?id={','.join(batch)}&stats=1"
         root = ET.fromstring(request_bytes(query, token))
         for item in root.findall("item"):
             bgg_id = item.get("id", "")
-            found[bgg_id] = parse_item(item, statuses.get(bgg_id, "未记录"))
+            found[bgg_id] = parse_item(item)
         if start + 20 < len(ids):
             time.sleep(2)
     missing = [bgg_id for bgg_id in ids if bgg_id not in found]
@@ -166,10 +164,13 @@ def rebuild_manifest() -> None:
     inventories = []
     for path in sorted(INVENTORY_DIR.glob("*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
-        games = [
-            game for game in payload.get("games", [])
-            if re.fullmatch(r"\d+", str(game.get("bggId") or "").strip())
-        ]
+        games = []
+        for existing in payload.get("games", []):
+            if not re.fullmatch(r"\d+", str(existing.get("bggId") or "").strip()):
+                continue
+            game = dict(existing)
+            game.pop("playStatus", None)
+            games.append(game)
         if games != payload.get("games", []):
             payload["games"] = games
             payload.setdefault("meta", {})["count"] = len(games)
