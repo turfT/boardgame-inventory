@@ -166,12 +166,20 @@ def rebuild_manifest() -> None:
     inventories = []
     for path in sorted(INVENTORY_DIR.glob("*.json")):
         payload = json.loads(path.read_text(encoding="utf-8"))
+        games = [
+            game for game in payload.get("games", [])
+            if re.fullmatch(r"\d+", str(game.get("bggId") or "").strip())
+        ]
+        if games != payload.get("games", []):
+            payload["games"] = games
+            payload.setdefault("meta", {})["count"] = len(games)
+            path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         meta = payload.get("meta", {})
         inventories.append({
             "id": str(meta.get("id") or path.stem),
             "name": str(meta.get("name") or path.stem),
             "file": f"public/data/inventories/{path.name}",
-            "count": len(payload.get("games", [])),
+            "count": len(games),
         })
     manifest = {"generatedAt": datetime.now(timezone.utc).astimezone().isoformat(timespec="seconds"), "inventories": inventories}
     MANIFEST_PATH.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")

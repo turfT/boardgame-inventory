@@ -128,6 +128,9 @@ def collect(output_root: Path) -> dict[str, Any]:
         frontmatter = parse_frontmatter(note.read_text(encoding="utf-8"))
         if str(frontmatter.get("持有状态", "")).strip() != "拥有":
             continue
+        bgg_id = str(frontmatter.get("BGG ID") or "").strip()
+        if not re.fullmatch(r"\d+", bgg_id):
+            continue
         game_id = stable_id(note)
         source = cover_source(frontmatter.get("封面"))
         cover = ""
@@ -145,7 +148,7 @@ def collect(output_root: Path) -> dict[str, Any]:
             original_name = next((name for name in aliases if not re.search(r"[\u3400-\u9fff]", name)), "")
         games.append({
             "id": game_id,
-            "bggId": str(frontmatter.get("BGG ID") or "").strip(),
+            "bggId": bgg_id,
             "name": str(frontmatter.get("title") or note.stem).strip(),
             "originalName": original_name,
             "cover": cover,

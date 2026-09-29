@@ -363,11 +363,13 @@ async function initialize() {
     }));
     state.inventories = loaded.map(({inventory, payload}) => ({
       ...inventory,
-      count: (payload.games || []).length,
+      count: (payload.games || []).filter((game) => /^\d+$/.test(String(game.bggId || ""))).length,
     }));
     const merged = new Map();
-    loaded.forEach(({ inventory, payload }) => (payload.games || []).forEach((rawGame) => {
-      const mergeKey = rawGame.bggId ? `bgg:${rawGame.bggId}` : `${inventory.id}:${rawGame.id}`;
+    loaded.forEach(({ inventory, payload }) => (payload.games || [])
+      .filter((game) => /^\d+$/.test(String(game.bggId || "")))
+      .forEach((rawGame) => {
+      const mergeKey = `bgg:${rawGame.bggId}`;
       const existing = merged.get(mergeKey);
       if (existing) {
         existing.ownerIds.push(inventory.id);
