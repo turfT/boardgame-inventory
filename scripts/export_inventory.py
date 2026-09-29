@@ -18,12 +18,14 @@ VAULT = Path(os.environ.get("BOARDGAME_VAULT", "/Users/hou/Documents/hou"))
 NOTES_DIR = VAULT / "桌游"
 PROJECT = Path(__file__).resolve().parents[1]
 PUBLIC_DIR = PROJECT / "public"
-DATA_PATH = PUBLIC_DIR / "data" / "games.json"
+INVENTORY_ID = "hou"
+DATA_PATH = PUBLIC_DIR / "data" / "inventories" / f"{INVENTORY_ID}.json"
+MANIFEST_PATH = PUBLIC_DIR / "data" / "inventories.json"
 COVER_DIR = PUBLIC_DIR / "covers"
 
 PUBLIC_FIELDS = (
     "title", "aliases", "封面", "人数", "支持人数", "最佳人数", "时长", "重度",
-    "类型", "机制", "游玩状态", "BGG名称", "BGG评分", "BGG排名", "持有状态",
+    "类型", "机制", "游玩状态", "BGG ID", "BGG名称", "BGG评分", "BGG排名", "持有状态",
 )
 
 
@@ -143,6 +145,7 @@ def collect(output_root: Path) -> dict[str, Any]:
             original_name = next((name for name in aliases if not re.search(r"[\u3400-\u9fff]", name)), "")
         games.append({
             "id": game_id,
+            "bggId": str(frontmatter.get("BGG ID") or "").strip(),
             "name": str(frontmatter.get("title") or note.stem).strip(),
             "originalName": original_name,
             "cover": cover,
@@ -159,7 +162,8 @@ def collect(output_root: Path) -> dict[str, Any]:
         })
     return {
         "meta": {
-            "title": "北关据点库存查询",
+            "id": INVENTORY_ID,
+            "name": "hou",
             "generatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
             "count": len(games),
         },
@@ -211,6 +215,24 @@ def write_payload(payload: dict[str, Any], source_root: Path) -> None:
         if not destination.exists() or hashlib.sha256(destination.read_bytes()).digest() != hashlib.sha256(source.read_bytes()).digest():
             shutil.copy2(source, destination)
     DATA_PATH.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    inventories = []
+    for inventory_path in sorted(DATA_PATH.parent.glob("*.json")):
+        try:
+            inventory = json.loads(inventory_path.read_text(encoding="utf-8"))
+            meta = inventory.get("meta", {})
+            inventories.append({
+                "id": str(meta.get("id") or inventory_path.stem),
+                "name": str(meta.get("name") or inventory_path.stem),
+                "file": f"public/data/inventories/{inventory_path.name}",
+                "count": len(inventory.get("games", [])),
+            })
+        except (json.JSONDecodeError, OSError):
+            continue
+    manifest = {
+        "generatedAt": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "inventories": inventories,
+    }
+    MANIFEST_PATH.write_text(json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
 def main() -> None:

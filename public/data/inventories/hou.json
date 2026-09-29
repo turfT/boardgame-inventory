@@ -1,12 +1,14 @@
 {
   "meta": {
-    "title": "北关据点库存查询",
-    "generatedAt": "2026-09-28T11:18:12+08:00",
+    "id": "hou",
+    "name": "hou",
+    "generatedAt": "2026-09-29T11:52:45+08:00",
     "count": 217
   },
   "games": [
     {
       "id": "027bcf7ebfef",
+      "bggId": "",
       "name": "热血大冒险",
       "originalName": "",
       "cover": "",
@@ -23,6 +25,7 @@
     },
     {
       "id": "5b7774e433c1",
+      "bggId": "",
       "name": "9卡合集",
       "originalName": "",
       "cover": "",
@@ -39,6 +42,7 @@
     },
     {
       "id": "0bf82029dfd2",
+      "bggId": "448740",
       "name": "Orapa Space",
       "originalName": "Orapa Space",
       "cover": "public/covers/0bf82029dfd2.webp",
@@ -67,6 +71,7 @@
     },
     {
       "id": "a5fdc8eab5e0",
+      "bggId": "272666",
       "name": "Psychic Pizza Deliverers Go to the Ghost Town",
       "originalName": "Psychic Pizza Deliverers Go to the Ghost Town",
       "cover": "public/covers/a5fdc8eab5e0.webp",
@@ -100,6 +105,7 @@
     },
     {
       "id": "0ec7bb5a5e79",
+      "bggId": "418059",
       "name": "SETI",
       "originalName": "SETI: Search for Extraterrestrial Intelligence",
       "cover": "public/covers/0ec7bb5a5e79.webp",
@@ -135,6 +141,7 @@
     },
     {
       "id": "99f5083cdb7c",
+      "bggId": "192135",
       "name": "TMB",
       "originalName": "Too Many Bones",
       "cover": "public/covers/99f5083cdb7c.webp",
@@ -178,6 +185,7 @@
     },
     {
       "id": "b00a11308c3c",
+      "bggId": "",
       "name": "ahlcg",
       "originalName": "",
       "cover": "",
@@ -194,6 +202,7 @@
     },
     {
       "id": "a5a5d1c5940e",
+      "bggId": "333981",
       "name": "bear raid",
       "originalName": "Bear Raid",
       "cover": "public/covers/a5a5d1c5940e.webp",
@@ -224,6 +233,7 @@
     },
     {
       "id": "858005d4328f",
+      "bggId": "",
       "name": "blokus 3d",
       "originalName": "",
       "cover": "",
@@ -240,6 +250,7 @@
     },
     {
       "id": "e4f251270055",
+      "bggId": "",
       "name": "blokus",
       "originalName": "",
       "cover": "",
@@ -256,6 +267,7 @@
     },
     {
       "id": "206e3ce5fc4c",
+      "bggId": "",
       "name": "bower",
       "originalName": "",
       "cover": "",
@@ -272,6 +284,7 @@
     },
     {
       "id": "20e50e70fae2",
+      "bggId": "",
       "name": "clank 墓穴",
       "originalName": "",
       "cover": "",
@@ -288,6 +301,7 @@
     },
     {
       "id": "d960f08563f7",
+      "bggId": "",
       "name": "clank",
       "originalName": "",
       "cover": "",
@@ -304,6 +318,7 @@
     },
     {
       "id": "cab3c536a26f",
+      "bggId": "",
       "name": "diy 自制N合1",
       "originalName": "",
       "cover": "",
@@ -320,6 +335,7 @@
     },
     {
       "id": "e4f459611263",
+      "bggId": "183284",
       "name": "factory funner",
       "originalName": "Factory Funner",
       "cover": "public/covers/e4f459611263.webp",
@@ -355,6 +371,7 @@
     },
     {
       "id": "a14f6aa1d6b1",
+      "bggId": "",
       "name": "farwary",
       "originalName": "",
       "cover": "",
@@ -371,6 +388,7 @@
     },
     {
       "id": "6beae8051b6f",
+      "bggId": "",
       "name": "first in flight",
       "originalName": "",
       "cover": "",
@@ -387,6 +405,7 @@
     },
     {
       "id": "888d3e7dd2d4",
+      "bggId": "",
       "name": "mindspace",
       "originalName": "",
       "cover": "",
@@ -403,6 +422,7 @@
     },
     {
       "id": "b1c1a27aebd4",
+      "bggId": "",
       "name": "obsession",
       "originalName": "",
       "cover": "",
@@ -419,6 +439,7 @@
     },
     {
       "id": "7c5cb450adac",
+      "bggId": "417197",
       "name": "rebrith",
       "originalName": "Rebirth",
       "cover": "public/covers/7c5cb450adac.webp",
@@ -452,6 +473,7 @@
     },
     {
       "id": "9f4b5271fc0c",
+      "bggId": "",
       "name": "spot",
       "originalName": "",
       "cover": "",
@@ -468,6 +490,7 @@
     },
     {
       "id": "b7e0db1b534b",
+      "bggId": "",
       "name": "上流社会",
       "originalName": "",
       "cover": "",
@@ -484,6 +507,7 @@
     },
     {
       "id": "01ba9f9714db",
+      "bggId": "",
       "name": "丘吉尔",
       "originalName": "",
       "cover": "",
@@ -500,6 +524,7 @@
     },
     {
       "id": "16e184c6b322",
+      "bggId": "304420",
       "name": "中文基础+生命之火扩展英文",
       "originalName": "Bonfire",
       "cover": "public/covers/16e184c6b322.webp",
@@ -533,6 +558,7 @@
     },
     {
       "id": "15d9f7056f28",
+      "bggId": "",
       "name": "临龙 沙丘 二扩",
       "originalName": "",
       "cover": "",
@@ -549,6 +575,7 @@
     },
     {
       "id": "b418225054c7",
+      "bggId": "",
       "name": "乌托邦代币",
       "originalName": "",
       "cover": "",
@@ -565,6 +592,7 @@
     },
     {
       "id": "e2da7ee6c9df",
+      "bggId": "",
       "name": "乌托邦赏金猎人",
       "originalName": "",
       "cover": "",
@@ -581,6 +609,7 @@
     },
     {
       "id": "51ce3a57bbff",
+      "bggId": "",
       "name": "乌邦果3d",
       "originalName": "",
       "cover": "",
@@ -597,6 +626,7 @@
     },
     {
       "id": "9d56ab7e63ba",
+      "bggId": "316858",
       "name": "云霄年代",
       "originalName": "CloudAge",
       "cover": "public/covers/9d56ab7e63ba.webp",
@@ -630,6 +660,7 @@
     },
     {
       "id": "d76de107b56e",
+      "bggId": "",
       "name": "五月花号",
       "originalName": "",
       "cover": "",
@@ -646,6 +677,7 @@
     },
     {
       "id": "348b91cbaf23",
+      "bggId": "62219",
       "name": "优势物种",
       "originalName": "Dominant Species",
       "cover": "public/covers/348b91cbaf23.webp",
@@ -687,6 +719,7 @@
     },
     {
       "id": "6524e4458514",
+      "bggId": "262941",
       "name": "优势物种：海洋",
       "originalName": "Dominant Species: Marine",
       "cover": "public/covers/6524e4458514.webp",
@@ -723,6 +756,7 @@
     },
     {
       "id": "2cd2ba41dbb9",
+      "bggId": "224517",
       "name": "伯明翰",
       "originalName": "Brass: Birmingham",
       "cover": "public/covers/2cd2ba41dbb9.webp",
@@ -767,6 +801,7 @@
     },
     {
       "id": "0208990450a4",
+      "bggId": "",
       "name": "促织 金属币",
       "originalName": "",
       "cover": "",
@@ -783,6 +818,7 @@
     },
     {
       "id": "783f1d8664b4",
+      "bggId": "",
       "name": "光荣之路",
       "originalName": "",
       "cover": "",
@@ -799,6 +835,7 @@
     },
     {
       "id": "61161b83fa20",
+      "bggId": "28720",
       "name": "兰开夏",
       "originalName": "Brass: Lancashire",
       "cover": "public/covers/61161b83fa20.webp",
@@ -843,6 +880,7 @@
     },
     {
       "id": "82b5f987f922",
+      "bggId": "200680",
       "name": "农场主",
       "originalName": "Agricola (Revised Edition)",
       "cover": "public/covers/82b5f987f922.webp",
@@ -882,6 +920,7 @@
     },
     {
       "id": "d385890e37f0",
+      "bggId": "",
       "name": "冲向黄金城+扩展",
       "originalName": "",
       "cover": "",
@@ -898,6 +937,7 @@
     },
     {
       "id": "5b3172d73f7a",
+      "bggId": "12333",
       "name": "冷战热斗",
       "originalName": "Twilight Struggle",
       "cover": "public/covers/5b3172d73f7a.webp",
@@ -937,6 +977,7 @@
     },
     {
       "id": "e77ad44eb24c",
+      "bggId": "356414",
       "name": "凤凰太空站",
       "originalName": "Space Station Phoenix",
       "cover": "public/covers/e77ad44eb24c.webp",
@@ -971,6 +1012,7 @@
     },
     {
       "id": "1235e40a9026",
+      "bggId": "383179",
       "name": "创世纪元",
       "originalName": "Age of Innovation",
       "cover": "public/covers/1235e40a9026.webp",
@@ -1012,6 +1054,7 @@
     },
     {
       "id": "a064253f0371",
+      "bggId": "159581",
       "name": "动物派对（面具人）",
       "originalName": "Maskmen",
       "cover": "public/covers/a064253f0371.webp",
@@ -1042,6 +1085,7 @@
     },
     {
       "id": "ceef1a100112",
+      "bggId": "84876",
       "name": "勃艮第",
       "originalName": "The Castles of Burgundy",
       "cover": "public/covers/ceef1a100112.webp",
@@ -1081,6 +1125,7 @@
     },
     {
       "id": "98348de776c3",
+      "bggId": "452264",
       "name": "匹兹堡",
       "originalName": "Brass: Pittsburgh",
       "cover": "public/covers/98348de776c3.webp",
@@ -1120,6 +1165,7 @@
     },
     {
       "id": "9435cff3e80f",
+      "bggId": "126163",
       "name": "卓尔金历+扩展",
       "originalName": "Tzolk'in: The Mayan Calendar",
       "cover": "public/covers/9435cff3e80f.webp",
@@ -1155,6 +1201,7 @@
     },
     {
       "id": "cb65ef071c8a",
+      "bggId": "367041",
       "name": "南河学者",
       "originalName": "Scholars of the South Tigris",
       "cover": "public/covers/cb65ef071c8a.webp",
@@ -1190,6 +1237,7 @@
     },
     {
       "id": "9cd9f2a21144",
+      "bggId": "",
       "name": "卡卡立方",
       "originalName": "",
       "cover": "",
@@ -1206,6 +1254,7 @@
     },
     {
       "id": "b54804645e8c",
+      "bggId": "822",
       "name": "卡卡颂大盒",
       "originalName": "Carcassonne",
       "cover": "public/covers/b54804645e8c.webp",
@@ -1240,6 +1289,7 @@
     },
     {
       "id": "3c40f9b746ee",
+      "bggId": "",
       "name": "卡斯卡迪亚",
       "originalName": "",
       "cover": "",
@@ -1256,6 +1306,7 @@
     },
     {
       "id": "9546c8307eae",
+      "bggId": "",
       "name": "卡斯卡迪亚合集",
       "originalName": "",
       "cover": "",
@@ -1272,6 +1323,7 @@
     },
     {
       "id": "4ee02d604417",
+      "bggId": "",
       "name": "古腾堡",
       "originalName": "",
       "cover": "",
@@ -1288,6 +1340,7 @@
     },
     {
       "id": "e8f3550982dd",
+      "bggId": "304783",
       "name": "哈德良长城",
       "originalName": "Hadrian's Wall",
       "cover": "public/covers/e8f3550982dd.webp",
@@ -1321,6 +1374,7 @@
     },
     {
       "id": "1c8ea203ed84",
+      "bggId": "",
       "name": "四方之地",
       "originalName": "",
       "cover": "",
@@ -1337,6 +1391,7 @@
     },
     {
       "id": "e781cc324d6b",
+      "bggId": "",
       "name": "图灵反转",
       "originalName": "",
       "cover": "",
@@ -1353,6 +1408,7 @@
     },
     {
       "id": "2098f0f94108",
+      "bggId": "",
       "name": "图灵反转2",
       "originalName": "",
       "cover": "",
@@ -1369,6 +1425,7 @@
     },
     {
       "id": "f27e97aa65f9",
+      "bggId": "",
       "name": "圣女贞德",
       "originalName": "",
       "cover": "",
@@ -1385,6 +1442,7 @@
     },
     {
       "id": "b0613c85456d",
+      "bggId": "",
       "name": "圣托里尼",
       "originalName": "",
       "cover": "",
@@ -1401,6 +1459,7 @@
     },
     {
       "id": "092b360ec8a1",
+      "bggId": "350198",
       "name": "地铁终点站",
       "originalName": "Terminus",
       "cover": "public/covers/092b360ec8a1.webp",
@@ -1448,6 +1507,7 @@
     },
     {
       "id": "343f7de41782",
+      "bggId": "",
       "name": "坠空之下",
       "originalName": "",
       "cover": "",
@@ -1464,6 +1524,7 @@
     },
     {
       "id": "0ab790d1d7cb",
+      "bggId": "",
       "name": "埃及人流沙",
       "originalName": "",
       "cover": "",
@@ -1480,6 +1541,7 @@
     },
     {
       "id": "51b4bfc0c983",
+      "bggId": "",
       "name": "大航海+地城骰笔",
       "originalName": "",
       "cover": "",
@@ -1496,6 +1558,7 @@
     },
     {
       "id": "d59556b0cb3d",
+      "bggId": "193738",
       "name": "大西铁路 第一版+北方扩",
       "originalName": "Great Western Trail",
       "cover": "public/covers/d59556b0cb3d.webp",
@@ -1530,6 +1593,7 @@
     },
     {
       "id": "9089dcd10c93",
+      "bggId": "",
       "name": "大运河",
       "originalName": "",
       "cover": "",
@@ -1546,6 +1610,7 @@
     },
     {
       "id": "f23bdbb91351",
+      "bggId": "163068",
       "name": "大魔术师",
       "originalName": "Trickerion: Legends of Illusion",
       "cover": "public/covers/f23bdbb91351.webp",
@@ -1580,6 +1645,7 @@
     },
     {
       "id": "03fc9cfd4d7c",
+      "bggId": "214296",
       "name": "天下统一",
       "originalName": "Tenkatoitsu",
       "cover": "public/covers/03fc9cfd4d7c.webp",
@@ -1614,6 +1680,7 @@
     },
     {
       "id": "5898a9b697f8",
+      "bggId": "227789",
       "name": "天堂与美酒",
       "originalName": "Heaven & Ale",
       "cover": "public/covers/5898a9b697f8.webp",
@@ -1649,6 +1716,7 @@
     },
     {
       "id": "4ca723d99807",
+      "bggId": "343905",
       "name": "天恩湖+扩展",
       "originalName": "Boonlake",
       "cover": "public/covers/4ca723d99807.webp",
@@ -1692,6 +1760,7 @@
     },
     {
       "id": "e4ece223a2df",
+      "bggId": "359438",
       "name": "天际矿脉",
       "originalName": "Skymines",
       "cover": "public/covers/e4ece223a2df.webp",
@@ -1735,6 +1804,7 @@
     },
     {
       "id": "25adf5fce8f8",
+      "bggId": "239826",
       "name": "太公望",
       "originalName": "Dice Fishing: Roll and Catch",
       "cover": "public/covers/25adf5fce8f8.webp",
@@ -1764,6 +1834,7 @@
     },
     {
       "id": "44b0f2a22447",
+      "bggId": "345868",
       "name": "太空议会",
       "originalName": "Federation",
       "cover": "public/covers/44b0f2a22447.webp",
@@ -1796,6 +1867,7 @@
     },
     {
       "id": "b9027c51f37c",
+      "bggId": "317985",
       "name": "太阳之上",
       "originalName": "Beyond the Sun",
       "cover": "public/covers/b9027c51f37c.webp",
@@ -1831,6 +1903,7 @@
     },
     {
       "id": "b0b427a4a468",
+      "bggId": "177736",
       "name": "奥丁",
       "originalName": "A Feast for Odin",
       "cover": "public/covers/b0b427a4a468.webp",
@@ -1876,6 +1949,7 @@
     },
     {
       "id": "a88ed282d5c4",
+      "bggId": "182874",
       "name": "奥地利大饭店",
       "originalName": "Grand Austria Hotel",
       "cover": "public/covers/a88ed282d5c4.webp",
@@ -1909,6 +1983,7 @@
     },
     {
       "id": "6edcd93a4a75",
+      "bggId": "164928",
       "name": "奥尔良+扩",
       "originalName": "Orléans",
       "cover": "public/covers/6edcd93a4a75.webp",
@@ -1948,6 +2023,7 @@
     },
     {
       "id": "51d602e0192f",
+      "bggId": "371942",
       "name": "姬路城",
       "originalName": "The White Castle",
       "cover": "public/covers/51d602e0192f.webp",
@@ -1990,6 +2066,7 @@
     },
     {
       "id": "43ac7c4d927e",
+      "bggId": "",
       "name": "孤胆谢尔曼",
       "originalName": "",
       "cover": "",
@@ -2006,6 +2083,7 @@
     },
     {
       "id": "f1d13ddcbafe",
+      "bggId": "",
       "name": "安卡生命之符",
       "originalName": "",
       "cover": "",
@@ -2022,6 +2100,7 @@
     },
     {
       "id": "218a399e2ced",
+      "bggId": "312484",
       "name": "安纳克遗迹大合集",
       "originalName": "Lost Ruins of Arnak",
       "cover": "public/covers/218a399e2ced.webp",
@@ -2065,6 +2144,7 @@
     },
     {
       "id": "a09846c18ecf",
+      "bggId": "",
       "name": "宿命旅团",
       "originalName": "",
       "cover": "",
@@ -2081,6 +2161,7 @@
     },
     {
       "id": "5269b34bc570",
+      "bggId": "",
       "name": "寂静迷航",
       "originalName": "",
       "cover": "",
@@ -2097,6 +2178,7 @@
     },
     {
       "id": "adfe1a1997d1",
+      "bggId": "",
       "name": "富饶之城",
       "originalName": "",
       "cover": "",
@@ -2113,6 +2195,7 @@
     },
     {
       "id": "56e23e68824d",
+      "bggId": "",
       "name": "小小工厂",
       "originalName": "",
       "cover": "",
@@ -2129,6 +2212,7 @@
     },
     {
       "id": "44a68f28c459",
+      "bggId": "",
       "name": "小搜查三合一",
       "originalName": "",
       "cover": "",
@@ -2145,6 +2229,7 @@
     },
     {
       "id": "bd8ea81aed13",
+      "bggId": "",
       "name": "尼维达尔",
       "originalName": "",
       "cover": "",
@@ -2161,6 +2246,7 @@
     },
     {
       "id": "8c2155ac42d1",
+      "bggId": "214880",
       "name": "巨肩之城",
       "originalName": "Chicago 1875: City of the Big Shoulders",
       "cover": "public/covers/8c2155ac42d1.webp",
@@ -2201,6 +2287,7 @@
     },
     {
       "id": "0e577bb1f919",
+      "bggId": "",
       "name": "巴西帝国",
       "originalName": "",
       "cover": "",
@@ -2217,6 +2304,7 @@
     },
     {
       "id": "4d45f90234e0",
+      "bggId": "",
       "name": "巴黎",
       "originalName": "",
       "cover": "",
@@ -2233,6 +2321,7 @@
     },
     {
       "id": "82c67c910d93",
+      "bggId": "318184",
       "name": "帝国传奇经典",
       "originalName": "Imperium: Classics",
       "cover": "public/covers/82c67c910d93.webp",
@@ -2271,6 +2360,7 @@
     },
     {
       "id": "19652bfca455",
+      "bggId": "184367",
       "name": "幕府黄昏",
       "originalName": "Twilight of Shogun",
       "cover": "public/covers/19652bfca455.webp",
@@ -2296,6 +2386,7 @@
     },
     {
       "id": "63a4880e3ac6",
+      "bggId": "",
       "name": "平遥",
       "originalName": "",
       "cover": "",
@@ -2312,6 +2403,7 @@
     },
     {
       "id": "ccf26c1a339a",
+      "bggId": "402024",
       "name": "年年有鱼",
       "originalName": "Conservas",
       "cover": "public/covers/ccf26c1a339a.webp",
@@ -2338,6 +2430,7 @@
     },
     {
       "id": "c2fc1dde1a39",
+      "bggId": "",
       "name": "幽港迷城",
       "originalName": "",
       "cover": "",
@@ -2354,6 +2447,7 @@
     },
     {
       "id": "78b462b3a0c4",
+      "bggId": "269511",
       "name": "库珀岛",
       "originalName": "Cooper Island",
       "cover": "public/covers/78b462b3a0c4.webp",
@@ -2387,6 +2481,7 @@
     },
     {
       "id": "def00e958230",
+      "bggId": "124361",
       "name": "康考迪亚2",
       "originalName": "Concordia",
       "cover": "public/covers/def00e958230.webp",
@@ -2414,6 +2509,7 @@
     },
     {
       "id": "bbaad2ffbc55",
+      "bggId": "",
       "name": "庸医",
       "originalName": "",
       "cover": "",
@@ -2430,6 +2526,7 @@
     },
     {
       "id": "f0a350be560b",
+      "bggId": "",
       "name": "弑君者",
       "originalName": "",
       "cover": "",
@@ -2446,6 +2543,7 @@
     },
     {
       "id": "84bce85cc04a",
+      "bggId": "",
       "name": "得分沙律",
       "originalName": "",
       "cover": "",
@@ -2462,6 +2560,7 @@
     },
     {
       "id": "45a188b7e1c0",
+      "bggId": "167355",
       "name": "復仇女神號",
       "originalName": "Nemesis",
       "cover": "public/covers/45a188b7e1c0.webp",
@@ -2507,6 +2606,7 @@
     },
     {
       "id": "8202582316db",
+      "bggId": "303541",
       "name": "徽州",
       "originalName": "Huizhou: Confucian Merchants",
       "cover": "public/covers/8202582316db.webp",
@@ -2537,6 +2637,7 @@
     },
     {
       "id": "57fb21461743",
+      "bggId": "",
       "name": "心灵特工",
       "originalName": "",
       "cover": "",
@@ -2553,6 +2654,7 @@
     },
     {
       "id": "5b5068758e93",
+      "bggId": "",
       "name": "我的好货",
       "originalName": "",
       "cover": "",
@@ -2569,6 +2671,7 @@
     },
     {
       "id": "986e464a3c0e",
+      "bggId": "",
       "name": "战争宝盒",
       "originalName": "",
       "cover": "",
@@ -2585,6 +2688,7 @@
     },
     {
       "id": "ce5896c03a64",
+      "bggId": "",
       "name": "战国",
       "originalName": "",
       "cover": "",
@@ -2601,6 +2705,7 @@
     },
     {
       "id": "c5b618dd8d99",
+      "bggId": "",
       "name": "房地产达人",
       "originalName": "",
       "cover": "",
@@ -2617,6 +2722,7 @@
     },
     {
       "id": "760966d6a2ec",
+      "bggId": "",
       "name": "扣扣棋",
       "originalName": "",
       "cover": "",
@@ -2633,6 +2739,7 @@
     },
     {
       "id": "182019d24b34",
+      "bggId": "",
       "name": "抵抗运动",
       "originalName": "",
       "cover": "",
@@ -2649,6 +2756,7 @@
     },
     {
       "id": "02b105a5b81c",
+      "bggId": "811",
       "name": "拉密",
       "originalName": "Rummikub",
       "cover": "public/covers/02b105a5b81c.webp",
@@ -2678,6 +2786,7 @@
     },
     {
       "id": "c7942bc0943d",
+      "bggId": "",
       "name": "拉斯维加斯",
       "originalName": "",
       "cover": "",
@@ -2694,6 +2803,7 @@
     },
     {
       "id": "47dcd89aeefc",
+      "bggId": "",
       "name": "拉马迪之战",
       "originalName": "",
       "cover": "",
@@ -2710,6 +2820,7 @@
     },
     {
       "id": "4d41f947e845",
+      "bggId": "",
       "name": "拼布",
       "originalName": "",
       "cover": "",
@@ -2726,6 +2837,7 @@
     },
     {
       "id": "2b7d91e345f2",
+      "bggId": "",
       "name": "拼贴历史",
       "originalName": "",
       "cover": "",
@@ -2742,6 +2854,7 @@
     },
     {
       "id": "3c124ecd2e69",
+      "bggId": "",
       "name": "挑战者",
       "originalName": "",
       "cover": "",
@@ -2758,6 +2871,7 @@
     },
     {
       "id": "e9a46baa3832",
+      "bggId": "",
       "name": "推理事件薄",
       "originalName": "",
       "cover": "",
@@ -2774,6 +2888,7 @@
     },
     {
       "id": "2256e45571e1",
+      "bggId": "",
       "name": "搬家公司",
       "originalName": "",
       "cover": "",
@@ -2790,6 +2905,7 @@
     },
     {
       "id": "cea4556a08a3",
+      "bggId": "",
       "name": "撤离计划",
       "originalName": "",
       "cover": "",
@@ -2806,6 +2922,7 @@
     },
     {
       "id": "377cb9bde962",
+      "bggId": "17392",
       "name": "教改风云",
       "originalName": "Here I Stand",
       "cover": "public/covers/377cb9bde962.webp",
@@ -2848,6 +2965,7 @@
     },
     {
       "id": "3094e362117d",
+      "bggId": "",
       "name": "散樱乱舞",
       "originalName": "",
       "cover": "",
@@ -2864,6 +2982,7 @@
     },
     {
       "id": "e51d09ce7468",
+      "bggId": "",
       "name": "敦煌",
       "originalName": "",
       "cover": "",
@@ -2880,6 +2999,7 @@
     },
     {
       "id": "2e5ffe89ebee",
+      "bggId": "400602",
       "name": "文明演化",
       "originalName": "Civolution",
       "cover": "public/covers/2e5ffe89ebee.webp",
@@ -2921,6 +3041,7 @@
     },
     {
       "id": "43554985cad9",
+      "bggId": "",
       "name": "文艺复兴 和平",
       "originalName": "",
       "cover": "",
@@ -2937,6 +3058,7 @@
     },
     {
       "id": "94a0a49e35b4",
+      "bggId": "",
       "name": "斋浦尔",
       "originalName": "",
       "cover": "",
@@ -2953,6 +3075,7 @@
     },
     {
       "id": "40e4500a250c",
+      "bggId": "369258",
       "name": "斯凯岛大盒",
       "originalName": "Isle of Skye: Big Box",
       "cover": "public/covers/40e4500a250c.webp",
@@ -2986,6 +3109,7 @@
     },
     {
       "id": "7ec0ce6bdf35",
+      "bggId": "",
       "name": "新物集 筹码",
       "originalName": "",
       "cover": "",
@@ -3002,6 +3126,7 @@
     },
     {
       "id": "545c750b3aef",
+      "bggId": "",
       "name": "方块向前冲",
       "originalName": "",
       "cover": "",
@@ -3018,6 +3143,7 @@
     },
     {
       "id": "a12f04d871e9",
+      "bggId": "297030",
       "name": "方尖碑+扩展diy",
       "originalName": "Tekhenu: Obelisk of the Sun",
       "cover": "public/covers/a12f04d871e9.webp",
@@ -3052,6 +3178,7 @@
     },
     {
       "id": "09942aaa4203",
+      "bggId": "",
       "name": "方鸟",
       "originalName": "",
       "cover": "",
@@ -3068,6 +3195,7 @@
     },
     {
       "id": "46b276ae7389",
+      "bggId": "",
       "name": "旅行记忆",
       "originalName": "",
       "cover": "",
@@ -3084,6 +3212,7 @@
     },
     {
       "id": "cbec5d55833f",
+      "bggId": "185343",
       "name": "时空乱序",
       "originalName": "Anachrony",
       "cover": "public/covers/cbec5d55833f.webp",
@@ -3125,6 +3254,7 @@
     },
     {
       "id": "671693151cc2",
+      "bggId": "434367",
       "name": "明治维新 财阀",
       "originalName": "Nippon: Zaibatsu",
       "cover": "public/covers/671693151cc2.webp",
@@ -3161,6 +3291,7 @@
     },
     {
       "id": "593bcfb8de55",
+      "bggId": "264052",
       "name": "星系节律",
       "originalName": "Circadians: First Light",
       "cover": "public/covers/593bcfb8de55.webp",
@@ -3197,6 +3328,7 @@
     },
     {
       "id": "15c11bf5ef7a",
+      "bggId": "246900",
       "name": "星蚀",
       "originalName": "Eclipse: Second Dawn for the Galaxy",
       "cover": "public/covers/15c11bf5ef7a.webp",
@@ -3242,6 +3374,7 @@
     },
     {
       "id": "3a320d1b8d28",
+      "bggId": "",
       "name": "昼夜星",
       "originalName": "",
       "cover": "",
@@ -3258,6 +3391,7 @@
     },
     {
       "id": "3d37d1642a8a",
+      "bggId": "319392",
       "name": "月海矿场",
       "originalName": "Luna Maris",
       "cover": "public/covers/3d37d1642a8a.webp",
@@ -3291,6 +3425,7 @@
     },
     {
       "id": "6df7850c2835",
+      "bggId": "408180",
       "name": "月球南极基地",
       "originalName": "Shackleton Base: A Journey to the Moon",
       "cover": "public/covers/6df7850c2835.webp",
@@ -3320,6 +3455,7 @@
     },
     {
       "id": "b6da0476951b",
+      "bggId": "174155",
       "name": "木材",
       "originalName": "Lignum",
       "cover": "public/covers/b6da0476951b.webp",
@@ -3347,6 +3483,7 @@
     },
     {
       "id": "7b3cc6120f37",
+      "bggId": "",
       "name": "末日决战",
       "originalName": "",
       "cover": "",
@@ -3363,6 +3500,7 @@
     },
     {
       "id": "2331802ed486",
+      "bggId": "233867",
       "name": "欢迎来到大盒",
       "originalName": "Welcome To...",
       "cover": "public/covers/2331802ed486.webp",
@@ -3493,6 +3631,7 @@
     },
     {
       "id": "d7cd977f2b5f",
+      "bggId": "339789",
       "name": "欢迎来到月球",
       "originalName": "Welcome to the Moon",
       "cover": "public/covers/d7cd977f2b5f.webp",
@@ -3532,6 +3671,7 @@
     },
     {
       "id": "79e454710db5",
+      "bggId": "159508",
       "name": "水球",
       "originalName": "AquaSphere",
       "cover": "public/covers/79e454710db5.webp",
@@ -3569,6 +3709,7 @@
     },
     {
       "id": "798ca7838233",
+      "bggId": "424981",
       "name": "永恆牌",
       "originalName": "Eternal Decks",
       "cover": "public/covers/798ca7838233.webp",
@@ -3605,6 +3746,7 @@
     },
     {
       "id": "ed96cf0f10cc",
+      "bggId": "",
       "name": "汤圆拍套众筹+收纳",
       "originalName": "",
       "cover": "",
@@ -3621,6 +3763,7 @@
     },
     {
       "id": "e8e12e91881b",
+      "bggId": "397598",
       "name": "沙丘：帝国 - 起义",
       "originalName": "Dune: Imperium – Uprising",
       "cover": "public/covers/e8e12e91881b.webp",
@@ -3665,6 +3808,7 @@
     },
     {
       "id": "17338dafef32",
+      "bggId": "294233",
       "name": "法夫纳",
       "originalName": "Fafnir",
       "cover": "public/covers/17338dafef32.webp",
@@ -3689,6 +3833,7 @@
     },
     {
       "id": "6f17a641cbaf",
+      "bggId": "102794",
       "name": "洞穴农夫 中文+2 英文扩+收纳",
       "originalName": "Caverna: The Cave Farmers",
       "cover": "public/covers/6f17a641cbaf.webp",
@@ -3727,6 +3872,7 @@
     },
     {
       "id": "bf950a32b1e6",
+      "bggId": "220520",
       "name": "洞穴农夫对决大盒英文",
       "originalName": "Caverna: Cave vs Cave",
       "cover": "public/covers/bf950a32b1e6.webp",
@@ -3755,6 +3901,7 @@
     },
     {
       "id": "7d1bfa7d4985",
+      "bggId": "",
       "name": "海盐折纸",
       "originalName": "",
       "cover": "",
@@ -3771,6 +3918,7 @@
     },
     {
       "id": "0742eff2f027",
+      "bggId": "",
       "name": "深谷酒馆",
       "originalName": "",
       "cover": "",
@@ -3787,6 +3935,7 @@
     },
     {
       "id": "1be6b80c5182",
+      "bggId": "295895",
       "name": "滴酒成酿",
       "originalName": "Distilled",
       "cover": "public/covers/1be6b80c5182.webp",
@@ -3822,6 +3971,7 @@
     },
     {
       "id": "81eaea8dc317",
+      "bggId": "342200",
       "name": "漂浮奇境",
       "originalName": "Confusing Lands",
       "cover": "public/covers/81eaea8dc317.webp",
@@ -3848,6 +3998,7 @@
     },
     {
       "id": "7b30df786408",
+      "bggId": "",
       "name": "漫威手套情书",
       "originalName": "",
       "cover": "",
@@ -3864,6 +4015,7 @@
     },
     {
       "id": "81ad3dd6281a",
+      "bggId": "",
       "name": "漫威群英传",
       "originalName": "",
       "cover": "",
@@ -3880,6 +4032,7 @@
     },
     {
       "id": "e60ec995d53a",
+      "bggId": "",
       "name": "潜航员",
       "originalName": "",
       "cover": "",
@@ -3896,6 +4049,7 @@
     },
     {
       "id": "6c7067d8ba79",
+      "bggId": "184267",
       "name": "火星之上",
       "originalName": "On Mars",
       "cover": "public/covers/6c7067d8ba79.webp",
@@ -3939,6 +4093,7 @@
     },
     {
       "id": "337f38163f3f",
+      "bggId": "366013",
       "name": "火爆狂飙：全速前进",
       "originalName": "Heat: Pedal to the Metal",
       "cover": "public/covers/337f38163f3f.webp",
@@ -3979,6 +4134,7 @@
     },
     {
       "id": "2fa5d44ee3ed",
+      "bggId": "",
       "name": "火花",
       "originalName": "",
       "cover": "",
@@ -3995,6 +4151,7 @@
     },
     {
       "id": "fa6352a460a8",
+      "bggId": "162886",
       "name": "灵迹岛",
       "originalName": "Spirit Island",
       "cover": "public/covers/fa6352a460a8.webp",
@@ -4037,6 +4194,7 @@
     },
     {
       "id": "a43d1b8213ed",
+      "bggId": "",
       "name": "灵迹岛",
       "originalName": "",
       "cover": "",
@@ -4053,6 +4211,7 @@
     },
     {
       "id": "f7d32231b991",
+      "bggId": "",
       "name": "熊熊公园+收纳",
       "originalName": "",
       "cover": "",
@@ -4069,6 +4228,7 @@
     },
     {
       "id": "d702058a8bef",
+      "bggId": "",
       "name": "牌套",
       "originalName": "",
       "cover": "",
@@ -4085,6 +4245,7 @@
     },
     {
       "id": "52928e92cd16",
+      "bggId": "",
       "name": "牛头王",
       "originalName": "",
       "cover": "",
@@ -4101,6 +4262,7 @@
     },
     {
       "id": "26fa6290d7a6",
+      "bggId": "381715",
       "name": "特奥蒂瓦坎：众神之城 豪华大师版",
       "originalName": "Teotihuacan: City of Gods – Deluxe Master Set",
       "cover": "public/covers/26fa6290d7a6.webp",
@@ -4136,6 +4298,7 @@
     },
     {
       "id": "02d2b87ac96d",
+      "bggId": "73439",
       "name": "特鲁瓦",
       "originalName": "Troyes",
       "cover": "public/covers/02d2b87ac96d.webp",
@@ -4163,6 +4326,7 @@
     },
     {
       "id": "9a7bd9fda1da",
+      "bggId": "",
       "name": "狼群",
       "originalName": "",
       "cover": "",
@@ -4179,6 +4343,7 @@
     },
     {
       "id": "3f3931638d33",
+      "bggId": "118",
       "name": "现代艺术",
       "originalName": "Modern Art",
       "cover": "public/covers/3f3931638d33.webp",
@@ -4213,6 +4378,7 @@
     },
     {
       "id": "596f0cc3ccb4",
+      "bggId": "2651",
       "name": "电力公司",
       "originalName": "Power Grid",
       "cover": "public/covers/596f0cc3ccb4.webp",
@@ -4249,6 +4415,7 @@
     },
     {
       "id": "4153526950fe",
+      "bggId": "288316",
       "name": "尤克里",
       "originalName": "Rurik: Dawn of Kiev – Kickstarter Edition",
       "cover": "public/covers/4153526950fe.webp",
@@ -4283,6 +4450,7 @@
     },
     {
       "id": "d106ed7dab73",
+      "bggId": "",
       "name": "疯狂建筑工",
       "originalName": "",
       "cover": "",
@@ -4299,6 +4467,7 @@
     },
     {
       "id": "35e545f38a37",
+      "bggId": "387780",
       "name": "白鼠特工队",
       "originalName": "Rats of Wistar",
       "cover": "public/covers/35e545f38a37.webp",
@@ -4331,6 +4500,7 @@
     },
     {
       "id": "8c8a2ef29655",
+      "bggId": "429663",
       "name": "百家",
       "originalName": "百家 (Schools of Thought)",
       "cover": "public/covers/8c8a2ef29655.webp",
@@ -4355,6 +4525,7 @@
     },
     {
       "id": "2330c39754c4",
+      "bggId": "111799",
       "name": "百年对峙 古巴危机",
       "originalName": "Cuba Libre",
       "cover": "public/covers/2330c39754c4.webp",
@@ -4389,6 +4560,7 @@
     },
     {
       "id": "f1db74c48ec2",
+      "bggId": "331265",
       "name": "皇家港",
       "originalName": "Port Royal: Big Box",
       "cover": "public/covers/f1db74c48ec2.webp",
@@ -4426,6 +4598,7 @@
     },
     {
       "id": "a03aa4d59399",
+      "bggId": "220308",
       "name": "盖亚计划",
       "originalName": "Gaia Project",
       "cover": "public/covers/a03aa4d59399.webp",
@@ -4468,6 +4641,7 @@
     },
     {
       "id": "ec64d66f51db",
+      "bggId": "",
       "name": "石器时代",
       "originalName": "",
       "cover": "",
@@ -4484,6 +4658,7 @@
     },
     {
       "id": "f55fe2fc2d3d",
+      "bggId": "",
       "name": "碧蓝岛",
       "originalName": "",
       "cover": "",
@@ -4500,6 +4675,7 @@
     },
     {
       "id": "67ce019d4554",
+      "bggId": "",
       "name": "神域寻踪",
       "originalName": "",
       "cover": "",
@@ -4516,6 +4692,7 @@
     },
     {
       "id": "2e9c9bbb4c96",
+      "bggId": "142124",
       "name": "筑地鱼市",
       "originalName": "Tsukiji",
       "cover": "public/covers/2e9c9bbb4c96.webp",
@@ -4548,6 +4725,7 @@
     },
     {
       "id": "eb521374f96a",
+      "bggId": "",
       "name": "精灵岛100游",
       "originalName": "",
       "cover": "",
@@ -4564,6 +4742,7 @@
     },
     {
       "id": "23754969da79",
+      "bggId": "",
       "name": "紫袍加身",
       "originalName": "",
       "cover": "",
@@ -4580,6 +4759,7 @@
     },
     {
       "id": "bb97e4c2f583",
+      "bggId": "",
       "name": "纸上谈兵 03 天国王朝",
       "originalName": "",
       "cover": "",
@@ -4596,6 +4776,7 @@
     },
     {
       "id": "d74be270516b",
+      "bggId": "",
       "name": "终极铁路",
       "originalName": "",
       "cover": "",
@@ -4612,6 +4793,7 @@
     },
     {
       "id": "05152919385a",
+      "bggId": "366162",
       "name": "绝顶聪明合集",
       "originalName": "Clever 4Ever",
       "cover": "public/covers/05152919385a.webp",
@@ -4643,6 +4825,7 @@
     },
     {
       "id": "41e136a14d13",
+      "bggId": "",
       "name": "统治与反抗",
       "originalName": "",
       "cover": "",
@@ -4659,6 +4842,7 @@
     },
     {
       "id": "d07ab601898c",
+      "bggId": "",
       "name": "船厂第二版",
       "originalName": "",
       "cover": "",
@@ -4675,6 +4859,7 @@
     },
     {
       "id": "15d438bde9c7",
+      "bggId": "",
       "name": "良渚西湖",
       "originalName": "",
       "cover": "",
@@ -4691,6 +4876,7 @@
     },
     {
       "id": "18b0add0db4b",
+      "bggId": "",
       "name": "花砖",
       "originalName": "",
       "cover": "",
@@ -4707,6 +4893,7 @@
     },
     {
       "id": "3a12847b9661",
+      "bggId": "",
       "name": "花砖巧克力",
       "originalName": "",
       "cover": "",
@@ -4723,6 +4910,7 @@
     },
     {
       "id": "f24bf66513f7",
+      "bggId": "",
       "name": "花花便利店",
       "originalName": "",
       "cover": "",
@@ -4739,6 +4927,7 @@
     },
     {
       "id": "4909d02a4f7e",
+      "bggId": "3685",
       "name": "苏格兰之锤",
       "originalName": "Hammer of the Scots",
       "cover": "public/covers/4909d02a4f7e.webp",
@@ -4770,6 +4959,7 @@
     },
     {
       "id": "412d1aa227b7",
+      "bggId": "",
       "name": "苹果杰克",
       "originalName": "",
       "cover": "",
@@ -4786,6 +4976,7 @@
     },
     {
       "id": "4f2a3135b94b",
+      "bggId": "338760",
       "name": "蒸汽帝国",
       "originalName": "Imperial Steam",
       "cover": "public/covers/4f2a3135b94b.webp",
@@ -4831,6 +5022,7 @@
     },
     {
       "id": "4abdb23203b5",
+      "bggId": "",
       "name": "蓝色战役",
       "originalName": "",
       "cover": "",
@@ -4847,6 +5039,7 @@
     },
     {
       "id": "61085be895e2",
+      "bggId": "423632",
       "name": "虎啸亚洲",
       "originalName": "Asian Tigers: A Story of Prosperity",
       "cover": "public/covers/61085be895e2.webp",
@@ -4877,6 +5070,7 @@
     },
     {
       "id": "70f1c1d1f867",
+      "bggId": "337627",
       "name": "虚空降临",
       "originalName": "Voidfall",
       "cover": "public/covers/70f1c1d1f867.webp",
@@ -4915,6 +5109,7 @@
     },
     {
       "id": "70fecf438a4b",
+      "bggId": "",
       "name": "蜜语工坊",
       "originalName": "",
       "cover": "",
@@ -4931,6 +5126,7 @@
     },
     {
       "id": "63679e00af61",
+      "bggId": "",
       "name": "血碗",
       "originalName": "",
       "cover": "",
@@ -4947,6 +5143,7 @@
     },
     {
       "id": "e19463bb33a5",
+      "bggId": "",
       "name": "赛马骰",
       "originalName": "",
       "cover": "",
@@ -4963,6 +5160,7 @@
     },
     {
       "id": "d8769ac7dda0",
+      "bggId": "",
       "name": "路易斯与克拉克 dice",
       "originalName": "",
       "cover": "",
@@ -4979,6 +5177,7 @@
     },
     {
       "id": "e8e74c47c06f",
+      "bggId": "140620",
       "name": "路易斯与克拉克",
       "originalName": "Lewis & Clark: The Expedition",
       "cover": "public/covers/e8e74c47c06f.webp",
@@ -5020,6 +5219,7 @@
     },
     {
       "id": "1ad0133f0367",
+      "bggId": "250309",
       "name": "达尔文之选",
       "originalName": "Darwin's Choice",
       "cover": "public/covers/1ad0133f0367.webp",
@@ -5054,6 +5254,7 @@
     },
     {
       "id": "80aa85e69964",
+      "bggId": "438018",
       "name": "运河时代",
       "originalName": "Kanal",
       "cover": "public/covers/80aa85e69964.webp",
@@ -5085,6 +5286,7 @@
     },
     {
       "id": "950135de68ee",
+      "bggId": "298562",
       "name": "迷你高尔夫设计师众筹",
       "originalName": "Minigolf Designer",
       "cover": "public/covers/950135de68ee.webp",
@@ -5114,6 +5316,7 @@
     },
     {
       "id": "c5722fccc88d",
+      "bggId": "",
       "name": "速战速决 战术小队",
       "originalName": "",
       "cover": "",
@@ -5130,6 +5333,7 @@
     },
     {
       "id": "193cbebb7af3",
+      "bggId": "",
       "name": "铁路环游",
       "originalName": "",
       "cover": "",
@@ -5146,6 +5350,7 @@
     },
     {
       "id": "a97d98955650",
+      "bggId": "",
       "name": "银河竞逐",
       "originalName": "",
       "cover": "",
@@ -5162,6 +5367,7 @@
     },
     {
       "id": "be51af1491ea",
+      "bggId": "300664",
       "name": "阿克莱特 卡牌版",
       "originalName": "Arkwright: The Card Game",
       "cover": "public/covers/be51af1491ea.webp",
@@ -5203,6 +5409,7 @@
     },
     {
       "id": "776e56857171",
+      "bggId": "154825",
       "name": "阿克莱特",
       "originalName": "Arkwright",
       "cover": "public/covers/776e56857171.webp",
@@ -5246,6 +5453,7 @@
     },
     {
       "id": "2d1ca5fc96c0",
+      "bggId": "357563",
       "name": "雅典卫城",
       "originalName": "Akropolis",
       "cover": "public/covers/2d1ca5fc96c0.webp",
@@ -5283,6 +5491,7 @@
     },
     {
       "id": "c36782a11972",
+      "bggId": "262215",
       "name": "香港大停电",
       "originalName": "Blackout: Hong Kong",
       "cover": "public/covers/c36782a11972.webp",
@@ -5318,6 +5527,7 @@
     },
     {
       "id": "02a6e73fcd2e",
+      "bggId": "276025",
       "name": "马拉开波 基础众筹+起义零售",
       "originalName": "Maracaibo",
       "cover": "public/covers/02a6e73fcd2e.webp",
@@ -5363,6 +5573,7 @@
     },
     {
       "id": "67254bf50273",
+      "bggId": "397385",
       "name": "马拉开波海盗",
       "originalName": "Pirates of Maracaibo",
       "cover": "public/covers/67254bf50273.webp",
@@ -5399,6 +5610,7 @@
     },
     {
       "id": "a100431b5738",
+      "bggId": "",
       "name": "骇浪求生",
       "originalName": "",
       "cover": "",
@@ -5415,6 +5627,7 @@
     },
     {
       "id": "2e38ca4da765",
+      "bggId": "",
       "name": "骰子",
       "originalName": "",
       "cover": "",
@@ -5431,6 +5644,7 @@
     },
     {
       "id": "e35c93efe5e3",
+      "bggId": "254708",
       "name": "骰迷奇境 12扩",
       "originalName": "Roll Player Adventures",
       "cover": "public/covers/e35c93efe5e3.webp",
@@ -5467,6 +5681,7 @@
     },
     {
       "id": "6127fbc1a399",
+      "bggId": "",
       "name": "骷髅王",
       "originalName": "",
       "cover": "",
@@ -5483,6 +5698,7 @@
     },
     {
       "id": "a01616445906",
+      "bggId": "356754",
       "name": "魂行纪元",
       "originalName": "Tamashii: Chronicle of Ascend",
       "cover": "public/covers/a01616445906.webp",
@@ -5529,6 +5745,7 @@
     },
     {
       "id": "a9a2f2880084",
+      "bggId": "172308",
       "name": "魔女快递",
       "originalName": "Broom Service",
       "cover": "public/covers/a9a2f2880084.webp",
@@ -5562,6 +5779,7 @@
     },
     {
       "id": "9759839c8a48",
+      "bggId": "96848",
       "name": "魔法骑士",
       "originalName": "Mage Knight Board Game",
       "cover": "public/covers/9759839c8a48.webp",

@@ -2,13 +2,15 @@ const state = {
   games: [],
   filtered: [],
   selected: [],
+  inventories: [],
 };
 
 const $ = (id) => document.getElementById(id);
 const controls = {
   search: $("searchInput"), players: $("playerFilter"), bestPlayers: $("bestPlayerFilter"),
   status: $("statusFilter"), time: $("timeFilter"), weight: $("weightFilter"),
-  rating: $("ratingFilter"), type: $("typeFilter"), mechanic: $("mechanicFilter"), sort: $("sortSelect"),
+  rating: $("ratingFilter"), type: $("typeFilter"), mechanic: $("mechanicFilter"),
+  owner: $("ownerFilter"), sort: $("sortSelect"),
 };
 
 const collator = new Intl.Collator("zh-CN", { numeric: true, sensitivity: "base" });
@@ -41,6 +43,12 @@ function populateFilters() {
   addOptions(controls.status, uniqueFlat("playStatus"));
   addOptions(controls.type, uniqueFlat("types"));
   addOptions(controls.mechanic, uniqueFlat("mechanics"));
+  state.inventories.forEach((inventory) => {
+    const option = document.createElement("option");
+    option.value = inventory.id;
+    option.textContent = `${inventory.name}（${inventory.count}）`;
+    controls.owner.append(option);
+  });
 }
 
 function inRange(value, rangeText) {
@@ -55,6 +63,7 @@ function applyFilters() {
   const filtered = state.games.filter((game) => {
     const nameMatch = !query || `${game.name} ${game.originalName || ""}`.toLocaleLowerCase("zh-CN").includes(query);
     return nameMatch
+      && (!controls.owner.value || game.ownerIds.includes(controls.owner.value))
       && (!controls.players.value || (controls.players.value === "11+"
         ? game.supportedPlayers.some((value) => Number(value) >= 11)
         : game.supportedPlayers.includes(controls.players.value)))
@@ -98,22 +107,30 @@ function renderGames() {
     const cover = game.cover
       ? `<img src="${game.cover}" alt="${escapeHtml(game.name)}封面" loading="lazy" />`
       : `<div class="cover-placeholder" aria-hidden="true">北关</div>`;
+    const bggUrl = game.bggId ? `https://boardgamegeek.com/boardgame/${encodeURIComponent(game.bggId)}` : "";
+    const contentStart = bggUrl ? `<a class="game-link" href="${bggUrl}" target="_blank" rel="noopener noreferrer" aria-label="在 BGG 查看 ${escapeHtml(game.name)}">` : `<div class="game-link">`;
+    const contentEnd = bggUrl ? "</a>" : "</div>";
     article.innerHTML = `
-      <div class="cover-wrap">
+      ${contentStart}<div class="cover-wrap">
         ${cover}
         ${game.rank ? `<span class="rank-badge">BGG #${game.rank}</span>` : ""}
-        <button class="select-game" type="button" aria-label="${selected ? "移出" : "加入"}候选清单">${selected ? "✓" : "+"}</button>
       </div>
       <div class="card-body">
         <h2 class="game-name" title="${escapeHtml(game.name)}">${escapeHtml(game.name)}</h2>
         <div class="meta-line">${cardMeta(game)}</div>
         <div class="tag-line">${game.types.slice(0,2).map((tag) => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div>
-      </div>`;
+        <div class="owner-line">库存：${game.ownerNames.map(escapeHtml).join("、")}</div>
+      </div>${contentEnd}
+      <button class="select-game" type="button" aria-label="${selected ? "移出" : "加入"}候选清单">${selected ? "✓" : "+"}</button>`;
     article.querySelector(".select-game").addEventListener("click", () => toggleSelection(game.id));
     fragment.append(article);
   });
   grid.append(fragment);
   $("resultSummary").textContent = `找到 ${state.filtered.length} 款 · 库存共 ${state.games.length} 款`;
+  const query = controls.search.value.trim();
+  $("searchFeedback").textContent = query
+    ? `“${query}”找到 ${state.filtered.length} 款桌游`
+    : "输入名称即可即时查询";
   $("emptyState").hidden = state.filtered.length > 0;
 }
 
@@ -336,10 +353,39 @@ function resetFilters() {
 
 async function initialize() {
   try {
-    const response = await fetch("public/data/games.json", { cache: "no-store" });
+    const response = await fetch("public/data/inventories.json", { cache: "no-store" });
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
-    const payload = await response.json();
-    state.games = payload.games || [];
+    const manifest = await response.json();
+    const loaded = await Promise.all((manifest.inventories || []).map(async (inventory) => {
+      const inventoryResponse = await fetch(inventory.file, { cache: "no-store" });
+      if (!inventoryResponse.ok) throw new Error(`${inventory.file}: HTTP ${inventoryResponse.status}`);
+      return { inventory, payload: await inventoryResponse.json() };
+    }));
+    state.inventories = loaded.map(({inventory, payload}) => ({
+      ...inventory,
+      count: (payload.games || []).length,
+    }));
+    const merged = new Map();
+    loaded.forEach(({ inventory, payload }) => (payload.games || []).forEach((rawGame) => {
+      const mergeKey = rawGame.bggId ? `bgg:${rawGame.bggId}` : `${inventory.id}:${rawGame.id}`;
+      const existing = merged.get(mergeKey);
+      if (existing) {
+        existing.ownerIds.push(inventory.id);
+        existing.ownerNames.push(inventory.name);
+      } else {
+        merged.set(mergeKey, {
+          ...rawGame,
+          id: mergeKey,
+          supportedPlayers: rawGame.supportedPlayers || [],
+          bestPlayers: rawGame.bestPlayers || [],
+          types: rawGame.types || [],
+          mechanics: rawGame.mechanics || [],
+          ownerIds: [inventory.id],
+          ownerNames: [inventory.name],
+        });
+      }
+    }));
+    state.games = [...merged.values()];
     populateFilters();
     applyFilters();
   } catch (error) {
@@ -352,6 +398,7 @@ async function initialize() {
 }
 
 Object.values(controls).forEach((control) => control.addEventListener(control === controls.search ? "input" : "change", applyFilters));
+$("searchForm").addEventListener("submit", (event) => { event.preventDefault(); applyFilters(); });
 $("resetFilters").addEventListener("click", resetFilters);
 $("openSelection").addEventListener("click", openSelection);
 $("closeSelection").addEventListener("click", closeSelection);

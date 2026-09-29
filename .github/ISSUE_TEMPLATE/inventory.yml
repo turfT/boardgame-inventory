@@ -1,0 +1,37 @@
+name: 加入或更新我的桌游库存
+description: 提交 BGG ID，机器人会建立或更新你的公开库存
+title: "[库存投稿] "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        每个 GitHub 账号对应一份库存。再次提交会更新原有库存；网页只展示公开字段。
+
+  - type: input
+    id: display_name
+    attributes:
+      label: 显示名称
+      description: 网页库存成员筛选中显示的名字
+      placeholder: 例如：小明
+    validations:
+      required: true
+
+  - type: textarea
+    id: bgg_games
+    attributes:
+      label: BGG ID 清单
+      description: 每行一款。可以只写 ID，也可以写“ID | 游玩状态”。再次提交时请填写完整库存。
+      placeholder: |
+        316858 | 开过几次
+        811 | 经常开
+        266192
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: consent
+    attributes:
+      label: 公开确认
+      options:
+        - label: 我确认这些桌游库存及公开字段可以展示在公开网页上
+          required: true

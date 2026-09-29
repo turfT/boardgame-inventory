@@ -23,12 +23,20 @@
 
     <main>
       <section class="control-panel" aria-label="库存筛选">
-        <label class="search-field">
+        <form id="searchForm" class="search-field" role="search">
           <span>搜索桌游</span>
-          <input id="searchInput" type="search" placeholder="输入中文名或英文名" autocomplete="off" />
-        </label>
+          <div class="search-row">
+            <input id="searchInput" type="search" placeholder="输入中文名或英文名" autocomplete="off" />
+            <button id="searchButton" class="primary-button search-button" type="submit">查询</button>
+          </div>
+          <small id="searchFeedback" class="search-feedback" aria-live="polite">输入名称即可即时查询</small>
+        </form>
 
         <div class="filter-grid">
+          <label>
+            <span>库存成员</span>
+            <select id="ownerFilter"><option value="">全部成员</option></select>
+          </label>
           <label>
             <span>支持人数</span>
             <select id="playerFilter"><option value="">不限</option></select>
@@ -92,7 +100,10 @@
 
         <div class="control-footer">
           <p id="resultSummary" aria-live="polite">正在整理库存…</p>
-          <button id="resetFilters" class="text-button" type="button">清空筛选</button>
+          <div class="control-actions">
+            <a class="text-button join-link" href="https://github.com/turfT/boardgame-inventory/issues/new?template=inventory.yml" target="_blank" rel="noopener noreferrer">加入我的库存</a>
+            <button id="resetFilters" class="text-button" type="button">清空筛选</button>
+          </div>
         </div>
       </section>
 
