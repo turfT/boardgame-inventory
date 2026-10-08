@@ -2,7 +2,7 @@
   "meta": {
     "id": "hou",
     "name": "hou",
-    "generatedAt": "2026-10-08T09:18:00+08:00",
+    "generatedAt": "2026-10-08T09:37:41+08:00",
     "count": 105
   },
   "games": [
@@ -48,7 +48,8 @@
         "Worker Placement, Different Worker Types"
       ],
       "rating": 7.9463,
-      "rank": 129
+      "rank": 129,
+      "updatedAt": "2026-10-08"
     },
     {
       "id": "0bf82029dfd2",
@@ -76,7 +77,8 @@
         "Deduction"
       ],
       "rating": 7.9222,
-      "rank": 3857
+      "rank": 3857,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "a5fdc8eab5e0",
@@ -109,7 +111,8 @@
         "Race"
       ],
       "rating": 6.7099,
-      "rank": 5354
+      "rank": 5354,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "0ec7bb5a5e79",
@@ -144,7 +147,8 @@
         "Variable Set-up"
       ],
       "rating": 8.4128,
-      "rank": 14
+      "rank": 14,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "99f5083cdb7c",
@@ -187,7 +191,8 @@
         "Variable Player Powers"
       ],
       "rating": 8.2816,
-      "rank": 37
+      "rank": 37,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "a5a5d1c5940e",
@@ -217,7 +222,8 @@
         "Victory Points as a Resource"
       ],
       "rating": 6.9242,
-      "rank": 3916
+      "rank": 3916,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "e4f459611263",
@@ -252,7 +258,8 @@
         "Tile Placement"
       ],
       "rating": 7.1353,
-      "rank": 2008
+      "rank": 2008,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "7c5cb450adac",
@@ -285,7 +292,8 @@
         "Tile Placement"
       ],
       "rating": 7.7623,
-      "rank": 345
+      "rank": 345,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "16e184c6b322",
@@ -318,7 +326,8 @@
         "Tile Placement"
       ],
       "rating": 7.5953,
-      "rank": 421
+      "rank": 421,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "9d56ab7e63ba",
@@ -351,7 +360,8 @@
         "Scenario / Mission / Campaign Game"
       ],
       "rating": 7.1662,
-      "rank": 1601
+      "rank": 1601,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "348b91cbaf23",
@@ -392,7 +402,8 @@
         "Worker Placement"
       ],
       "rating": 7.8002,
-      "rank": 115
+      "rank": 115,
+      "updatedAt": "2026-09-15"
     },
     {
       "id": "6524e4458514",
@@ -428,7 +439,8 @@
         "Worker Placement"
       ],
       "rating": 7.8486,
-      "rank": 776
+      "rank": 776,
+      "updatedAt": "2026-09-15"
     },
     {
       "id": "2cd2ba41dbb9",
@@ -472,7 +484,8 @@
         "Variable Set-up"
       ],
       "rating": 8.5607,
-      "rank": 1
+      "rank": 1,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "61161b83fa20",
@@ -516,7 +529,8 @@
         "Variable Set-up"
       ],
       "rating": 8.1981,
-      "rank": 22
+      "rank": 22,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "82b5f987f922",
@@ -555,7 +569,8 @@
         "Variable Player Powers"
       ],
       "rating": 7.9528,
-      "rank": 86
+      "rank": 86,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "5b3172d73f7a",
@@ -594,7 +609,8 @@
         "Variable Set-up"
       ],
       "rating": 8.2266,
-      "rank": 16
+      "rank": 16,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "e77ad44eb24c",
@@ -628,7 +644,8 @@
         "Worker Placement"
       ],
       "rating": 7.364,
-      "rank": 1830
+      "rank": 1830,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "1235e40a9026",
@@ -669,7 +686,8 @@
         "Victory Points as a Resource"
       ],
       "rating": 8.4303,
-      "rank": 56
+      "rank": 56,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "a3ec4024fb30",
@@ -707,7 +725,8 @@
         "Variable Player Powers"
       ],
       "rating": 7.9421,
-      "rank": 78
+      "rank": 78,
+      "updatedAt": "2026-10-08"
     },
     {
       "id": "a064253f0371",
@@ -737,7 +756,8 @@
         "Score-and-Reset Game"
       ],
       "rating": 6.947,
-      "rank": 2134
+      "rank": 2134,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "ceef1a100112",
@@ -776,7 +796,8 @@
         "Worker Placement with Dice Workers"
       ],
       "rating": 8.1627,
-      "rank": 17
+      "rank": 17,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "98348de776c3",
@@ -815,7 +836,8 @@
         "Variable Set-up"
       ],
       "rating": 7.3995,
-      "rank": 5350
+      "rank": 5350,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "9435cff3e80f",
@@ -850,7 +872,8 @@
         "Worker Placement"
       ],
       "rating": 7.8427,
-      "rank": 77
+      "rank": 77,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "cb65ef071c8a",
@@ -885,7 +908,8 @@
         "Worker Placement with Dice Workers"
       ],
       "rating": 8.0146,
-      "rank": 486
+      "rank": 486,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "b54804645e8c",
@@ -919,7 +943,8 @@
         "Tile Placement"
       ],
       "rating": 7.4167,
-      "rank": 240
+      "rank": 240,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "e8f3550982dd",
@@ -952,7 +977,8 @@
         "Tech Trees / Tech Tracks"
       ],
       "rating": 7.8648,
-      "rank": 173
+      "rank": 173,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "092b360ec8a1",
@@ -999,7 +1025,8 @@
         "Worker Placement"
       ],
       "rating": 7.1041,
-      "rank": 3979
+      "rank": 3979,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "d59556b0cb3d",
@@ -1033,7 +1060,8 @@
         "Variable Set-up"
       ],
       "rating": 8.1436,
-      "rank": 21
+      "rank": 21,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "f23bdbb91351",
@@ -1067,7 +1095,8 @@
         "Worker Placement, Different Worker Types"
       ],
       "rating": 7.9656,
-      "rank": 123
+      "rank": 123,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "03fc9cfd4d7c",
@@ -1101,7 +1130,8 @@
         "Zone of Control"
       ],
       "rating": 8.2636,
-      "rank": 5583
+      "rank": 5583,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "5898a9b697f8",
@@ -1136,7 +1166,8 @@
         "Turn Order: Pass Order"
       ],
       "rating": 7.5246,
-      "rank": 398
+      "rank": 398,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "4ca723d99807",
@@ -1179,7 +1210,8 @@
         "Variable Set-up"
       ],
       "rating": 7.5988,
-      "rank": 497
+      "rank": 497,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "e4ece223a2df",
@@ -1222,7 +1254,8 @@
         "Worker Placement"
       ],
       "rating": 7.9031,
-      "rank": 564
+      "rank": 564,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "25adf5fce8f8",
@@ -1251,7 +1284,8 @@
         "Dice Rolling"
       ],
       "rating": 6.448,
-      "rank": 6832
+      "rank": 6832,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "44b0f2a22447",
@@ -1283,7 +1317,8 @@
         "Worker Placement, Different Worker Types"
       ],
       "rating": 7.8166,
-      "rank": 709
+      "rank": 709,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "b9027c51f37c",
@@ -1318,7 +1353,8 @@
         "Worker Placement"
       ],
       "rating": 7.8597,
-      "rank": 114
+      "rank": 114,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "b0b427a4a468",
@@ -1363,7 +1399,8 @@
         "Worker Placement"
       ],
       "rating": 8.1595,
-      "rank": 27
+      "rank": 27,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "a88ed282d5c4",
@@ -1396,7 +1433,8 @@
         "Variable Set-up"
       ],
       "rating": 7.9618,
-      "rank": 69
+      "rank": 69,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "6edcd93a4a75",
@@ -1435,7 +1473,8 @@
         "Worker Placement, Different Worker Types"
       ],
       "rating": 8.0461,
-      "rank": 35
+      "rank": 35,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "51d602e0192f",
@@ -1477,7 +1516,8 @@
         "Worker Placement with Dice Workers"
       ],
       "rating": 7.9771,
-      "rank": 72
+      "rank": 72,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "218a399e2ced",
@@ -1520,7 +1560,8 @@
         "Worker Placement"
       ],
       "rating": 8.0833,
-      "rank": 30
+      "rank": 30,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "8c2155ac42d1",
@@ -1560,7 +1601,8 @@
         "Worker Placement"
       ],
       "rating": 7.7603,
-      "rank": 808
+      "rank": 808,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "82c67c910d93",
@@ -1598,7 +1640,8 @@
         "Variable Set-up"
       ],
       "rating": 7.6776,
-      "rank": 338
+      "rank": 338,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "19652bfca455",
@@ -1623,7 +1666,8 @@
       ],
       "mechanics": [],
       "rating": null,
-      "rank": null
+      "rank": null,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "ccf26c1a339a",
@@ -1649,7 +1693,8 @@
         "Solo / Solitaire Game"
       ],
       "rating": 7.4308,
-      "rank": 1804
+      "rank": 1804,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "78b462b3a0c4",
@@ -1682,7 +1727,8 @@
         "Worker Placement, Different Worker Types"
       ],
       "rating": 7.5457,
-      "rank": 735
+      "rank": 735,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "def00e958230",
@@ -1709,7 +1755,8 @@
       ],
       "mechanics": [],
       "rating": null,
-      "rank": null
+      "rank": null,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "45a188b7e1c0",
@@ -1754,7 +1801,8 @@
         "Variable Player Powers"
       ],
       "rating": 8.2449,
-      "rank": 25
+      "rank": 25,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "8202582316db",
@@ -1784,7 +1832,8 @@
         "Pick-up and Deliver"
       ],
       "rating": 6.1385,
-      "rank": null
+      "rank": null,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "02b105a5b81c",
@@ -1813,7 +1862,8 @@
         "Tile Placement"
       ],
       "rating": 6.5273,
-      "rank": 1765
+      "rank": 1765,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "377cb9bde962",
@@ -1855,7 +1905,8 @@
         "Variable Set-up"
       ],
       "rating": 7.8793,
-      "rank": 554
+      "rank": 554,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "2e5ffe89ebee",
@@ -1896,7 +1947,8 @@
         "Variable Set-up"
       ],
       "rating": 8.1816,
-      "rank": 160
+      "rank": 160,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "40e4500a250c",
@@ -1929,7 +1981,8 @@
         "Turn Order: Progressive"
       ],
       "rating": 7.9157,
-      "rank": null
+      "rank": null,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "a12f04d871e9",
@@ -1963,7 +2016,8 @@
         "Variable Set-up"
       ],
       "rating": 7.6572,
-      "rank": 435
+      "rank": 435,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "cbec5d55833f",
@@ -2004,7 +2058,8 @@
         "Worker Placement, Different Worker Types"
       ],
       "rating": 8.0359,
-      "rank": 61
+      "rank": 61,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "671693151cc2",
@@ -2040,7 +2095,8 @@
         "Worker Placement, Different Worker Types"
       ],
       "rating": 8.5076,
-      "rank": 415
+      "rank": 415,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "593bcfb8de55",
@@ -2076,7 +2132,8 @@
         "Worker Placement with Dice Workers"
       ],
       "rating": 7.5097,
-      "rank": 926
+      "rank": 926,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "15c11bf5ef7a",
@@ -2121,7 +2178,8 @@
         "Variable Player Powers"
       ],
       "rating": 8.3832,
-      "rank": 23
+      "rank": 23,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "3d37d1642a8a",
@@ -2154,7 +2212,8 @@
         "Worker Placement"
       ],
       "rating": 7.677,
-      "rank": 3739
+      "rank": 3739,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "6df7850c2835",
@@ -2183,7 +2242,8 @@
         "Worker Placement, Different Worker Types"
       ],
       "rating": 8.0121,
-      "rank": 378
+      "rank": 378,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "b6da0476951b",
@@ -2210,7 +2270,8 @@
         "Worker Placement"
       ],
       "rating": 7.2268,
-      "rank": 4002
+      "rank": 4002,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "2331802ed486",
@@ -2340,7 +2401,8 @@
         "Solo / Solitaire Game"
       ],
       "rating": 7.5043,
-      "rank": 217
+      "rank": 217,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "d7cd977f2b5f",
@@ -2379,7 +2441,8 @@
         "Solo / Solitaire Game"
       ],
       "rating": 7.844,
-      "rank": 212
+      "rank": 212,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "619d3a2ba933",
@@ -2417,7 +2480,8 @@
         "Worker Placement"
       ],
       "rating": 8.0388,
-      "rank": 52
+      "rank": 52,
+      "updatedAt": "2026-10-08"
     },
     {
       "id": "79e454710db5",
@@ -2454,7 +2518,8 @@
         "Variable Set-up"
       ],
       "rating": 7.2457,
-      "rank": 742
+      "rank": 742,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "798ca7838233",
@@ -2490,7 +2555,8 @@
         "Variable Set-up"
       ],
       "rating": 8.1995,
-      "rank": 571
+      "rank": 571,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "e8e12e91881b",
@@ -2534,7 +2600,8 @@
         "Worker Placement"
       ],
       "rating": 8.6996,
-      "rank": 5
+      "rank": 5,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "17338dafef32",
@@ -2558,7 +2625,8 @@
         "Auction / Bidding"
       ],
       "rating": 6.2782,
-      "rank": 8282
+      "rank": 8282,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "6f17a641cbaf",
@@ -2596,7 +2664,8 @@
         "Worker Placement"
       ],
       "rating": 7.9186,
-      "rank": 62
+      "rank": 62,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "bf950a32b1e6",
@@ -2624,7 +2693,8 @@
         "Worker Placement"
       ],
       "rating": 7.0731,
-      "rank": 955
+      "rank": 955,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "1be6b80c5182",
@@ -2659,7 +2729,8 @@
         "Turn Order: Progressive"
       ],
       "rating": 7.7449,
-      "rank": 277
+      "rank": 277,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "81eaea8dc317",
@@ -2685,7 +2756,8 @@
         "Pattern Building"
       ],
       "rating": 7.2287,
-      "rank": 4524
+      "rank": 4524,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "6c7067d8ba79",
@@ -2728,7 +2800,8 @@
         "Worker Placement"
       ],
       "rating": 8.1581,
-      "rank": 58
+      "rank": 58,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "337f38163f3f",
@@ -2768,7 +2841,8 @@
         "Variable Set-up"
       ],
       "rating": 7.9926,
-      "rank": 47
+      "rank": 47,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "fa6352a460a8",
@@ -2810,7 +2884,8 @@
         "Variable Set-up"
       ],
       "rating": 8.3397,
-      "rank": 11
+      "rank": 11,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "26fa6290d7a6",
@@ -2845,7 +2920,8 @@
         "Worker Placement with Dice Workers"
       ],
       "rating": 8.4115,
-      "rank": null
+      "rank": null,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "02d2b87ac96d",
@@ -2872,7 +2948,8 @@
       ],
       "mechanics": [],
       "rating": null,
-      "rank": null
+      "rank": null,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "3f3931638d33",
@@ -2906,7 +2983,8 @@
         "Victory Points as a Resource"
       ],
       "rating": 7.5239,
-      "rank": 222
+      "rank": 222,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "596f0cc3ccb4",
@@ -2942,7 +3020,8 @@
         "Variable Set-up"
       ],
       "rating": 7.7973,
-      "rank": 76
+      "rank": 76,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "4153526950fe",
@@ -2976,7 +3055,8 @@
         "Variable Player Powers"
       ],
       "rating": 7.9044,
-      "rank": null
+      "rank": null,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "35e545f38a37",
@@ -3008,7 +3088,8 @@
         "Worker Placement"
       ],
       "rating": 7.4521,
-      "rank": 921
+      "rank": 921,
+      "updatedAt": "2026-09-21"
     },
     {
       "id": "8c8a2ef29655",
@@ -3032,7 +3113,8 @@
         "Contracts"
       ],
       "rating": 6.45,
-      "rank": null
+      "rank": null,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "2330c39754c4",
@@ -3066,7 +3148,8 @@
         "Variable Player Powers"
       ],
       "rating": 7.6455,
-      "rank": 747
+      "rank": 747,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "f1db74c48ec2",
@@ -3103,7 +3186,8 @@
         "Solo / Solitaire Game"
       ],
       "rating": 7.5238,
-      "rank": null
+      "rank": null,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "a03aa4d59399",
@@ -3145,7 +3229,8 @@
         "Victory Points as a Resource"
       ],
       "rating": 8.3477,
-      "rank": 13
+      "rank": 13,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "2e9c9bbb4c96",
@@ -3177,7 +3262,8 @@
         "Simultaneous Action Selection"
       ],
       "rating": 7.1582,
-      "rank": 3948
+      "rank": 3948,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "05152919385a",
@@ -3208,7 +3294,8 @@
         "Solo / Solitaire Game"
       ],
       "rating": 7.6092,
-      "rank": 1289
+      "rank": 1289,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "4909d02a4f7e",
@@ -3239,7 +3326,8 @@
         "Simultaneous Action Selection"
       ],
       "rating": 7.5198,
-      "rank": 811
+      "rank": 811,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "4f2a3135b94b",
@@ -3284,7 +3372,8 @@
         "Victory Points as a Resource"
       ],
       "rating": 7.7217,
-      "rank": 947
+      "rank": 947,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "61085be895e2",
@@ -3314,7 +3403,8 @@
         "Worker Placement"
       ],
       "rating": 7.1461,
-      "rank": 4686
+      "rank": 4686,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "70f1c1d1f867",
@@ -3352,7 +3442,8 @@
         "Variable Player Powers"
       ],
       "rating": 8.496,
-      "rank": 81
+      "rank": 81,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "e8e74c47c06f",
@@ -3393,7 +3484,8 @@
         "Worker Placement"
       ],
       "rating": 7.4285,
-      "rank": 335
+      "rank": 335,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "1ad0133f0367",
@@ -3427,7 +3519,8 @@
         "Take That"
       ],
       "rating": 7.2844,
-      "rank": 4982
+      "rank": 4982,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "80aa85e69964",
@@ -3458,7 +3551,8 @@
         "Worker Placement"
       ],
       "rating": 8.0718,
-      "rank": 5327
+      "rank": 5327,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "950135de68ee",
@@ -3487,7 +3581,8 @@
         "Tile Placement"
       ],
       "rating": 7.7655,
-      "rank": 3629
+      "rank": 3629,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "be51af1491ea",
@@ -3528,7 +3623,8 @@
         "Victory Points as a Resource"
       ],
       "rating": 6.8078,
-      "rank": 4202
+      "rank": 4202,
+      "updatedAt": "2026-08-25"
     },
     {
       "id": "776e56857171",
@@ -3571,7 +3667,8 @@
         "Worker Placement"
       ],
       "rating": 7.7741,
-      "rank": 881
+      "rank": 881,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "2d1ca5fc96c0",
@@ -3608,7 +3705,8 @@
         "Turn Order: Progressive"
       ],
       "rating": 7.4431,
-      "rank": 449
+      "rank": 449,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "c36782a11972",
@@ -3643,7 +3741,8 @@
         "Victory Points as a Resource"
       ],
       "rating": 7.3865,
-      "rank": 671
+      "rank": 671,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "02a6e73fcd2e",
@@ -3688,7 +3787,8 @@
         "Variable Set-up"
       ],
       "rating": 7.9345,
-      "rank": 94
+      "rank": 94,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "67254bf50273",
@@ -3724,7 +3824,8 @@
         "Variable Set-up"
       ],
       "rating": 7.926,
-      "rank": 394
+      "rank": 394,
+      "updatedAt": "2026-08-18"
     },
     {
       "id": "e35c93efe5e3",
@@ -3760,7 +3861,8 @@
         "Storytelling"
       ],
       "rating": 8.0887,
-      "rank": 839
+      "rank": 839,
+      "updatedAt": "2026-08-20"
     },
     {
       "id": "a01616445906",
@@ -3806,7 +3908,8 @@
         "Variable Set-up"
       ],
       "rating": 8.0456,
-      "rank": 1581
+      "rank": 1581,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "a9a2f2880084",
@@ -3839,7 +3942,8 @@
         "Variable Phase Order"
       ],
       "rating": 7.1754,
-      "rank": 667
+      "rank": 667,
+      "updatedAt": "2026-08-19"
     },
     {
       "id": "9759839c8a48",
@@ -3885,7 +3989,8 @@
         "Variable Player Powers"
       ],
       "rating": 8.0813,
-      "rank": 39
+      "rank": 39,
+      "updatedAt": "2026-08-18"
     }
   ]
 }

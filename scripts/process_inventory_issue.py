@@ -146,6 +146,21 @@ def fetch_games(requested: list[str], token: str) -> list[tuple[dict, str]]:
     return [found[bgg_id] for bgg_id in ids]
 
 
+def comparable_game(game: dict) -> dict:
+    return {key: value for key, value in game.items() if key not in ("id", "updatedAt")}
+
+
+def apply_update_dates(games_with_images: list[tuple[dict, str]], previous: dict) -> None:
+    old = {str(game.get("bggId")): game for game in previous.get("games", [])}
+    today = datetime.now(timezone.utc).astimezone().date().isoformat()
+    for game, _ in games_with_images:
+        prior = old.get(str(game.get("bggId")))
+        if prior and comparable_game(prior) == comparable_game(game):
+            game["updatedAt"] = prior.get("updatedAt") or today
+        else:
+            game["updatedAt"] = today
+
+
 def save_cover(game: dict, image_url: str) -> None:
     if not image_url:
         return
@@ -203,6 +218,12 @@ def main() -> None:
         raise ValueError("显示名称不能为空且不能超过 40 个字符")
     requested = parse_games(sections.get("BGG ID 清单", ""))
     games_with_images = fetch_games(requested, token)
+    inventory_path = INVENTORY_DIR / f"{owner_id}.json"
+    try:
+        previous = json.loads(inventory_path.read_text(encoding="utf-8"))
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        previous = {"games": []}
+    apply_update_dates(games_with_images, previous)
     for game, image_url in games_with_images:
         save_cover(game, image_url)
     payload = {
@@ -216,7 +237,7 @@ def main() -> None:
         "games": [game for game, _ in games_with_images],
     }
     INVENTORY_DIR.mkdir(parents=True, exist_ok=True)
-    (INVENTORY_DIR / f"{owner_id}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    inventory_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     rebuild_manifest()
 
 

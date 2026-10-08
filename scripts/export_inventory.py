@@ -25,7 +25,7 @@ COVER_DIR = PUBLIC_DIR / "covers"
 
 PUBLIC_FIELDS = (
     "title", "aliases", "封面", "人数", "支持人数", "最佳人数", "时长", "重度",
-    "类型", "机制", "BGG ID", "BGG名称", "BGG评分", "BGG排名", "持有状态",
+    "类型", "机制", "BGG ID", "BGG名称", "BGG评分", "BGG排名", "BGG同步时间", "持有状态",
 )
 
 
@@ -98,6 +98,11 @@ def as_number(value: Any) -> float | int | None:
         return None
 
 
+def as_date(value: Any) -> str:
+    text = str(value or "").strip()
+    return text if re.fullmatch(r"\d{4}-\d{2}-\d{2}", text) else ""
+
+
 def cover_source(value: Any) -> Path | None:
     match = re.fullmatch(r"\[\[(.+?)\]\]", str(value or "").strip())
     if not match:
@@ -161,6 +166,7 @@ def collect(output_root: Path) -> dict[str, Any]:
             "mechanics": as_list(frontmatter.get("机制")),
             "rating": as_number(frontmatter.get("BGG评分")),
             "rank": as_number(frontmatter.get("BGG排名")),
+            "updatedAt": as_date(frontmatter.get("BGG同步时间")),
         })
     return {
         "meta": {
@@ -177,13 +183,30 @@ def content_map(payload: dict[str, Any]) -> dict[str, dict[str, Any]]:
     return {game["id"]: game for game in payload.get("games", [])}
 
 
+def comparable_game(game: dict[str, Any]) -> dict[str, Any]:
+    return {key: value for key, value in game.items() if key not in ("id", "updatedAt")}
+
+
+def reconcile_updated_at(previous: dict[str, Any], current: dict[str, Any]) -> None:
+    old = content_map(previous)
+    today = datetime.now().astimezone().date().isoformat()
+    for game in current.get("games", []):
+        prior = old.get(game["id"])
+        if not prior:
+            game["updatedAt"] = game.get("updatedAt") or today
+        elif comparable_game(prior) != comparable_game(game):
+            game["updatedAt"] = today
+        else:
+            game["updatedAt"] = prior.get("updatedAt") or game.get("updatedAt") or ""
+
+
 def compare(previous: dict[str, Any], current: dict[str, Any]) -> dict[str, Any]:
     old, new = content_map(previous), content_map(current)
     added = sorted((new[key]["name"] for key in new.keys() - old.keys()))
     removed = sorted((old[key]["name"] for key in old.keys() - new.keys()))
     changed = []
     for key in old.keys() & new.keys():
-        if old[key] != new[key]:
+        if comparable_game(old[key]) != comparable_game(new[key]):
             changed.append(new[key]["name"])
     missing = [game["name"] for game in current["games"] if not game["cover"] or not game["supportedPlayers"]]
     return {
@@ -192,7 +215,7 @@ def compare(previous: dict[str, Any], current: dict[str, Any]) -> dict[str, Any]
         "removed": sorted(removed),
         "missing": sorted(missing),
         "total": len(current["games"]),
-        "hasChanges": bool(added or changed or removed) or not DATA_PATH.exists(),
+        "hasChanges": bool(added or changed or removed) or old != new or not DATA_PATH.exists(),
     }
 
 
@@ -245,6 +268,7 @@ def main() -> None:
     with tempfile.TemporaryDirectory(prefix="boardgame-inventory-") as temporary:
         temporary_root = Path(temporary)
         current = collect(temporary_root)
+        reconcile_updated_at(previous, current)
         report = compare(previous, current)
         if args.mode == "write":
             write_payload(current, temporary_root)

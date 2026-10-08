@@ -10,7 +10,7 @@ const controls = {
   search: $("searchInput"), players: $("playerFilter"), bestPlayers: $("bestPlayerFilter"),
   time: $("timeFilter"), weight: $("weightFilter"),
   rating: $("ratingFilter"), type: $("typeFilter"), mechanic: $("mechanicFilter"),
-  owner: $("ownerFilter"), sort: $("sortSelect"),
+  owner: $("ownerFilter"), recent: $("recentFilter"), sort: $("sortSelect"),
 };
 
 const collator = new Intl.Collator("zh-CN", { numeric: true, sensitivity: "base" });
@@ -56,6 +56,18 @@ function inRange(value, rangeText) {
   return Number.isFinite(value) && value >= minimum && value <= maximum;
 }
 
+function updateTime(value) {
+  const match = String(value || "").match(/^(\d{4})-(\d{2})-(\d{2})$/);
+  return match ? new Date(Number(match[1]), Number(match[2]) - 1, Number(match[3])).getTime() : 0;
+}
+
+function isRecentlyUpdated(game, days = 14) {
+  const timestamp = updateTime(game.updatedAt);
+  if (!timestamp) return false;
+  const age = Date.now() - timestamp;
+  return age >= 0 && age <= days * 24 * 60 * 60 * 1000;
+}
+
 function applyFilters() {
   const query = controls.search.value.trim().toLocaleLowerCase("zh-CN");
   const ratingMinimum = Number(controls.rating.value || 0);
@@ -71,7 +83,8 @@ function applyFilters() {
       && inRange(game.weight, controls.weight.value)
       && (!ratingMinimum || game.rating >= ratingMinimum)
       && (!controls.type.value || game.types.includes(controls.type.value))
-      && (!controls.mechanic.value || game.mechanics.includes(controls.mechanic.value));
+      && (!controls.mechanic.value || game.mechanics.includes(controls.mechanic.value))
+      && (!controls.recent.value || isRecentlyUpdated(game, Number(controls.recent.value)));
   });
 
   const sorters = {
@@ -80,6 +93,7 @@ function applyFilters() {
     "rank-asc": (a,b) => (a.rank || Number.MAX_SAFE_INTEGER) - (b.rank || Number.MAX_SAFE_INTEGER),
     "weight-asc": (a,b) => (a.weight || Number.MAX_SAFE_INTEGER) - (b.weight || Number.MAX_SAFE_INTEGER),
     "time-asc": (a,b) => (a.playingTime || Number.MAX_SAFE_INTEGER) - (b.playingTime || Number.MAX_SAFE_INTEGER),
+    "updated-desc": (a,b) => updateTime(b.updatedAt) - updateTime(a.updatedAt) || collator.compare(a.name,b.name),
   };
   state.filtered = filtered.sort(sorters[controls.sort.value]);
   renderGames();
@@ -112,6 +126,7 @@ function renderGames() {
       ${contentStart}<div class="cover-wrap">
         ${cover}
         ${game.rank ? `<span class="rank-badge">BGG #${game.rank}</span>` : ""}
+        ${isRecentlyUpdated(game) ? `<span class="recent-badge">最近更新</span>` : ""}
       </div>
       <div class="card-body">
         <h2 class="game-name" title="${escapeHtml(game.name)}">${escapeHtml(game.name)}</h2>
@@ -372,6 +387,7 @@ async function initialize() {
       if (existing) {
         existing.ownerIds.push(inventory.id);
         existing.ownerNames.push(inventory.name);
+        if (updateTime(rawGame.updatedAt) > updateTime(existing.updatedAt)) existing.updatedAt = rawGame.updatedAt;
       } else {
         merged.set(mergeKey, {
           ...rawGame,
@@ -386,6 +402,8 @@ async function initialize() {
       }
     }));
     state.games = [...merged.values()];
+    const recentCount = state.games.filter((game) => isRecentlyUpdated(game)).length;
+    controls.recent.options[1].textContent = `最近两周（${recentCount}）`;
     populateFilters();
     applyFilters();
   } catch (error) {
