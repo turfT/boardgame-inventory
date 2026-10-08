@@ -2,10 +2,54 @@
   "meta": {
     "id": "hou",
     "name": "hou",
-    "generatedAt": "2026-09-29T14:02:39+08:00",
-    "count": 102
+    "generatedAt": "2026-10-08T09:18:00+08:00",
+    "count": 105
   },
   "games": [
+    {
+      "id": "0b38a0b475b4",
+      "bggId": "310873",
+      "name": "Carnegie",
+      "originalName": "Carnegie",
+      "cover": "public/covers/0b38a0b475b4.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.818,
+      "types": [
+        "Economic",
+        "Industry / Manufacturing",
+        "Post-Napoleonic"
+      ],
+      "mechanics": [
+        "Action Retrieval",
+        "Area Movement",
+        "Connections",
+        "End Game Bonuses",
+        "Follow",
+        "Grid Movement",
+        "Income",
+        "Movement Points",
+        "Network and Route Building",
+        "Resource to Move",
+        "Solo / Solitaire Game",
+        "Square Grid",
+        "Tech Trees / Tech Tracks",
+        "Turn Order: Progressive",
+        "Variable Phase Order",
+        "Worker Placement, Different Worker Types"
+      ],
+      "rating": 7.9463,
+      "rank": 129
+    },
     {
       "id": "0bf82029dfd2",
       "bggId": "448740",
@@ -626,6 +670,44 @@
       ],
       "rating": 8.4303,
       "rank": 56
+    },
+    {
+      "id": "a3ec4024fb30",
+      "bggId": "216132",
+      "name": "加勒多尼亞",
+      "originalName": "Clans of Caledonia",
+      "cover": "public/covers/a3ec4024fb30.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "4"
+      ],
+      "playingTime": 120,
+      "weight": 3.4663,
+      "types": [
+        "Economic",
+        "Farming",
+        "Industry / Manufacturing"
+      ],
+      "mechanics": [
+        "Commodity Speculation",
+        "Contracts",
+        "Hexagon Grid",
+        "Income",
+        "Market",
+        "Modular Board",
+        "Network and Route Building",
+        "Solo / Solitaire Game",
+        "Turn Order: Pass Order",
+        "Variable Player Powers"
+      ],
+      "rating": 7.9421,
+      "rank": 78
     },
     {
       "id": "a064253f0371",
@@ -2298,6 +2380,44 @@
       ],
       "rating": 7.844,
       "rank": 212
+    },
+    {
+      "id": "619d3a2ba933",
+      "bggId": "247763",
+      "name": "水下城市 Underwater Cities",
+      "originalName": "Underwater Cities",
+      "cover": "public/covers/619d3a2ba933.webp",
+      "players": "1-4",
+      "supportedPlayers": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "bestPlayers": [
+        "2"
+      ],
+      "playingTime": 150,
+      "weight": 3.5875,
+      "types": [
+        "Card Game",
+        "City Building",
+        "Industry / Manufacturing",
+        "Nautical",
+        "Science Fiction"
+      ],
+      "mechanics": [
+        "End Game Bonuses",
+        "Hand Management",
+        "Income",
+        "Network and Route Building",
+        "Solo / Solitaire Game",
+        "Turn Order: Claim Action",
+        "Turn Order: Stat-Based",
+        "Worker Placement"
+      ],
+      "rating": 8.0388,
+      "rank": 52
     },
     {
       "id": "79e454710db5",

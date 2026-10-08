@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-09-29T14:02:39+08:00",
+  "generatedAt": "2026-10-08T09:18:00+08:00",
   "inventories": [
     {
       "id": "hou",
       "name": "hou",
       "file": "public/data/inventories/hou.json",
-      "count": 102
+      "count": 105
     }
   ]
 }
